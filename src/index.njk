@@ -6,7 +6,7 @@ permalink: /
 ---
 <section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
 <img class="kb" src="/assets/img/photos/hero-home.webp" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; transform-origin: 60% 40%">
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.92) 0%, rgba(30,36,39,0.78) 45%, rgba(30,36,39,0.45) 100%)"></div>
+<div class="scrim" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.94) 0%, rgba(30,36,39,0.9) 50%, rgba(30,36,39,0.55) 100%)"></div>
 <div style="position: absolute; top: 16px; right: 20px; z-index: 2; display: flex; align-items: center; gap: 8px; background: rgba(30,36,39,0.8); border: 1px solid rgba(255,255,255,0.35); color: #FFFFFF; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 12px; border-radius: 9999px">
 <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5" fill="#F36D21"></circle></svg>[Hero video: 15s muted race loop]
 </div>
@@ -52,11 +52,12 @@ permalink: /
 <div style="position: relative; overflow: hidden; padding: 6px 0 64px">
 <div class="marq" style="display: flex; gap: 14px; width: max-content">
 {% for m in home.marquee %}
-<div style="flex: none; width: 132px; height: 92px; box-sizing: border-box; background: #FFFFFF; border-radius: 10px; padding: 10px; display: flex; align-items: center; justify-content: center">
+<div{% if loop.index > (home.marquee.length / 2) %} aria-hidden="true"{% endif %} style="flex: none; width: 132px; height: 92px; box-sizing: border-box; background: #FFFFFF; border-radius: 10px; padding: 10px; display: flex; align-items: center; justify-content: center">
 <img src="{{ m.logo }}" alt="{{ m.name }}" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block">
 </div>
 {% endfor %}
 </div>
+<div style="max-width: 1240px; margin: 14px auto 0; padding: 0 20px"><button type="button" class="motion-toggle" aria-pressed="false">Pause motion</button></div>
 </div>
 <div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift-r" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(0 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(1440 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(2880 0)" d="{{ home.waveLine }}"></path></svg><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#FFFFFF" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(0 0)" d="{{ home.fin }}"></path><path fill="#FFFFFF" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(1440 0)" d="{{ home.fin }}"></path><path fill="#FFFFFF" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(2880 0)" d="{{ home.fin }}"></path></svg></div>
 </section>
@@ -100,7 +101,7 @@ permalink: /
 
 <section style="position: relative; overflow: hidden; color: #FFFFFF">
 <img class="photo-band" src="/assets/img/photos/race-will-dawson-643a7105.webp" alt="Aerial view of outrigger canoes racing past a marina" style="width: 100%; object-fit: cover; display: block">
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(30,36,39,0.15) 0%, rgba(30,36,39,0.7) 100%)"></div>
+<div class="scrim-band" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(30,36,39,0.25) 0%, rgba(30,36,39,0.88) 100%)"></div>
 <div style="position: absolute; left: 0; bottom: 120px; width: 100%">
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
 <div class="cond band-h" style="line-height: 0.9">26 clubs.<br><span style="color: #FDB714">One start line.</span></div>

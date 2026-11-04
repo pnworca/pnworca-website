@@ -11,3 +11,12 @@
   panel.addEventListener('click', function (e) { if (e.target.closest('a')) set(false); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) { set(false); btn.focus(); } });
 })();
+(function () {
+  var b = document.querySelector('.motion-toggle');
+  if (!b) return;
+  b.addEventListener('click', function () {
+    var on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    document.documentElement.classList.toggle('motion-paused', on);
+  });
+})();

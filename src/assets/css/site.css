@@ -84,3 +84,12 @@ a{color:#283485}a:hover{color:#221D35}
 .wrap{padding-left:20px;padding-right:20px}
 .page-h1{font-size:46px}
 }
+
+/* accessibility: pause control, mobile hero scrim */
+.motion-toggle{background:transparent;border:1.5px solid #FFFFFF;color:#FFFFFF;padding:8px 16px;min-height:36px;border-radius:9999px;font:inherit;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.motion-toggle[aria-pressed="true"]{background:#FFFFFF;color:#221D35}
+.motion-paused .kb,.motion-paused .drift,.motion-paused .drift-r,.motion-paused .bob,.motion-paused .marq,.motion-paused .pulse{animation-play-state:paused}
+@container pg (max-width: 700px){
+.scrim{background:rgba(30,36,39,0.88) !important}
+.scrim-band{background:linear-gradient(180deg, rgba(30,36,39,0.6) 0%, rgba(30,36,39,0.96) 100%) !important}
+}
