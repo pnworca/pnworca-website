@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsOrganization",
+      "@id": "{{ site.url }}/#org",
+      "name": "{{ site.name }}",
+      "alternateName": "{{ site.shortName }}",
+      "url": "{{ site.url }}/",
+      "logo": "{{ site.url }}{{ site.logo }}",
+      "sport": "Outrigger canoe racing",
+      "areaServed": [{% for s in site.areaServed %}{ "@type": "State", "name": "{{ s }}" }{% if not loop.last %}, {% endif %}{% endfor %}]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "name": "{{ site.shortName }}",
+      "url": "{{ site.url }}/",
+      "publisher": { "@id": "{{ site.url }}/#org" }
+    }
+  ]
+}
+</script>
