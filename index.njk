@@ -1,0 +1,254 @@
+---
+layout: layouts/base.njk
+title: "PNWORCA | Outrigger Canoe Racing in the Pacific Northwest"
+description: "The outrigger canoe racing association for clubs in Washington, Oregon, Montana, Idaho and Utah. Find a club, the race calendar, results and race rules."
+permalink: /
+---
+<section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
+<img class="kb" src="/assets/img/photos/hero-home.webp" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; transform-origin: 60% 40%">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.92) 0%, rgba(30,36,39,0.78) 45%, rgba(30,36,39,0.45) 100%)"></div>
+<div style="position: absolute; top: 16px; right: 20px; z-index: 2; display: flex; align-items: center; gap: 8px; background: rgba(30,36,39,0.8); border: 1px solid rgba(255,255,255,0.35); color: #FFFFFF; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 12px; border-radius: 9999px">
+<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5" fill="#F36D21"></circle></svg>[Hero video: 15s muted race loop]
+</div>
+<div class="hero-in" style="position: relative; z-index: 1; max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; box-sizing: border-box">
+<div style="font-size: 14px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: #FDB714">WA · OR · MT · ID · UT</div>
+<h1 class="cond hero-h1" style="margin: 0; line-height: 0.9; max-width: 900px">
+<span style="display: block; color: #FFFFFF">Outrigger racing</span>
+<span style="display: block; color: #F36D21">in the Pacific Northwest</span>
+</h1>
+<p style="margin: 6px 0 0; font-size: 21px; max-width: 580px; color: #FFFFFF">The regional association for outrigger canoe clubs across Washington, Oregon, Montana, Idaho and Utah. <strong style="color: #FDB714">26 member clubs.</strong> One race calendar.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px">
+<a href="#clubs" style="display: inline-flex; align-items: center; gap: 10px; background: #F36D21; color: #221D35; text-decoration: none; padding: 15px 26px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 15px">Find a club near you
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a href="#calendar" style="display: inline-flex; align-items: center; border: 1.5px solid #FFFFFF; color: #FFFFFF; text-decoration: none; padding: 14px 26px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 15px">Race calendar</a>
+</div>
+<a class="nextup" href="#calendar" style="display: block; box-sizing: border-box; background: rgba(30,36,39,0.92); border: 1px solid #F36D21; border-radius: 14px; padding: 18px 20px; color: #FFFFFF; text-decoration: none">
+<div style="display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: #FDB714"><span class="pulse" style="width: 9px; height: 9px; border-radius: 9999px; background: #F36D21; display: inline-block"></span>Next race</div>
+<div class="cond" style="font-size: 28px; line-height: 1; margin-top: 10px">[Race name]</div>
+<div style="font-size: 15px; color: #CCD5DB; margin-top: 6px">[Date] · [Location]</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #F36D21; margin-top: 12px">Race details</div>
+</a>
+</div>
+<div aria-hidden="true" style="position: absolute; left: 0; bottom: -1px; width: 100%; height: 130px; z-index: 2; overflow: hidden"><svg class="drift-r" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(0 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(1440 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(2880 0)" d="{{ home.waveLine }}"></path></svg><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#221D35" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#221D35" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#221D35" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path></svg></div>
+</section>
+
+<section style="background: #221D35; color: #FFFFFF; position: relative">
+<div style="max-width: 1240px; margin: 0 auto; padding: 40px 20px 56px">
+<div class="stats" style="display: grid; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 4px solid #F36D21; padding-left: 18px">
+<div class="cond mega" style="line-height: 0.82; color: #F36D21">26</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #CCD5DB">Member clubs</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 4px solid #FDB714; padding-left: 18px">
+<div class="cond mega" style="line-height: 0.82; color: #FDB714">5</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #CCD5DB">States</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; border-left: 4px solid #FFFFFF; padding-left: 18px">
+<div class="cond mega" style="line-height: 0.82; color: #FFFFFF">[#]</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #CCD5DB">Races in [year]</div>
+</div>
+</div>
+</div>
+<div style="position: relative; overflow: hidden; padding: 6px 0 64px">
+<div class="marq" style="display: flex; gap: 14px; width: max-content">
+{% for m in home.marquee %}
+<div style="flex: none; width: 132px; height: 92px; box-sizing: border-box; background: #FFFFFF; border-radius: 10px; padding: 10px; display: flex; align-items: center; justify-content: center">
+<img src="{{ m.logo }}" alt="{{ m.name }}" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block">
+</div>
+{% endfor %}
+</div>
+</div>
+<div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift-r" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(0 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(1440 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#F36D21" stroke-width="3" transform="translate(2880 0)" d="{{ home.waveLine }}"></path></svg><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#FFFFFF" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(0 0)" d="{{ home.fin }}"></path><path fill="#FFFFFF" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(1440 0)" d="{{ home.fin }}"></path><path fill="#FFFFFF" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(2880 0)" d="{{ home.fin }}"></path></svg></div>
+</section>
+
+<section id="calendar" style="background: #FFFFFF">
+<div class="sec" style="max-width: 1240px; margin: 0 auto; padding-top: 48px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #283485">On the calendar</div>
+<h2 class="cond h2" style="margin: 0; line-height: 0.92; color: #1E2427">Upcoming <span style="color: #283485">races</span></h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#calendar" style="display: inline-flex; align-items: center; gap: 8px; background: #221D35; color: #FFFFFF; text-decoration: none; padding: 12px 20px; border-radius: 9999px; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em">Full race calendar</a>
+<a href="#subscribe" style="display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid #221D35; color: #221D35; text-decoration: none; padding: 11px 20px; border-radius: 9999px; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Subscribe</a>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+{% for r in home.races %}
+<a href="#calendar" style="display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; padding: 18px; border: 1px solid #E1E7EC; border-radius: 16px; text-decoration: none; color: #221D35; background: #FFFFFF">
+<div style="flex: none; width: 92px; height: 92px; border-radius: 12px; background: #F36D21; color: #221D35; display: flex; flex-direction: column; align-items: center; justify-content: center">
+<div class="cond" style="font-size: 44px; line-height: 0.9">[DD]</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em">[MON]</div>
+</div>
+<div style="flex: 999 1 240px; display: flex; flex-direction: column; gap: 6px; min-width: 0">
+<div class="cond" style="font-size: 30px; line-height: 1; color: #1E2427">{{ r.name }}</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 18px; color: #626A70; font-size: 15px">
+<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>[Location]</span>
+<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 11a3 3 0 1 0 0-6M18 20c0-2.5-1-4.4-2.5-5.4"></path></svg>Hosted by [host club]</span>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px">
+<div style="background: #E1E7EC; color: #221D35; font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 9999px; letter-spacing: 0.06em">[OC6 / OC1 / V1]</div>
+<div style="width: 44px; height: 44px; border-radius: 9999px; background: #221D35; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></div>
+</div>
+</a>
+{% endfor %}
+</div>
+</div>
+</section>
+
+<section style="position: relative; overflow: hidden; color: #FFFFFF">
+<img class="photo-band" src="/assets/img/photos/race-will-dawson-643a7105.webp" alt="Aerial view of outrigger canoes racing past a marina" style="width: 100%; object-fit: cover; display: block">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(30,36,39,0.15) 0%, rgba(30,36,39,0.7) 100%)"></div>
+<div style="position: absolute; left: 0; bottom: 120px; width: 100%">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<div class="cond band-h" style="line-height: 0.9">26 clubs.<br><span style="color: #FDB714">One start line.</span></div>
+</div>
+</div>
+<div style="position: absolute; right: 12px; top: 12px; background: rgba(30,36,39,0.8); color: #FFFFFF; font-size: 12px; padding: 4px 10px; border-radius: 9999px">Photo: Will Dawson Photography</div>
+<div aria-hidden="true" style="position: absolute; left: 0; bottom: -1px; width: 100%; height: 130px; overflow: hidden"><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#F6F5F5" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#F6F5F5" transform="translate(0 0)" d="{{ home.fin }}"></path><path fill="#F6F5F5" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#F6F5F5" transform="translate(1440 0)" d="{{ home.fin }}"></path><path fill="#F6F5F5" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path><path fill="#F6F5F5" transform="translate(2880 0)" d="{{ home.fin }}"></path></svg></div>
+</section>
+
+<section id="basics" style="background: #F6F5F5">
+<div class="sec" style="max-width: 1240px; margin: 0 auto; padding-top: 40px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #283485">New to outrigger</div>
+<h2 class="cond h2" style="margin: 0; line-height: 0.92; color: #1E2427">Start with the <span style="color: #283485">basics</span></h2>
+<p style="margin: 0; font-size: 19px; color: #626A70">Five short guides before your first time in the canoe.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 20px">
+{% for b in home.basics %}
+<a href="#basics" style="position: relative; display: flex; flex-direction: column; background: #FFFFFF; border-radius: 16px; overflow: hidden; text-decoration: none; color: #221D35; border: 1px solid #E1E7EC">
+<img src="{{ b.img }}" alt="" aria-hidden="true" style="width: 100%; height: 160px; object-fit: cover; display: block; background: #1E2427">
+<div style="position: absolute; top: 132px; left: 16px; width: 56px; height: 56px; border-radius: 9999px; background: #F36D21; color: #221D35; display: flex; align-items: center; justify-content: center; border: 4px solid #FFFFFF">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ b.icon }}"></path></svg>
+</div>
+<div style="padding: 38px 18px 20px; display: flex; flex-direction: column; gap: 8px">
+<div class="cond" aria-hidden="true" style="font-size: 15px; color: #283485; letter-spacing: 0.1em">{{ b.num }}</div>
+<div class="cond" style="font-size: 26px; line-height: 0.95; color: #1E2427">{{ b.title }}</div>
+<div style="font-size: 14px; color: #283485; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px">Read the guide</div>
+</div>
+</a>
+{% endfor %}
+</div>
+</div>
+<div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#FFFFFF" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#FFFFFF" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path></svg></div>
+</section>
+
+<section id="clubs" style="background: #FFFFFF; position: relative">
+<div class="sec" style="max-width: 1240px; margin: 0 auto; padding-top: 40px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #283485">Members</div>
+<h2 class="cond h2" style="margin: 0; line-height: 0.92; color: #1E2427">Find your <span style="color: #283485">paddling community</span></h2>
+<p style="margin: 0; font-size: 19px; color: #626A70">Explore our member clubs below to find an outrigger paddling community that is right for you.</p>
+</div>
+</div>
+<nav aria-label="Jump to a state" style="display: flex; flex-wrap: wrap; gap: 10px">
+{% for s in home.states %}
+<a href="#{{ s.id }}" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; box-sizing: border-box; padding: 10px 20px; background: #221D35; border-radius: 9999px; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em">{{ s.name }}<span style="background: #F36D21; color: #221D35; font-size: 13px; padding: 2px 9px; border-radius: 9999px">{{ s.count }}</span></a>
+{% endfor %}
+</nav>
+<div style="display: flex; flex-direction: column; gap: 64px">
+{% for s in home.states %}
+<div id="{{ s.id }}" style="display: flex; flex-direction: column; gap: 28px; scroll-margin-top: 24px">
+<div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 16px; border-bottom: 4px solid #F36D21; padding-bottom: 10px">
+<h3 class="cond state-h" style="margin: 0; line-height: 0.9; color: #1E2427">{{ s.name }}</h3>
+<div style="font-size: 14px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #626A70">{{ s.count }} clubs</div>
+</div>
+{% for ar in s.areas %}
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #283485">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>{{ ar.name }}</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 12px">
+{% for c in ar.clubs %}
+<a href="#clubs" style="display: flex; align-items: center; gap: 14px; padding: 10px 14px 10px 10px; border: 1px solid #E1E7EC; border-radius: 14px; text-decoration: none; color: #221D35; min-height: 44px; background: #FFFFFF">
+{% if c.logo %}
+<div style="flex: none; width: 76px; height: 60px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E1E7EC; display: flex; align-items: center; justify-content: center; padding: 4px; box-sizing: border-box"><img src="{{ c.logo }}" alt="" aria-hidden="true" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>
+{% endif %}
+{% if c.noLogo %}
+<div style="flex: none; width: 76px; height: 60px; border-radius: 10px; background: #221D35; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 216 63" width="54" height="16" aria-hidden="true"><path fill="#F36D21" d="{{ home.orca }}"></path></svg></div>
+{% endif %}
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<div style="font-weight: 700; font-size: 16px; line-height: 1.25">{{ c.name }}</div>
+<div style="font-size: 14px; color: #626A70">{{ c.city }}</div>
+</div>
+</a>
+{% endfor %}
+</div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+</div>
+</div>
+<div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift-r" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="none" stroke="#283485" stroke-width="3" transform="translate(0 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#283485" stroke-width="3" transform="translate(1440 0)" d="{{ home.waveLine }}"></path><path fill="none" stroke="#283485" stroke-width="3" transform="translate(2880 0)" d="{{ home.waveLine }}"></path></svg><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#1E2427" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#1E2427" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#1E2427" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path></svg></div>
+</section>
+
+<section id="news" style="background: #1E2427; color: #FFFFFF">
+<div class="sec" style="max-width: 1240px; margin: 0 auto; padding-top: 40px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 32px; align-items: center">
+<a href="#news" aria-label="Watch the OC6 Huli Instruction Video" style="position: relative; display: block; border-radius: 18px; overflow: hidden; text-decoration: none">
+<img src="/assets/img/photos/huli-practice-hood-river-2024.webp" alt="" aria-hidden="true" style="width: 100%; height: 360px; object-fit: cover; display: block">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30,36,39,0.35)"></div>
+<div class="pulse" style="position: absolute; top: 50%; left: 50%; width: 88px; height: 88px; margin: -44px 0 0 -44px; border-radius: 9999px; background: #F36D21; color: #221D35; display: flex; align-items: center; justify-content: center">
+<svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg>
+</div>
+</a>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">Watch · February 9, 2026</div>
+<h2 class="cond h2" style="margin: 0; line-height: 0.92">OC6 huli <span style="color: #F36D21">instruction video</span></h2>
+<p style="margin: 0; font-size: 19px; color: #CCD5DB">[ONE-LINE SUMMARY OF THE VIDEO]</p>
+<div><a href="#news" style="display: inline-flex; align-items: center; gap: 10px; background: #F36D21; color: #221D35; text-decoration: none; padding: 14px 24px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px">
+<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg>Watch the video</a></div>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 24px">
+<h3 class="cond" style="margin: 0; font-size: 40px; line-height: 0.95">Latest <span style="color: #FDB714">news</span></h3>
+<a href="#news" style="color: #FDB714; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 14px">All news</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px">
+<a href="#news" style="display: flex; flex-direction: column; background: #262D31; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; border: 1px solid #3A4247">
+<img src="/assets/img/photos/race-mj5a3753.webp" alt="Crew celebrating after a race" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FDB714">[Date]</div>
+<div class="cond" style="font-size: 26px; line-height: 1">[News headline]</div>
+<div style="font-size: 15px; color: #CCD5DB">[One-line summary]</div>
+</div>
+</a>
+<a href="#news" style="display: flex; flex-direction: column; background: #262D31; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; border: 1px solid #3A4247">
+<img src="/assets/img/photos/race-mj5a7870.webp" alt="Outrigger canoes lined up on the beach at a regatta" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FDB714">[Date]</div>
+<div class="cond" style="font-size: 26px; line-height: 1">[News headline]</div>
+<div style="font-size: 15px; color: #CCD5DB">[One-line summary]</div>
+</div>
+</a>
+<a href="#news" style="display: flex; flex-direction: column; background: #262D31; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; border: 1px solid #3A4247">
+<img src="/assets/img/photos/basics-mj5a2948.webp" alt="Outrigger canoes at a race start" style="width: 100%; height: 200px; object-fit: cover; display: block">
+<div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FDB714">[Date]</div>
+<div class="cond" style="font-size: 26px; line-height: 1">[News headline]</div>
+<div style="font-size: 15px; color: #CCD5DB">[One-line summary]</div>
+</div>
+</a>
+</div>
+</div>
+<div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#F36D21" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#F36D21" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#F36D21" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path></svg></div>
+</section>
+
+<section id="grants" style="background: #F36D21; color: #221D35; position: relative; overflow: hidden">
+<svg class="wm" viewBox="0 0 216 63" aria-hidden="true" style="position: absolute; right: -60px; top: 10px; height: auto"><path fill="#E5631A" d="{{ home.orca }}"></path></svg>
+<div class="sec" style="position: relative; max-width: 1240px; margin: 0 auto; padding-top: 32px; display: flex; flex-direction: column; gap: 18px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #221D35">For member clubs</div>
+<h2 class="cond band-h" style="margin: 0; line-height: 0.88; max-width: 760px">Member<br>grants</h2>
+<p style="margin: 0; font-size: 20px; max-width: 560px; color: #221D35">[GRANT PROGRAM SUMMARY: who can apply, what it funds, deadline]</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<a href="#grants" style="display: inline-flex; align-items: center; gap: 10px; background: #221D35; color: #FFFFFF; text-decoration: none; padding: 15px 26px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px">Apply for a grant
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<a href="#resources" style="display: inline-flex; align-items: center; border: 2px solid #221D35; color: #221D35; text-decoration: none; padding: 13px 26px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px">Club resources</a>
+</div>
+</div>
+<div aria-hidden="true" style="position: relative; height: 130px; overflow: hidden"><svg class="drift" width="4320" height="130" viewBox="0 0 4320 130" style="position: absolute; left: 0; bottom: 0; display: block"><path fill="#1E2427" transform="translate(0 0)" d="{{ home.wavePlain }}"></path><path fill="#1E2427" transform="translate(0 0)" d="{{ home.fin }}"></path><path fill="#1E2427" transform="translate(1440 0)" d="{{ home.wavePlain }}"></path><path fill="#1E2427" transform="translate(1440 0)" d="{{ home.fin }}"></path><path fill="#1E2427" transform="translate(2880 0)" d="{{ home.wavePlain }}"></path><path fill="#1E2427" transform="translate(2880 0)" d="{{ home.fin }}"></path></svg></div>
+</section>

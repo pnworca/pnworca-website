@@ -1,0 +1,59 @@
+body{margin:0;background:#1E2427}
+a{color:#283485}a:hover{color:#221D35}
+.pg{container-type:inline-size;container-name:pg}
+.cond{font-family:'Roboto Condensed',Roboto,Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:-0.005em}
+.util{display:block}
+.navd{display:flex}
+.burger{display:none}
+.mpanel{display:block}
+.sec{padding:96px 24px}
+.hero-in{padding:120px 24px 200px;min-height:520px}
+.hero-h1{font-size:104px}
+.h2{font-size:64px}
+.mega{font-size:168px}
+.stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.nextup{position:absolute;right:24px;bottom:150px;width:300px}
+.photo-band{height:520px}
+.band-h{font-size:88px}
+.state-h{font-size:52px}
+.wm{width:520px}
+.kb{animation:kb 22s ease-in-out infinite alternate}
+.drift{animation:drift 42s linear infinite}
+.drift-r{animation:drift 30s linear infinite reverse}
+.bob{animation:bob 4.5s ease-in-out infinite}
+.marq{animation:marq 70s linear infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes kb{from{transform:scale(1.04) translate(0,0)}to{transform:scale(1.16) translate(-2%,-1.5%)}}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-1440px)}}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-7px) rotate(3deg)}}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(243,109,33,0.55)}50%{box-shadow:0 0 0 14px rgba(243,109,33,0)}}
+@media (prefers-reduced-motion: reduce){.kb,.drift,.drift-r,.bob,.marq,.pulse{animation:none}}
+@container pg (max-width: 1040px){
+.util{display:none}
+.navd{display:none}
+.burger{display:inline-flex}
+.nextup{position:relative;right:auto;bottom:auto;width:auto;max-width:360px;margin-top:28px}
+.hero-in{padding:88px 24px 150px}
+}
+@container pg (min-width: 1041px){
+.mpanel{display:none}
+}
+@container pg (max-width: 700px){
+.sec{padding:64px 20px}
+.hero-in{padding:56px 20px 130px;min-height:0}
+.hero-h1{font-size:52px}
+.h2{font-size:40px}
+.mega{font-size:72px}
+.photo-band{height:300px}
+.band-h{font-size:48px}
+.state-h{font-size:34px}
+.wm{width:260px}
+}
+.mpanel[hidden]{display:none}
+.burger .ico-close{display:none}
+.burger[aria-expanded="true"] .ico-close{display:block}
+.burger[aria-expanded="true"] .ico-open{display:none}
+.skip{position:absolute;left:-9999px;top:0;z-index:10;background:#F36D21;color:#221D35;padding:12px 18px;font-weight:700}
+.skip:focus{left:12px;top:12px}
+

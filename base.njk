@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.shortName }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700;800&family=Roboto:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+{% include "partials/schema-site.njk" %}
+{% if schema %}<script type="application/ld+json">{{ schema | dump | safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="pg" style="font-family: 'Source Sans 3', 'Source Sans Pro', Arial, sans-serif; color: #221D35; background: #FFFFFF; font-size: 17px; line-height: 1.55; overflow: hidden">
+{% include "partials/header.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+</div>
+<script src="/assets/js/menu.js" defer></script>
+</body>
+</html>
