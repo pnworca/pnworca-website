@@ -14,7 +14,7 @@ permalink: "/directory/{{ club.slug }}/"
 {% set place = (club.city + ", " + club.state) if club.city else club.state %}
 <section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
 <img class="kb" src="{{ club.photo or '/assets/img/photos/race-mj5a3753.webp' }}" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 50%">
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.94) 0%, rgba(30,36,39,0.82) 55%, rgba(30,36,39,0.6) 100%)"></div>
+<div class="scrim" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.94) 0%, rgba(30,36,39,0.82) 55%, rgba(30,36,39,0.6) 100%)"></div>
 <div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 150px; display: flex; flex-direction: column; gap: 28px">
 {{ crumbnav(crumbs) }}
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px">

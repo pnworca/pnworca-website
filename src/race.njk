@@ -18,7 +18,7 @@ permalink: "/events/{{ race.slug }}/"
 {%- endmacro %}
 <section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
 <img class="kb" src="{{ race.photo or '/assets/img/photos/race-mj5a7870.webp' }}" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover">
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.95) 0%, rgba(30,36,39,0.84) 55%, rgba(30,36,39,0.62) 100%)"></div>
+<div class="scrim" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.95) 0%, rgba(30,36,39,0.84) 55%, rgba(30,36,39,0.62) 100%)"></div>
 <div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 24px">
 {{ crumbnav(crumbs) }}
 <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
@@ -58,7 +58,7 @@ permalink: "/events/{{ race.slug }}/"
 {{ eyebrow("Before race day") }}
 <h2 class="cond" style="{{ H2 }}">{{ steps.length }} steps <span style="color: #283485">to the start line</span></h2>
 <ol class="steps" style="list-style: none; margin: 0; padding: 0">
-{% for s in steps %}<li style="border: 1px solid #E1E7EC; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px"><div class="cond" style="font-size: 48px; line-height: 0.8; color: #F36D21">{{ loop.index }}</div><h3 class="cond" style="margin: 0; font-size: 24px; color: #1E2427">{{ s[0] }}</h3><p style="margin: 0; color: #4A4458">{{ s[1] }}</p>{% if s[2] %}<a href="{{ s[2] }}" style="{{ LINK }}">{{ s[3] }}</a>{% endif %}</li>
+{% for s in steps %}<li style="border: 1px solid #E1E7EC; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px"><div class="cond" style="font-size: 48px; line-height: 0.8; color: #E4661F">{{ loop.index }}</div><h3 class="cond" style="margin: 0; font-size: 24px; color: #1E2427">{{ s[0] }}</h3><p style="margin: 0; color: #4A4458">{{ s[1] }}</p>{% if s[2] %}<a href="{{ s[2] }}" style="{{ LINK }}">{{ s[3] }}</a>{% endif %}</li>
 {% endfor %}</ol>
 </div>
 {% endif %}
