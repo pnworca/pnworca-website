@@ -1,0 +1,131 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: races
+  size: 1
+  alias: race
+permalink: "/events/{{ race.slug }}/"
+---
+{% from "macros.njk" import divider, crumbs as crumbnav, faq, eyebrow, arrow, logoTile with context %}
+{% set PILL_O = "display: inline-flex; align-items: center; gap: 10px; background: #F36D21; color: #221D35; text-decoration: none; padding: 15px 24px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
+{% set PILL_W = "display: inline-flex; align-items: center; gap: 10px; border: 1.5px solid #FFFFFF; color: #FFFFFF; text-decoration: none; padding: 14px 24px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
+{% set H2 = "margin: 0; font-size: 44px; line-height: 0.95; color: #1E2427" %}
+{% set LINK = "font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
+{% set isOver = race.date | ended %}
+{% set hostClub = null %}{% for c in clubs %}{% if c.slug == race.hostSlug %}{% set hostClub = c %}{% endif %}{% endfor %}
+{% macro fact(label, value, sub) -%}
+<div style="padding: 18px 20px; border-left: 1px solid rgba(255,255,255,0.18)"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">{{ label }}</div><div class="cond" style="font-size: 26px; line-height: 1; margin-top: 8px">{{ value }}</div>{% if sub %}<div style="font-size: 14px; color: #CCD5DB; margin-top: 4px">{{ sub }}</div>{% endif %}</div>
+{%- endmacro %}
+<section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
+<img class="kb" src="{{ race.photo or '/assets/img/photos/race-mj5a7870.webp' }}" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.95) 0%, rgba(30,36,39,0.84) 55%, rgba(30,36,39,0.62) 100%)"></div>
+<div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 24px">
+{{ crumbnav(crumbs) }}
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+{% if isOver %}<span style="background: #CCD5DB; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">This race has ended</span>{% endif %}
+{% if race.host %}<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">Hosted by {{ race.host }}{% if hostClub and hostClub.city %} · {{ hostClub.city }}, {{ hostClub.stateAbbr }}{% endif %}</span>{% endif %}
+</div>
+<h1 class="cond page-h1" style="margin: 0; line-height: 0.88; max-width: 900px">{{ race.name }} <span style="color: #F36D21">{{ race.year }}</span></h1>
+{% if race.summary %}<p style="margin: 0; font-size: 21px; max-width: 640px">{{ race.summary }}</p>{% endif %}
+{% if race.results or (race.register and not isOver) %}
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+{% if race.results %}<a href="{{ race.results }}" style="{{ PILL_O }}">See results{{ arrow() }}</a>{% endif %}
+{% if race.register and not isOver %}<a href="{{ race.register }}" style="{{ PILL_O }}">Register{{ arrow() }}</a>{% endif %}
+</div>
+{% endif %}
+<div class="facts" style="margin-top: 12px; background: rgba(30,36,39,0.7); border: 1px solid rgba(255,255,255,0.18); border-radius: 16px; overflow: hidden">
+{{ fact("Date", race.date | dayShort, race.year) }}
+{% if race.timeLabel %}{{ fact("Time", race.timeLabel, race.timeSub) }}{% endif %}
+{% if race.venue %}{{ fact("Where", race.venue.name, race.venue.city + ", " + race.venue.region) }}{% elif race.where %}{{ fact("Where", race.where) }}{% endif %}
+{% if race.cost != null %}{{ fact("Cost", "$" + race.cost, "per paddler") }}{% endif %}
+{% if race.classes %}{{ fact("Classes", race.classes, race.classesSub) }}{% endif %}
+</div>
+</div>
+<div style="height: 110px"></div>
+{{ divider('#FFFFFF', line='#F36D21', overlay=true) }}
+</section>
+
+<section style="background: #FFFFFF">
+<div class="wrap" style="padding-top: 40px; padding-bottom: 96px">
+<div class="cols">
+<div style="display: flex; flex-direction: column; gap: 56px; min-width: 0">
+{% set steps = [] %}
+{% if race.register %}{% set steps = (steps.push(["Register", race.steps.register if race.steps else "Register online before race day.", race.register, "Register online"]), steps) %}{% endif %}
+{% if site.waiverUrl %}{% set steps = (steps.push(["Sign the PNWORCA waiver", "Every racer signs the PNWORCA waiver before race day.", site.waiverUrl, "Sign the waiver"]), steps) %}{% endif %}
+{% if race.steps and race.steps.checkin %}{% set steps = (steps.push(["Check in", race.steps.checkin, null, null]), steps) %}{% endif %}
+{% if steps.length %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Before race day") }}
+<h2 class="cond" style="{{ H2 }}">{{ steps.length }} steps <span style="color: #283485">to the start line</span></h2>
+<ol class="steps" style="list-style: none; margin: 0; padding: 0">
+{% for s in steps %}<li style="border: 1px solid #E1E7EC; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 10px"><div class="cond" style="font-size: 48px; line-height: 0.8; color: #F36D21">{{ loop.index }}</div><h3 class="cond" style="margin: 0; font-size: 24px; color: #1E2427">{{ s[0] }}</h3><p style="margin: 0; color: #4A4458">{{ s[1] }}</p>{% if s[2] %}<a href="{{ s[2] }}" style="{{ LINK }}">{{ s[3] }}</a>{% endif %}</li>
+{% endfor %}</ol>
+</div>
+{% endif %}
+{% if race.courses %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Courses") }}
+<h2 class="cond" style="{{ H2 }}">{{ race.coursesHeading[0] }} <span style="color: #283485">{{ race.coursesHeading[1] }}</span></h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px">
+{% for c in race.courses %}{% if loop.first %}<div style="background: #221D35; color: #FFFFFF; border-radius: 16px; padding: 22px"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">{{ c.label }}</div><div class="cond" style="font-size: 64px; line-height: 0.85; margin-top: 10px">{{ c.miles }} <span style="font-size: 28px">mi</span></div><p style="margin: 10px 0 0; color: #CCD5DB">{{ c.note }}</p></div>{% else %}<div style="background: #F6F5F5; border-radius: 16px; padding: 22px"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #283485">{{ c.label }}</div><div class="cond" style="font-size: 64px; line-height: 0.85; margin-top: 10px; color: #1E2427">{{ c.miles }} <span style="font-size: 28px">mi</span></div><p style="margin: 10px 0 0; color: #4A4458">{{ c.note }}</p></div>{% endif %}
+{% endfor %}</div>
+</div>
+{% endif %}
+{% if race.schedule %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Race day") }}
+<h2 class="cond" style="{{ H2 }}">Schedule</h2>
+<ol style="list-style: none; margin: 0; padding: 0; border-left: 3px solid #F36D21">
+{% for s in race.schedule %}<li style="display: flex; gap: 20px; padding: 6px 0 {% if loop.last %}6px{% else %}18px{% endif %} 20px"><div class="cond" style="flex: none; width: 92px; font-size: 22px; color: #283485">{{ s[0] }}</div><div style="font-size: 18px">{{ s[1] }}</div></li>
+{% endfor %}</ol>
+</div>
+{% endif %}
+{% if race.faq and race.faq.length %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Questions") }}
+<h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">this race</span></h2>
+{{ faq(race.faq) }}
+</div>
+{% endif %}
+{% if not (steps.length or race.courses or race.schedule or race.faq) %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Race details") }}
+<h2 class="cond" style="{{ H2 }}">Details <span style="color: #283485">from the host</span></h2>
+<p style="margin: 0; font-size: 18px; max-width: 68ch">{% if race.host %}{{ race.host }} posts registration, course and schedule details for this race.{% else %}The host posts registration, course and schedule details for this race.{% endif %}{% if hostClub %} See the <a href="/directory/{{ hostClub.slug }}/">{{ hostClub.name }} club profile</a> for contact details.{% endif %}</p>
+</div>
+{% endif %}
+</div>
+
+<aside class="aside" aria-label="Race details" style="display: flex; flex-direction: column; gap: 16px">
+{% if race.venue %}
+<div style="background: #F6F5F5; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<h2 class="cond" style="margin: 0; font-size: 26px; color: #1E2427">Location</h2>
+<address style="font-style: normal; font-size: 16px">{{ race.venue.name }}<br>{{ race.venue.street }}<br>{{ race.venue.city }}, {{ race.venue.region }} {{ race.venue.postal }}</address>
+<a href="{{ race.venue | mapsUrl }}" style="{{ LINK }}">Get directions</a>
+</div>
+{% endif %}
+{% if hostClub %}
+<a href="/directory/{{ hostClub.slug }}/" style="background: #221D35; color: #FFFFFF; border-radius: 18px; padding: 20px; display: flex; align-items: center; gap: 16px; text-decoration: none">
+{{ logoTile(hostClub) }}
+<div><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">Host club</div><div class="cond" style="font-size: 24px; line-height: 1; margin-top: 4px">{{ hostClub.name }}</div>{% if hostClub.city %}<div style="font-size: 14px; color: #CCD5DB; margin-top: 4px">{{ hostClub.city }}, {{ hostClub.stateAbbr }}</div>{% endif %}</div>
+</a>
+{% endif %}
+<div style="border: 1px solid #E1E7EC; border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 6px"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #626A70">On the calendar of</div><div style="font-weight: 700">{{ site.name }}</div><a href="/race-rules/" style="font-size: 14px">PNWORCA race rules</a></div>
+</aside>
+</div>
+</div>
+{{ divider('#F6F5F5') }}
+</section>
+
+<section style="background: #F6F5F5">
+<div class="wrap" style="padding-top: 24px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 10px">{{ eyebrow("Keep racing") }}<h2 class="cond" style="{{ H2 }}">More <span style="color: #283485">{% if related.sameType %}{{ race.category | lower }} races{% else %}{{ race.year }} races{% endif %}</span></h2></div>
+<a href="/events/" style="{{ LINK }}">Full race calendar</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px">
+{% for r in related.list %}<a href="/events/{{ r.slug }}/" style="background: #FFFFFF; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><div class="cond" style="font-size: 24px; color: #1E2427">{{ r.name }}</div><div style="font-size: 14px; color: #626A70; margin-top: 4px">{% if r.host %}Hosted by {{ r.host }} · {% endif %}{{ r.date | dayShort }}</div></a>
+{% endfor %}</div>
+</div>
+{{ divider('#1E2427', fin=true) }}
+</section>

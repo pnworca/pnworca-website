@@ -1,0 +1,96 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: clubs
+  size: 1
+  alias: club
+permalink: "/directory/{{ club.slug }}/"
+---
+{% from "macros.njk" import divider, crumbs as crumbnav, faq, eyebrow, arrow, pin, logoTile with context %}
+{% set PILL_O = "display: inline-flex; align-items: center; gap: 10px; background: #F36D21; color: #221D35; text-decoration: none; padding: 15px 24px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
+{% set PILL_W = "display: inline-flex; align-items: center; gap: 10px; border: 1.5px solid #FFFFFF; color: #FFFFFF; text-decoration: none; padding: 14px 24px; border-radius: 9999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
+{% set H2 = "margin: 0; font-size: 44px; line-height: 0.95; color: #1E2427" %}
+{% set DT = "font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #626A70" %}
+{% set place = (club.city + ", " + club.state) if club.city else club.state %}
+<section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
+<img class="kb" src="{{ club.photo or '/assets/img/photos/race-mj5a3753.webp' }}" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 50%">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.94) 0%, rgba(30,36,39,0.82) 55%, rgba(30,36,39,0.6) 100%)"></div>
+<div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 150px; display: flex; flex-direction: column; gap: 28px">
+{{ crumbnav(crumbs) }}
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px">
+{% if club.logo %}<div style="flex: none; width: 132px; height: 100px; background: #FFFFFF; border-radius: 16px; display: flex; align-items: center; justify-content: center; padding: 10px; box-sizing: border-box"><img src="{{ club.logo }}" alt="{{ club.name }} logo" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block"></div>{% endif %}
+<div style="display: flex; flex-direction: column; gap: 10px; min-width: 0; flex: 1 1 320px">
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714; display: flex; align-items: center; gap: 8px">{{ pin() }}{% if club.area %}{{ club.area }} · {% endif %}{{ place }}</div>
+<h1 class="cond page-h1" style="margin: 0; line-height: 0.88">{{ club.name }}</h1>
+</div>
+</div>
+{% if club.tagline %}<p style="margin: 0; font-size: 21px; max-width: 640px">{{ club.tagline }}</p>{% endif %}
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+{% for b in ["PNWORCA member club"].concat(club.badges or []) %}<span style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3); padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">{{ b }}</span>{% endfor %}
+</div>
+{% if club.email or club.website %}
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+{% if club.email %}<a href="mailto:{{ club.email }}?subject=Paddling%20with%20{{ club.name | urlencode }}" style="{{ PILL_O }}">Ask about paddling{{ arrow() }}</a>{% endif %}
+{% if club.website %}<a href="{{ club.website }}" style="{{ PILL_W }}">Visit club website</a>{% endif %}
+</div>
+{% endif %}
+</div>
+{{ divider('#FFFFFF', line='#F36D21', overlay=true) }}
+</section>
+
+<section style="background: #FFFFFF">
+<div class="wrap" style="padding-top: 40px; padding-bottom: 96px">
+<div class="cols">
+<div style="display: flex; flex-direction: column; gap: 56px; min-width: 0">
+{% if club.about %}
+<div style="display: flex; flex-direction: column; gap: 14px">
+{{ eyebrow("About the club") }}
+<h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">{{ club.name }}</span></h2>
+<div class="prose" style="font-size: 18px">{% for p in club.about %}<p>{{ p }}</p>{% endfor %}</div>
+</div>
+{% endif %}
+{% if club.practice or club.season or club.newPaddlers %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Paddle with us") }}
+<h2 class="cond" style="{{ H2 }}">Practice and <span style="color: #283485">season</span></h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 14px">
+{% for k in [["Practice", club.practice], ["Season", club.season], ["New paddlers", club.newPaddlers]] %}{% if k[1] %}<div style="border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px"><div style="{{ DT }}">{{ k[0] }}</div><div class="cond" style="font-size: 24px; margin-top: 6px; color: #1E2427">{{ k[1] }}</div></div>{% endif %}{% endfor %}
+</div>
+</div>
+{% endif %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("Questions") }}
+<h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">this club</span></h2>
+{{ faq(faqItems) }}
+</div>
+</div>
+<aside class="aside" aria-label="Club details" style="background: #F6F5F5; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 18px">
+<h2 class="cond" style="margin: 0; font-size: 26px; color: #1E2427">Club details</h2>
+<dl style="margin: 0; display: flex; flex-direction: column; gap: 14px; font-size: 16px">
+{% if club.address %}<div><dt style="{{ DT }}">Location</dt><dd style="margin: 4px 0 0">{{ club.address.street }}<br>{{ club.address.city }}, {{ club.address.region }} {{ club.address.postal }}</dd></div>
+{% elif club.city %}<div><dt style="{{ DT }}">Location</dt><dd style="margin: 4px 0 0">{{ club.city }}, {{ club.stateAbbr }}</dd></div>{% endif %}
+{% if club.email %}<div><dt style="{{ DT }}">Email</dt><dd style="margin: 4px 0 0"><a href="mailto:{{ club.email }}">{{ club.email }}</a></dd></div>{% endif %}
+{% if club.website %}<div><dt style="{{ DT }}">Website</dt><dd style="margin: 4px 0 0"><a href="{{ club.website }}">{{ club.website | hostName }}</a></dd></div>{% endif %}
+<div><dt style="{{ DT }}">Region</dt><dd style="margin: 4px 0 0"><a href="/directory-category/{{ club.stateId }}/">{{ club.state }}</a>{% if club.area %} · {{ club.area }}{% endif %}</dd></div>
+</dl>
+{% if club.email %}<a href="mailto:{{ club.email }}?subject=Paddling%20with%20{{ club.name | urlencode }}" style="{{ PILL_O }}; justify-content: center">Ask about paddling{{ arrow() }}</a>{% endif %}
+{% if club.confirmed %}<div style="font-size: 13px; color: #626A70">Profile last confirmed by the club: {{ club.confirmed }}</div>{% endif %}
+</aside>
+</div>
+</div>
+{{ divider('#F6F5F5') }}
+</section>
+
+<section style="background: #F6F5F5">
+<div class="wrap" style="padding-top: 24px; padding-bottom: 88px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+{{ eyebrow(club.state) }}
+<h2 class="cond" style="{{ H2 }}">Nearby <span style="color: #283485">clubs</span></h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 14px">
+{% for c in nearby %}<a href="/directory/{{ c.slug }}/" style="display: flex; align-items: center; gap: 14px; padding: 12px; border: 1px solid #E1E7EC; border-radius: 14px; text-decoration: none; color: #221D35; background: #FFFFFF">{{ logoTile(c) }}<div><div style="font-weight: 700">{{ c.name }}</div><div style="font-size: 14px; color: #626A70">{% if c.city %}{{ c.city }}, {% endif %}{{ c.stateAbbr }}</div></div></a>
+{% endfor %}<a href="/directory/" style="display: flex; align-items: center; justify-content: center; padding: 12px; border: 1.5px dashed #283485; border-radius: 14px; text-decoration: none; color: #283485; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px; min-height: 84px">All {{ clubs.length }} member clubs</a>
+</div>
+</div>
+{{ divider('#1E2427', fin=true) }}
+</section>
