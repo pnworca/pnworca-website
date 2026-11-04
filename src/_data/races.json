@@ -1,0 +1,283 @@
+[
+ {
+  "name": "Winter Series Race #1",
+  "slug": "winter-series-race-1-hosted-by-wasabi",
+  "date": "2026-01-03",
+  "year": 2026,
+  "host": "Wasabi Paddling Club",
+  "hostSlug": "wasabi-paddling-club",
+  "where": "Portland, OR",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series Race #2",
+  "slug": "winter-series-race-2-hosted-by-jericho-paddling-club",
+  "date": "2026-01-24",
+  "year": 2026,
+  "host": "Jericho Paddling Club",
+  "hostSlug": null,
+  "where": "Vancouver, BC",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series Race #3",
+  "slug": "winter-series-race-3-hosted-by-mhcc",
+  "date": "2026-02-07",
+  "year": 2026,
+  "host": "Mountain Home",
+  "hostSlug": "mountain-home-outrigger-canoe-club",
+  "where": "Kalama, WA",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series Race #4",
+  "slug": "winter-series-race-4",
+  "date": "2026-02-21",
+  "year": 2026,
+  "host": "Bellingham Bay Outrigger Paddlers",
+  "hostSlug": "bellingham-bay-outrigger-paddlers",
+  "where": "Marine Park",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series Race #5",
+  "slug": "winter-series-race-5",
+  "date": "2026-03-07",
+  "year": 2026,
+  "host": "False Creek Racing Canoe Club",
+  "hostSlug": null,
+  "where": "Vancouver, BC",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series Race #6",
+  "slug": "winter-series-race-6-hosted-by-kai-ikaika",
+  "date": "2026-03-14",
+  "year": 2026,
+  "host": "Kai Ikaika Paddling Club",
+  "hostSlug": "kai-ikaika-paddling-club",
+  "where": null,
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Winter Series #7: Championships",
+  "slug": "winter-series-race-7",
+  "date": "2026-03-28",
+  "year": 2026,
+  "host": "Sand Point Outrigger",
+  "hostSlug": "sand-point-paddling-club",
+  "where": "Magnuson Park",
+  "category": "Winter Series",
+  "categorySlug": "winter-series-race"
+ },
+ {
+  "name": "Rusty Iron",
+  "slug": "rusty-iron-hosted-by-pacific-outrigger-canoe-club",
+  "date": "2026-04-25",
+  "year": 2026,
+  "host": "Pacific Outrigger Canoe Club",
+  "hostSlug": "pacific-outrigger-canoe-club",
+  "where": "Vancouver, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "Race Around the Island",
+  "slug": "race-around-the-island-hosted-by-crocc",
+  "date": "2026-05-02",
+  "year": 2026,
+  "host": "Columbia River Outrigger Canoe Club",
+  "hostSlug": "columbia-river-outrigger-canoe-club",
+  "where": "Fairview, OR",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "Manu K Baker Regatta",
+  "slug": "manu-k-baker-regatta-spanaway-lake-hosted-by-kikaha-o-ke-kai",
+  "date": "2026-05-16",
+  "year": 2026,
+  "host": "Kīkaha O Ke Kai",
+  "hostSlug": "kikaha-o-ke-kai",
+  "where": "Spanaway, WA",
+  "category": "Sprint",
+  "categorySlug": "sprint-race"
+ },
+ {
+  "name": "Green Lake Sprints",
+  "slug": "na-poe-o-ke-kai-springs-green-lake-sprints-hosted-by-wakinikona",
+  "date": "2026-05-23",
+  "year": 2026,
+  "host": "Hui Wa'a O Wakinikona",
+  "hostSlug": "hui-waa-o-wakinikona",
+  "where": "Seattle, WA",
+  "category": "Sprint",
+  "categorySlug": "sprint-race"
+ },
+ {
+  "name": "Silverdale Sprints",
+  "slug": "silverdale-sprints",
+  "date": "2026-06-06",
+  "year": 2026,
+  "host": "Hui Heihei Wa'a",
+  "hostSlug": "hui-heihei-waa",
+  "where": "Silverdale, WA",
+  "category": "Sprint",
+  "categorySlug": "sprint-race"
+ },
+ {
+  "name": "Silver Lake Sprints",
+  "slug": "silverlake-sprints",
+  "date": "2026-06-13",
+  "year": 2026,
+  "host": "Hui Wa'a O Puget Sound",
+  "hostSlug": "hui-waa-o-puget-sound",
+  "where": "Everett, WA",
+  "category": "Sprint",
+  "categorySlug": "sprint-race"
+ },
+ {
+  "name": "Rooster Rock Race",
+  "slug": "rooster-rock-race",
+  "date": "2026-06-27",
+  "year": 2026,
+  "host": "Mountain Home",
+  "hostSlug": "mountain-home-outrigger-canoe-club",
+  "where": "Corbett, OR",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "The Gorge Race",
+  "slug": "gorge-race",
+  "date": "2026-07-11",
+  "year": 2026,
+  "host": null,
+  "hostSlug": null,
+  "where": "Stevenson, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "Gorge Downwind Champs",
+  "slug": "gorge-downwind-champs",
+  "date": "2026-07-16",
+  "year": 2026,
+  "host": null,
+  "hostSlug": null,
+  "where": "Stevenson, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "BBOP/Autumn Rose Iron",
+  "slug": "bellingham-bay-classic",
+  "date": "2026-08-01",
+  "year": 2026,
+  "host": "Bellingham Bay Outrigger Paddlers and Autumn Rose",
+  "hostSlug": null,
+  "where": "Bellingham, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "Pacific Northwest Challenge",
+  "slug": "pacific-northwest-challenge-hosted-by-sail-sand-point",
+  "date": "2026-08-08",
+  "year": 2026,
+  "host": "Sand Point Outrigger",
+  "hostSlug": "sand-point-paddling-club",
+  "where": "Seattle, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "da Grind",
+  "slug": "da-grind",
+  "date": "2026-08-29",
+  "year": 2026,
+  "host": "Seattle Outrigger Canoe Club",
+  "hostSlug": "seattle-outrigger-canoe-club",
+  "where": "Seattle, WA",
+  "category": "Long Distance",
+  "categorySlug": "long-distance-race"
+ },
+ {
+  "name": "Chicken Long Race",
+  "slug": "chicken-long-race-hosted-by-kikaha",
+  "date": "2026-10-17",
+  "year": 2026,
+  "host": "Kīkaha O Ke Kai",
+  "hostSlug": "kikaha-o-ke-kai",
+  "where": "Tacoma, WA",
+  "category": "Small Boat",
+  "categorySlug": "small-boat-race",
+  "summary": "Kīkaha O Ke Kai's annual small boat race along Ruston Way. Every paddler gets endless bowls of Aunty Bren's Chicken Long Rice Soup.",
+  "start": "08:00",
+  "end": "13:00",
+  "timeLabel": "8 AM to 1 PM",
+  "timeSub": "Mass start 10 AM",
+  "venue": {
+   "name": "Jack Hyde Park",
+   "street": "1741 N Schuster Parkway",
+   "city": "Tacoma",
+   "region": "WA",
+   "postal": "98402"
+  },
+  "cost": 30,
+  "classes": "OC1 · OC2",
+  "classesSub": "Solo or relay",
+  "register": "https://www.webscorer.com/register?raceid=447802",
+  "steps": {
+   "register": "Register on Webscorer as soon as possible so the host can plan how much food to cook.",
+   "checkin": "Registration opens at 8:00 AM at Jack Hyde Park. Mass start is at 10:00 AM."
+  },
+  "courses": [
+   {
+    "label": "Solo or relay",
+    "miles": "10.5",
+    "note": "Relay teams change after each lap."
+   },
+   {
+    "label": "Short course",
+    "miles": "5.3",
+    "note": "Two laps."
+   }
+  ],
+  "coursesHeading": [
+   "Ruston Way,",
+   "2.6-mile laps"
+  ],
+  "schedule": [
+   [
+    "8:00 AM",
+    "Registration"
+   ],
+   [
+    "10:00 AM",
+    "Mass start"
+   ]
+  ],
+  "faq": [
+   [
+    "How much does the Chicken Long Race cost?",
+    "$30 per paddler."
+   ],
+   [
+    "What canoe classes race?",
+    "OC1 and OC2, solo or relay."
+   ],
+   [
+    "How long is the course?",
+    "The full course is 10.5 miles on Ruston Way. The short course is 2 laps, 5.3 miles. Each lap is 2.6 miles."
+   ]
+  ],
+  "photo": "/assets/img/photos/basics-mj5a2948.webp"
+ }
+]

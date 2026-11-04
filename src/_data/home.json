@@ -111,31 +111,36 @@
        "name": "Seattle Outrigger Canoe Club",
        "city": "Seattle",
        "logo": "/assets/img/logos/seattle-outrigger.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/seattle-outrigger-canoe-club/"
       },
       {
        "name": "Sand Point Outrigger",
        "city": "Seattle",
        "logo": "/assets/img/logos/sand-point.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/sand-point-paddling-club/"
       },
       {
        "name": "Hui Wa'a O Wakinikona",
        "city": "Seattle",
        "logo": "/assets/img/logos/wakinikona.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/hui-waa-o-wakinikona/"
       },
       {
        "name": "Seattle SAKE Paddling Club",
        "city": "Seattle",
        "logo": "/assets/img/logos/seattle-sake.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/seattle-sake-paddling-club/"
       },
       {
        "name": "Hui Wa'a O Puget Sound",
        "city": "Kenmore",
        "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/hui-waa-o-puget-sound/"
       }
      ]
     },
@@ -146,13 +151,15 @@
        "name": "Kikaha O Ke Kai",
        "city": "Tacoma",
        "logo": "/assets/img/logos/kikaha.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/kikaha-o-ke-kai/"
       },
       {
        "name": "Hui Heihei Wa'a",
        "city": "Silverdale",
        "logo": "/assets/img/logos/hui-heihei-waa.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/hui-heihei-waa/"
       }
      ]
     },
@@ -163,25 +170,29 @@
        "name": "Kai Pana Outrigger Canoe Club",
        "city": "Bellingham",
        "logo": "/assets/img/logos/kai-pana.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/kai-pana-outrigger-canoe-club/"
       },
       {
        "name": "Bellingham Bay Outrigger Paddlers",
        "city": "Bellingham",
        "logo": "/assets/img/logos/bellingham-bay.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/bellingham-bay-outrigger-paddlers/"
       },
       {
        "name": "Rikkole Cree Canoe Club",
        "city": "Bellingham",
        "logo": "/assets/img/logos/rikkole-cree.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/rikkole-cree-canoe-club/"
       },
       {
        "name": "Autumn Rose Canoe Club",
        "city": "Lummi Nation",
        "logo": "/assets/img/logos/autumn-rose.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/autumn-rose-canoe-club/"
       }
      ]
     },
@@ -192,13 +203,15 @@
        "name": "Tri-Cities Outrigger Canoe Club",
        "city": "Richland",
        "logo": "/assets/img/logos/tri-cities.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/tri-cities-outrigger-canoe-club/"
       },
       {
        "name": "Three Rivers Outrigger Canoe Club",
        "city": "Richland",
        "logo": "/assets/img/logos/three-rivers.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/three-rivers-outrigger-canoe-club/"
       }
      ]
     },
@@ -209,7 +222,8 @@
        "name": "Skamania",
        "city": "[City]",
        "logo": "",
-       "noLogo": true
+       "noLogo": true,
+       "href": "/directory/skamania/"
       }
      ]
     }
@@ -227,31 +241,36 @@
        "name": "Columbia River Outrigger Canoe Club",
        "city": "Portland",
        "logo": "/assets/img/logos/columbia-river.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/columbia-river-outrigger-canoe-club/"
       },
       {
        "name": "Pacific Outrigger Canoe Club",
        "city": "Portland",
        "logo": "/assets/img/logos/pacific.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/pacific-outrigger-canoe-club/"
       },
       {
        "name": "Zamboanga Paddling Club",
        "city": "Portland",
        "logo": "/assets/img/logos/zamboanga.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/zamboanga-paddling-club/"
       },
       {
        "name": "Kai Ikaika Paddling Club",
        "city": "Portland",
        "logo": "/assets/img/logos/kai-ikaika.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/kai-ikaika-paddling-club/"
       },
       {
        "name": "Wasabi Paddling Club",
        "city": "Portland",
        "logo": "/assets/img/logos/wasabi.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/wasabi-paddling-club/"
       }
      ]
     },
@@ -262,13 +281,15 @@
        "name": "Gorge Canoe Club",
        "city": "Cascade Locks",
        "logo": "/assets/img/logos/gorge.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/gorge-canoe-club/"
       },
       {
        "name": "Hood River Outrigger Canoe Club",
        "city": "Hood River",
        "logo": "/assets/img/logos/hood-river.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/hood-river-outrigger-canoe-club/"
       }
      ]
     },
@@ -279,7 +300,8 @@
        "name": "Ohana O Ke Kahawai Outrigger Canoe Club",
        "city": "Salem",
        "logo": "/assets/img/logos/ohana-o-ke-kahawai.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/ohana-hoe-outrigger-canoe-club/"
       }
      ]
     },
@@ -290,7 +312,8 @@
        "name": "Bend Oregon Outrigger",
        "city": "Bend",
        "logo": "/assets/img/logos/bend-oregon.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/bend-oregon-outrigger/"
       }
      ]
     },
@@ -301,13 +324,15 @@
        "name": "Multnomah",
        "city": "[City]",
        "logo": "",
-       "noLogo": true
+       "noLogo": true,
+       "href": "/directory/multnomah/"
       },
       {
        "name": "Mountain Home Outrigger Canoe Club",
        "city": "[City]",
        "logo": "/assets/img/logos/mountain-home.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/mountain-home-outrigger-canoe-club/"
       }
      ]
     }
@@ -325,7 +350,8 @@
        "name": "Inland Northwest & Montana Canoe Club",
        "city": "[City]",
        "logo": "/assets/img/logos/inland-nw-montana.webp",
-       "noLogo": false
+       "noLogo": false,
+       "href": "/directory/inland-northwest-montana-canoe-club/"
       }
      ]
     }
