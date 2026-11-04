@@ -1,0 +1,279 @@
+[
+ {
+  "name": "Seattle Outrigger Canoe Club",
+  "slug": "seattle-outrigger-canoe-club",
+  "city": "Seattle",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Seattle area",
+  "logo": "/assets/img/logos/seattle-outrigger.webp"
+ },
+ {
+  "name": "Sand Point Outrigger",
+  "slug": "sand-point-paddling-club",
+  "city": "Seattle",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Seattle area",
+  "logo": "/assets/img/logos/sand-point.webp"
+ },
+ {
+  "name": "Hui Wa'a O Wakinikona",
+  "slug": "hui-waa-o-wakinikona",
+  "city": "Seattle",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Seattle area",
+  "logo": "/assets/img/logos/wakinikona.webp"
+ },
+ {
+  "name": "Seattle SAKE Paddling Club",
+  "slug": "seattle-sake-paddling-club",
+  "city": "Seattle",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Seattle area",
+  "logo": "/assets/img/logos/seattle-sake.webp"
+ },
+ {
+  "name": "Hui Wa'a O Puget Sound",
+  "slug": "hui-waa-o-puget-sound",
+  "city": "Kenmore",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Seattle area",
+  "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp"
+ },
+ {
+  "name": "Kīkaha O Ke Kai",
+  "slug": "kikaha-o-ke-kai",
+  "city": "Tacoma",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "South Sound and Kitsap",
+  "logo": "/assets/img/logos/kikaha.webp"
+ },
+ {
+  "name": "Hui Heihei Wa'a",
+  "slug": "hui-heihei-waa",
+  "city": "Silverdale",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "South Sound and Kitsap",
+  "logo": "/assets/img/logos/hui-heihei-waa.webp"
+ },
+ {
+  "name": "Kai Pana Outrigger Canoe Club",
+  "slug": "kai-pana-outrigger-canoe-club",
+  "city": "Bellingham",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Bellingham and Whatcom",
+  "logo": "/assets/img/logos/kai-pana.webp"
+ },
+ {
+  "name": "Bellingham Bay Outrigger Paddlers",
+  "slug": "bellingham-bay-outrigger-paddlers",
+  "city": "Bellingham",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Bellingham and Whatcom",
+  "logo": "/assets/img/logos/bellingham-bay.webp"
+ },
+ {
+  "name": "Rikkole Cree Canoe Club",
+  "slug": "rikkole-cree-canoe-club",
+  "city": "Bellingham",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Bellingham and Whatcom",
+  "logo": "/assets/img/logos/rikkole-cree.webp"
+ },
+ {
+  "name": "Autumn Rose Canoe Club",
+  "slug": "autumn-rose-canoe-club",
+  "city": "Lummi Nation",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Bellingham and Whatcom",
+  "logo": "/assets/img/logos/autumn-rose.webp"
+ },
+ {
+  "name": "Tri-Cities Outrigger Canoe Club",
+  "slug": "tri-cities-outrigger-canoe-club",
+  "city": "Richland",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Tri-Cities",
+  "logo": "/assets/img/logos/tri-cities.webp"
+ },
+ {
+  "name": "Three Rivers Outrigger Canoe Club",
+  "slug": "three-rivers-outrigger-canoe-club",
+  "city": "Richland",
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": "Tri-Cities",
+  "logo": "/assets/img/logos/three-rivers.webp"
+ },
+ {
+  "name": "Skamania",
+  "slug": "skamania",
+  "city": null,
+  "state": "Washington",
+  "stateId": "washington",
+  "stateAbbr": "WA",
+  "area": null,
+  "logo": null
+ },
+ {
+  "name": "Columbia River Outrigger Canoe Club",
+  "slug": "columbia-river-outrigger-canoe-club",
+  "city": "Portland",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Portland area",
+  "logo": "/assets/img/logos/columbia-river.webp"
+ },
+ {
+  "name": "Pacific Outrigger Canoe Club",
+  "slug": "pacific-outrigger-canoe-club",
+  "city": "Portland",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Portland area",
+  "logo": "/assets/img/logos/pacific.webp"
+ },
+ {
+  "name": "Zamboanga Paddling Club",
+  "slug": "zamboanga-paddling-club",
+  "city": "Portland",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Portland area",
+  "logo": "/assets/img/logos/zamboanga.webp"
+ },
+ {
+  "name": "Kai Ikaika Paddling Club",
+  "slug": "kai-ikaika-paddling-club",
+  "city": "Portland",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Portland area",
+  "logo": "/assets/img/logos/kai-ikaika.webp"
+ },
+ {
+  "name": "Wasabi Paddling Club",
+  "slug": "wasabi-paddling-club",
+  "city": "Portland",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Portland area",
+  "logo": "/assets/img/logos/wasabi.webp"
+ },
+ {
+  "name": "Gorge Canoe Club",
+  "slug": "gorge-canoe-club",
+  "city": "Cascade Locks",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Columbia Gorge",
+  "logo": "/assets/img/logos/gorge.webp"
+ },
+ {
+  "name": "Hood River Outrigger Canoe Club",
+  "slug": "hood-river-outrigger-canoe-club",
+  "city": "Hood River",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Columbia Gorge",
+  "logo": "/assets/img/logos/hood-river.webp",
+  "tagline": "A group of dedicated outdoor enthusiasts from diverse backgrounds who all love the water and paddling.",
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "about": [
+   "Hood River Outrigger Canoe Club (HROCC) is a non-profit 501(c)(3) public charity organization that provides to its membership the opportunity to learn, recreate, practice, train, race and build an ohana with others who love paddling outrigger canoes and kayaks.",
+   "We look forward to seeing you on the water!"
+  ],
+  "email": "admin@hoodriveroutrigger.com",
+  "website": "https://www.hoodriveroutrigger.com",
+  "address": {
+   "street": "NE 1st Street",
+   "city": "Hood River",
+   "region": "OR",
+   "postal": "97031"
+  },
+  "photo": "/assets/img/photos/huli-practice-hood-river-2024.webp"
+ },
+ {
+  "name": "Ohana O Ke Kahawai Outrigger Canoe Club",
+  "slug": "ohana-hoe-outrigger-canoe-club",
+  "city": "Salem",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Willamette Valley",
+  "logo": "/assets/img/logos/ohana-o-ke-kahawai.webp"
+ },
+ {
+  "name": "Bend Oregon Outrigger",
+  "slug": "bend-oregon-outrigger",
+  "city": "Bend",
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": "Central Oregon",
+  "logo": "/assets/img/logos/bend-oregon.webp"
+ },
+ {
+  "name": "Multnomah",
+  "slug": "multnomah",
+  "city": null,
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": null,
+  "logo": null
+ },
+ {
+  "name": "Mountain Home Outrigger Canoe Club",
+  "slug": "mountain-home-outrigger-canoe-club",
+  "city": null,
+  "state": "Oregon",
+  "stateId": "oregon",
+  "stateAbbr": "OR",
+  "area": null,
+  "logo": "/assets/img/logos/mountain-home.webp"
+ },
+ {
+  "name": "Inland Northwest & Montana Canoe Club",
+  "slug": "inland-northwest-montana-canoe-club",
+  "city": null,
+  "state": "Montana",
+  "stateId": "montana",
+  "stateAbbr": "MT",
+  "area": null,
+  "logo": "/assets/img/logos/inland-nw-montana.webp"
+ }
+]
