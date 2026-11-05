@@ -14,8 +14,8 @@ function faq(c) {
   const q = [];
   if (c.address) q.push([`Where is ${c.name} based?`, `${c.address.street}, ${c.address.city}, ${c.address.region} ${c.address.postal}.`]);
   else if (c.city) q.push([`Where is ${c.name} based?`, `${c.city}, ${c.state}.`]);
-  if (c.email || c.website) {
-    const how = [c.email && `email ${c.email}`, c.website && `visit ${c.website.replace(/^https?:\/\//, "")}`].filter(Boolean).join(" or ");
+  if (c.email || c.website || c.phone) {
+    const how = [c.email && `email ${c.email}`, c.phone && `call ${c.phone}`, c.website && `visit ${c.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}`].filter(Boolean).join(" or ");
     q.push([`How do I contact ${c.name}?`, how.charAt(0).toUpperCase() + how.slice(1) + "."]);
   }
   q.push([`Is ${c.name} a PNWORCA member club?`, `Yes. ${c.name} is a member club of the Pacific Northwest Outrigger Racing Canoe Association.`]);
@@ -47,6 +47,8 @@ export default {
       };
       if (c.logo) org.logo = s.url + c.logo;
       if (c.email) org.email = c.email;
+      if (c.phone) org.telephone = c.phone;
+      if (c.social) org.sameAs = Object.values(c.social);
       if (c.address) org.address = { "@type": "PostalAddress", streetAddress: c.address.street, addressLocality: c.address.city, addressRegion: c.address.region, postalCode: c.address.postal, addressCountry: "US" };
       else if (c.city) org.address = { "@type": "PostalAddress", addressLocality: c.city, addressRegion: c.stateAbbr, addressCountry: "US" };
       else org.address = { "@type": "PostalAddress", addressRegion: c.stateAbbr, addressCountry: "US" };

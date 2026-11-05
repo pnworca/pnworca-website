@@ -93,3 +93,4 @@ a{color:#283485}a:hover{color:#221D35}
 .scrim{background:rgba(30,36,39,0.88) !important}
 .scrim-band{background:linear-gradient(180deg, rgba(30,36,39,0.6) 0%, rgba(30,36,39,0.96) 100%) !important}
 }
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
