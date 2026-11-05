@@ -46,7 +46,7 @@ permalink: "/directory/{{ club.slug }}/"
 <div style="display: flex; flex-direction: column; gap: 14px">
 {{ eyebrow("About the club") }}
 <h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">{{ club.name }}</span></h2>
-<div class="prose" style="font-size: 18px">{% for p in club.about %}<p>{{ p }}</p>{% endfor %}</div>
+<div class="prose" style="font-size: 18px">{% for p in club.about %}{% if p is string %}<p>{{ p }}</p>{% else %}<ul>{% for i in p %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}{% endfor %}</div>
 </div>
 {% endif %}
 {% if club.practice or club.season or club.newPaddlers %}
@@ -71,6 +71,8 @@ permalink: "/directory/{{ club.slug }}/"
 {% elif club.city %}<div><dt style="{{ DT }}">Location</dt><dd style="margin: 4px 0 0">{{ club.city }}, {{ club.stateAbbr }}</dd></div>{% endif %}
 {% if club.email %}<div><dt style="{{ DT }}">Email</dt><dd style="margin: 4px 0 0"><a href="mailto:{{ club.email }}">{{ club.email }}</a></dd></div>{% endif %}
 {% if club.website %}<div><dt style="{{ DT }}">Website</dt><dd style="margin: 4px 0 0"><a href="{{ club.website }}">{{ club.website | hostName }}</a></dd></div>{% endif %}
+{% if club.phone %}<div><dt style="{{ DT }}">Phone</dt><dd style="margin: 4px 0 0"><a href="tel:{{ club.phone | replace(r/[^0-9+]/g, '') }}">{{ club.phone }}</a></dd></div>{% endif %}
+{% if club.social %}<div><dt style="{{ DT }}">Social</dt><dd style="margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px">{% for k, label in [["facebook", "Facebook"], ["instagram", "Instagram"], ["twitter", "Twitter"], ["yelp", "Yelp"]] %}{% if club.social[k] %}<a href="{{ club.social[k] }}">{{ label }}<span class="sr-only"> for {{ club.name }}</span></a>{% endif %}{% endfor %}</dd></div>{% endif %}
 <div><dt style="{{ DT }}">Region</dt><dd style="margin: 4px 0 0"><a href="/directory-category/{{ club.stateId }}/">{{ club.state }}</a>{% if club.area %} · {{ club.area }}{% endif %}</dd></div>
 </dl>
 {% if club.email %}<a href="mailto:{{ club.email }}?subject=Paddling%20with%20{{ club.name | urlencode }}" style="{{ PILL_O }}; justify-content: center">Ask about paddling{{ arrow() }}</a>{% endif %}
