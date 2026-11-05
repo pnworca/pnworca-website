@@ -12,10 +12,22 @@ Picking a paddle requires you to take into account your boat, your experience, y
 
 There are two basic styles of paddles used in outrigger canoeing: bent shaft or double bent shaft. Bent shaft paddles are by far the most common and provide excellent (and proven) performance. The double bent shaft is relatively new and claim to reduce fatigue and offer improved performance for distance paddling.
 
-## Paddle Manufacturers
+## Paddle Makers
 
-- **[Zaveral Paddles](http://www.zre.com/canoepaddles/)**
-- **[Kialoa Paddles](http://www.zre.com/canoepaddles/)**
+Listed alphabetically.
+
+- **[Kai Ko'o Paddles](https://kaikoopaddles.com/)**: performance outrigger paddles, custom built.
+- **[KIALOA](https://kialoa.com/collections/outrigger-paddles)**: outrigger paddles, including a full line of steering paddles.
+- **[Palafamala](https://palafamala.com/)**: custom carbon and hybrid outrigger paddles. Ozone also builds the Palafamala Pala paddle.
+- **[Puakea Designs](https://puakeadesigns.com/collections/paddles)**: hybrid and full carbon outrigger paddles, from the designer of the Puakea canoes.
+- **[TAI Paddles](https://taipaddles.com/)**: waka ama and va'a paddles designed in New Zealand.
+- **[Viper Va'a](https://www.vipervaa.com/paddles)**: handmade in Ra'iātea, Tahiti.
+- **[Zaveral Racing Equipment (ZRE)](https://zre.com/collections/outrigger-paddles)**: lightweight outrigger paddles.
+
+## Where to Try and Buy in the Northwest
+
+- **[Paddle Zoo](https://www.paddlezoo.com/)**, Edmonds, WA: outrigger paddles, accessories and apparel.
+- **[Ozone Northwest](https://www.outriggerzone.com/dealers/ozonenorthwest/)**, Carson, WA: the Northwest dealer for Ozone (Outrigger Zone) canoes and paddles, run by Jimi and Maddie Spoto.
 
 ## Paddle length
 
