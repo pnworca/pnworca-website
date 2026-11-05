@@ -1,0 +1,20 @@
+---
+listKind: state
+pagination:
+  data: directory.states
+  size: 1
+  alias: st
+  addAllPagesToCollections: true
+permalink: "/directory-category/{{ st.id }}/"
+eyebrowText: Member Clubs
+eleventyComputed:
+  title: "{{ st.name }} Clubs"
+  intro: "{{ st.count }} PNWORCA member {{ 'club' if st.count == 1 else 'clubs' }} in {{ st.name }}."
+  description: "PNWORCA member outrigger canoe clubs in {{ st.name }}: {{ st.count }} {{ 'club' if st.count == 1 else 'clubs' }}, with contact details for each."
+---
+{% from "macros.njk" import stateClubs, logoTile, clubCard, pin with context %}
+<nav class="section-nav" aria-label="Clubs by state"><ul>
+{% for s in directory.states %}<li><a href="/directory-category/{{ s.id }}/"{% if s.id == st.id %} aria-current="page"{% endif %}>{{ s.name }} ({{ s.count }})</a></li>
+{% endfor %}<li><a href="/directory/">All clubs ({{ directory.total }})</a></li>
+</ul></nav>
+{{ stateClubs(st, link=false) }}

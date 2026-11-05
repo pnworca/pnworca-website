@@ -1,0 +1,17 @@
+---
+title: Member Clubs
+listKind: clubs
+permalink: /directory/
+eyebrowText: Members
+eleventyComputed:
+  intro: "{{ directory.total }} member clubs in {{ stateNames }}. Pick a state, or browse every club below."
+  description: "Find a PNWORCA member outrigger canoe club. {{ directory.total }} clubs in {{ stateNames }}, with contact details for each."
+---
+{% from "macros.njk" import stateClubs, logoTile, clubCard, pin with context %}
+<nav class="section-nav" aria-label="Clubs by state"><ul>
+{% for s in directory.states %}<li><a href="/directory-category/{{ s.id }}/">{{ s.name }} ({{ s.count }})</a></li>
+{% endfor %}</ul></nav>
+<div style="display: flex; flex-direction: column; gap: 64px">
+{% for s in directory.states %}{{ stateClubs(s) }}
+{% endfor %}
+</div>

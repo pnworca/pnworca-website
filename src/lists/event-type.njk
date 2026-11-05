@@ -1,0 +1,23 @@
+---
+listKind: type
+pagination:
+  data: raceTypes
+  size: 1
+  alias: rt
+  addAllPagesToCollections: true
+permalink: "/event-category/{{ rt.slug }}/"
+eyebrowText: Race Calendar
+eleventyComputed:
+  title: "{{ rt.name }} Races"
+  intro: "{{ rt.name }} races on the PNWORCA calendar.{% if raceDates.status == 'draft' %} {{ raceDates.season }} dates are a draft until the calendar is approved.{% endif %}"
+  description: "PNWORCA {{ rt.name | lower }} outrigger races: dates, venues and host clubs on the {{ raceDates.season }} race calendar."
+---
+{% from "macros.njk" import raceCard, arrow with context %}
+<nav class="section-nav" aria-label="Races by type"><ul>
+{% for t in raceTypes %}{% set n = 0 %}{% for r in raceCalendar %}{% if r.categorySlug == t.slug %}{% set n = n + 1 %}{% endif %}{% endfor %}<li><a href="/event-category/{{ t.slug }}/"{% if t.slug == rt.slug %} aria-current="page"{% endif %}>{{ t.name }} ({{ n }})</a></li>
+{% endfor %}<li><a href="/events/">All races ({{ raceCalendar.length }})</a></li>
+</ul></nav>
+<div style="display: flex; flex-direction: column; gap: 14px">
+{% for r in raceCalendar %}{% if r.categorySlug == rt.slug %}{{ raceCard(r) }}
+{% endif %}{% endfor %}
+</div>
