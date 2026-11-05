@@ -9,16 +9,30 @@
    "href": "/directory/"
   },
   {
+   "label": "Race Calendar",
+   "href": "/events/"
+  },
+  {
+   "label": "Race Results",
+   "href": "#results"
+  },
+  {
    "label": "Outrigger Basics",
    "href": "/outrigger-basics/"
   },
   {
-   "label": "Leadership",
-   "href": "#leadership"
-  },
-  {
    "label": "News",
    "href": "#news"
+  }
+ ],
+ "utilityNav": [
+  {
+   "label": "Race Rules",
+   "href": "/race-rules/"
+  },
+  {
+   "label": "Leadership",
+   "href": "#leadership"
   },
   {
    "label": "Message Board",
@@ -29,30 +43,16 @@
    "href": "/resources/"
   },
   {
-   "label": "Contact",
-   "href": "#contact"
-  }
- ],
- "raceNav": [
-  {
-   "label": "Race Calendar",
-   "href": "/events/"
-  },
-  {
-   "label": "Race Results",
-   "href": "#results"
-  },
-  {
-   "label": "Race Rules",
-   "href": "/race-rules/"
-  },
-  {
    "label": "Singapore",
    "href": "/singapore/"
   },
   {
    "label": "Member Grants",
    "href": "/member-enhancement-grants/"
+  },
+  {
+   "label": "Contact",
+   "href": "#contact"
   }
  ],
  "races": [
