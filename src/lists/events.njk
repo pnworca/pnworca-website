@@ -14,14 +14,14 @@ eleventyComputed:
 {% set month = "" %}
 <div style="display: flex; flex-direction: column; gap: 14px">
 {% for r in seasonRaces %}{% set m = r.date | monthYear %}{% if m != month %}{% set month = m %}<h2 class="cond" style="margin: {{ '0' if loop.first else '26px' }} 0 0; font-size: 36px; line-height: 1; color: #1E2427">{{ m }}</h2>{% endif %}
-{{ raceCard(r) }}
+{{ raceCard(r, summary=true) }}
 {% endfor %}
 </div>
 {% set earlier = [] %}{% for r in raceCalendar %}{% if r.year != raceDates.season %}{% set earlier = (earlier.push(r), earlier) %}{% endif %}{% endfor %}
 {% if earlier.length %}
 <div style="display: flex; flex-direction: column; gap: 14px">
 <h2 class="cond" style="margin: 0; font-size: 36px; line-height: 1; color: #1E2427">Not yet on the {{ raceDates.season }} calendar</h2>
-{% for r in earlier %}{{ raceCard(r) }}
+{% for r in earlier %}{{ raceCard(r, summary=true) }}
 {% endfor %}
 </div>
 {% endif %}

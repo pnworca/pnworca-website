@@ -18,6 +18,6 @@ eleventyComputed:
 {% endfor %}<li><a href="/events/">All races ({{ raceCalendar.length }})</a></li>
 </ul></nav>
 <div style="display: flex; flex-direction: column; gap: 14px">
-{% for r in raceCalendar %}{% if r.categorySlug == rt.slug %}{{ raceCard(r) }}
+{% for r in raceCalendar %}{% if r.categorySlug == rt.slug %}{{ raceCard(r, summary=true) }}
 {% endif %}{% endfor %}
 </div>
