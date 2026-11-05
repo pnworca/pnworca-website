@@ -41,5 +41,7 @@
   if (!left.length) { hero.hidden = true; return; }
   hero.href = left[0].getAttribute('href');
   hero.querySelector('[data-next-name]').textContent = left[0].getAttribute('data-name');
+  var c = left[0].getAttribute('data-callout');
+  hero.querySelector('[data-next-callout]').textContent = c ? ' \u00b7 ' + c : '';
   hero.querySelector('[data-next-when]').textContent = left[0].getAttribute('data-when');
 })();
