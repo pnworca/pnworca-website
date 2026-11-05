@@ -28,8 +28,9 @@ permalink: "/events/{{ race.slug }}/"
 {% if isOver %}<span style="background: #CCD5DB; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">This race has ended</span>{% elif race.dateStatus == "draft" %}<span style="background: #FDB714; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">Draft {{ race.year }} date</span>{% endif %}
 {% if race.host %}<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">Hosted by {{ race.host }}{% if hostClub and hostClub.city %} · {{ hostClub.city }}, {{ hostClub.stateAbbr }}{% endif %}</span>{% endif %}
 </div>
+<div class="race-callout" style="align-self: flex-start; background: #F36D21; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 14px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase">{{ race.callout }}</div>
 <h1 class="cond page-h1" style="margin: 0; line-height: 0.88; max-width: 900px">{{ race.name }} <span style="color: #F36D21">{{ race.year }}</span></h1>
-{% if race.summary %}<p style="margin: 0; font-size: 21px; max-width: 640px">{{ race.summary }}</p>{% endif %}
+{% if race.summary %}<p style="margin: 0; font-size: 21px; max-width: 700px">{{ race.summary }}</p>{% if not current %}<p style="margin: -10px 0 0; font-size: 14px; color: #CCD5DB">From the {{ detailsYear }} race. Check with the host for {{ race.year }} details.</p>{% endif %}{% endif %}
 {% if race.results or (race.register and not isOver and current) %}
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
 {% if race.results %}<a href="{{ race.results }}" style="{{ PILL_O }}">See {% if not current %}{{ detailsYear }} {% endif %}results{{ arrow() }}</a>{% endif %}
@@ -131,7 +132,7 @@ permalink: "/events/{{ race.slug }}/"
 <a href="/events/" style="{{ LINK }}">Full race calendar</a>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px">
-{% for r in related.list %}<a href="/events/{{ r.slug }}/" style="background: #FFFFFF; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><div class="cond" style="font-size: 24px; color: #1E2427">{{ r.name }}</div><div style="font-size: 14px; color: #626A70; margin-top: 4px">{% if r.host %}Hosted by {{ r.host }} · {% endif %}{{ r.date | dayShort }}</div></a>
+{% for r in related.list %}<a href="/events/{{ r.slug }}/" style="background: #FFFFFF; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><div style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #283485">{{ r.callout }}</div><div class="cond" style="font-size: 24px; color: #1E2427; margin-top: 4px">{{ r.name }}</div><div style="font-size: 14px; color: #626A70; margin-top: 4px">{% if r.host %}Hosted by {{ r.host }} · {% endif %}{{ r.date | dayShort }}</div></a>
 {% endfor %}</div>
 </div>
 {{ divider('#1E2427', fin=true) }}

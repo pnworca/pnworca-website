@@ -1,6 +1,6 @@
 [
  {
-  "name": "Winter Series Race #1",
+  "name": "Wasabi Bridge to Bridge",
   "slug": "winter-series-race-1-hosted-by-wasabi",
   "date": "2026-01-03",
   "year": 2026,
@@ -9,7 +9,7 @@
   "where": "Portland, OR",
   "category": "Winter Series",
   "categorySlug": "winter-series-race",
-  "summary": "Wasabi Bridge to Bridge opens the PNWORCA Winter Series. The course runs from Fred's Marina on Multnomah Channel out past St. Johns Bridge and back past Wapato Bridge.",
+  "summary": "Wasabi Paddling Club's small boat race on Multnomah Channel from Fred's Marina. The 8-mile long course runs out past St. Johns Bridge and back past Wapato Bridge; the 4-mile short course follows the same route and turns well before St. Johns Bridge. Soup, raffle and awards after.",
   "venue": {
    "name": "Fred's Marina",
    "street": "12800 NW Marina Way",
@@ -64,10 +64,12 @@
     "Pack up"
    ]
   ],
-  "results": "https://paddleguru.com/races/PNWORCAWinterSeriesRace1WasabiBridgeToBridge2026/results"
+  "results": "https://paddleguru.com/races/PNWORCAWinterSeriesRace1WasabiBridgeToBridge2026/results",
+  "series": "Winter Series #1",
+  "source": "pnworca.org race page, 2026"
  },
  {
-  "name": "Winter Series Race #2",
+  "name": "Jericho",
   "slug": "winter-series-race-2-hosted-by-jericho-paddling-club",
   "date": "2026-01-24",
   "year": 2026,
@@ -76,7 +78,7 @@
   "where": "Vancouver, BC",
   "category": "Winter Series",
   "categorySlug": "winter-series-race",
-  "summary": "Race #2 of 7 in the PNWORCA Winter Series, at Jericho Sailing Centre in Vancouver. All small boats welcome.",
+  "summary": "Jericho Paddling Club's small boat race in Vancouver, BC. The long course is about 12 km (7 mi) and the short course about 6 km (4 mi); the route is set on race day for conditions. All small boats welcome, PFD and leash required. Washrooms, showers and a light lunch on site. A CORA membership, bought in advance, is required.",
   "venue": {
    "name": "Jericho Sailing Centre",
    "city": "Vancouver",
@@ -88,7 +90,7 @@
    {
     "label": "Long course",
     "miles": "7",
-    "note": "About 12 km. Course set on race day, depending on conditions."
+    "note": "About 12 km. Route set on race day for conditions."
    },
    {
     "label": "Short course",
@@ -105,10 +107,12 @@
     "10:30 AM",
     "Race start"
    ]
-  ]
+  ],
+  "series": "Winter Series #2",
+  "source": "pnworca.org race page and Webscorer, 2026"
  },
  {
-  "name": "Winter Series Race #3",
+  "name": "Kalama Race",
   "slug": "winter-series-race-3-hosted-by-mhcc",
   "date": "2026-02-07",
   "year": 2026,
@@ -117,7 +121,7 @@
   "where": "Kalama, WA",
   "category": "Winter Series",
   "categorySlug": "winter-series-race",
-  "summary": "The third Winter Series race, hosted by Mountain Home Canoe Club at Rasmussen Park in Kalama. Both courses loop counterclockwise around Sandy Island.",
+  "summary": "Mountain Home Canoe Club's small boat race on the Columbia River at Rasmussen Park, Port of Kalama. The long course (about 6.2 mi) loops counterclockwise around Sandy Island with a turn near Deer Island Beach; the short course (about 4.2 mi) loops Sandy Island and cuts back across the river. Chili lunch and awards after.",
   "venue": {
    "name": "Rasmussen Park",
    "street": "Port of Kalama",
@@ -163,10 +167,12 @@
     "2:30 PM",
     "Take down and clean up"
    ]
-  ]
+  ],
+  "series": "Winter Series #3",
+  "source": "pnworca.org race page and host email (Kalama Race 2026), 2026"
  },
  {
-  "name": "Winter Series Race #4",
+  "name": "BBOP Small Boat Race",
   "slug": "winter-series-race-4",
   "date": "2026-02-21",
   "year": 2026,
@@ -175,7 +181,7 @@
   "where": "Bellingham, WA",
   "category": "Winter Series",
   "categorySlug": "winter-series-race",
-  "summary": "Bellingham Bay Outrigger Paddlers' annual small boat race at Marine Park in Fairhaven: a 6-mile loop past Clark's Point and through Mud Bay, with views of the San Juan Islands.",
+  "summary": "Bellingham Bay Outrigger Paddlers' small boat race from Marine Park in Fairhaven: one 6-mile loop along the limestone shoreline past Clark's Point, through Mud Bay and back, with views of the San Juan Islands. Open to OC1, OC2, surfski, SUP and V1. Paddlers must be able to self-rescue. Hot soup around the fire pits after.",
   "venue": {
    "name": "Marine Park",
    "street": "100 Harris Ave",
@@ -217,10 +223,12 @@
     "12:00 PM",
     "Awards"
    ]
-  ]
+  ],
+  "series": "Winter Series #4",
+  "source": "BBOP flyer, 2026"
  },
  {
-  "name": "Winter Series Race #5",
+  "name": "False Creek",
   "slug": "winter-series-race-5",
   "date": "2026-03-07",
   "year": 2026,
@@ -229,30 +237,68 @@
   "where": "Vancouver, BC",
   "category": "Winter Series",
   "categorySlug": "winter-series-race",
-  "summary": "Race #5 of the PNWORCA Winter Series, from the False Creek Racing Canoe Club outrigger compound at Burrard Civic Marina, Vanier Park.",
+  "summary": "False Creek Racing Canoe Club's small boat race from the Burrard outrigger compound at Vanier Park, Vancouver, BC. Short course about 7 km (one lap), long course about 14 km (two laps). PFD and leash required, and paddlers must be able to self-rescue. A CORA membership, bought in advance, is required.",
   "venue": {
-   "name": "Burrard Civic Marina",
+   "name": "Burrard Outrigger Compound, Vanier Park",
+   "street": "1628 Whyte Ave",
    "city": "Vancouver",
    "region": "BC",
    "country": "CA"
-  }
+  },
+  "series": "Winter Series #5",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "8.7",
+    "note": "About 14 km, two laps."
+   },
+   {
+    "label": "Short course",
+    "miles": "4.3",
+    "note": "About 7 km, one lap."
+   }
+  ],
+  "coursesHeading": [
+   "Vanier Park,",
+   "2 courses"
+  ],
+  "source": "Webscorer registration page, 2026"
  },
  {
-  "name": "Winter Series Race #6",
+  "name": "Kai Ikaika PDX",
   "slug": "winter-series-race-6-hosted-by-kai-ikaika",
   "date": "2026-03-14",
   "year": 2026,
-  "host": "Kai Ikaika Paddling Club",
+  "host": "Kai Ikaika / PDX Va’a Collective",
   "hostSlug": "kai-ikaika-paddling-club",
   "where": null,
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "series": "Winter Series #6",
+  "summary": "Kai Ikaika and PDX Va'a Collective's small boat race on the Willamette River from the Oaks Park Community Boat House in Portland. One course of about 6.6 miles: downriver around Toe Island, upriver to red buoy #10, and back to the Oaks Park dock. Plate lunch included with entry.",
+  "venue": {
+   "name": "Oaks Park Community Boat House",
+   "city": "Portland",
+   "region": "OR"
+  },
+  "courses": [
+   {
+    "label": "Course",
+    "miles": "6.6",
+    "note": "Downriver around Toe Island, upriver around red buoy #10, back to the Oaks Park dock."
+   }
+  ],
+  "coursesHeading": [
+   "Willamette River,",
+   "one course"
+  ],
+  "source": "Kai PDX flyer, 2026"
  },
  {
-  "name": "Winter Series #7: Championships",
+  "name": "Sand Point",
   "slug": "winter-series-race-7",
   "date": "2026-03-28",
-  "year": 2026,
+  "year": 2025,
   "host": "Sand Point Outrigger",
   "hostSlug": "sand-point-paddling-club",
   "where": "Seattle, WA",
@@ -262,7 +308,26 @@
    "name": "Magnuson Park",
    "city": "Seattle",
    "region": "WA"
-  }
+  },
+  "series": "Winter Series #7",
+  "summary": "The Winter Series finale, hosted by Sand Point Outrigger Canoe Club at Magnuson Park. Both courses start at the Sand Point dock, head south, then turn north to Matthews Beach: the short course (5 mi) turns at the second shark buoy, the long course (9 mi) at the green channel marker. Bathrooms and showers on site.",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "9",
+    "note": "South to the green channel marker, north to Matthews Beach, finish at the Sand Point dock."
+   },
+   {
+    "label": "Short course",
+    "miles": "5",
+    "note": "South to the second shark buoy, north to Matthews Beach, finish at the Sand Point dock."
+   }
+  ],
+  "coursesHeading": [
+   "Sand Point,",
+   "2 courses"
+  ],
+  "source": "SPOCC flyer, 2025 (no 2026 flyer found)"
  },
  {
   "name": "Rusty Iron",
@@ -276,11 +341,31 @@
   "categorySlug": "long-distance-race",
   "venue": {
    "name": "Frenchman's Bar Park",
+   "street": "9612 NW Lower River Rd",
    "city": "Vancouver",
-   "region": "WA"
+   "region": "WA",
+   "postal": "98660"
   },
   "results": "https://pnworca.org/wp-content/uploads/2021/12/Rusty-Results-2026f.pdf",
-  "infoUrl": "http://pacificoutrigger.com/rusty-iron-race/"
+  "infoUrl": "http://pacificoutrigger.com/rusty-iron-race/",
+  "summary": "Pacific Outrigger Canoe Club's race on the Columbia River at Frenchman's Bar Park, Vancouver, WA. The long course (about 8 mi) is OC6, with Mixed, Kupuna, Women's and Men's heats; the short course (about 4 mi) is open to all divisions and canoe types, including OC1 and SUP. Morning snacks included; hamburger lunch by donation.",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "8",
+    "note": "OC6. Upstream about 2 miles, downstream about 4, back to the start line."
+   },
+   {
+    "label": "Short course",
+    "miles": "4",
+    "note": "All divisions and canoe types. Downstream 2 miles and back."
+   }
+  ],
+  "coursesHeading": [
+   "Columbia River,",
+   "2 courses"
+  ],
+  "source": "pacificoutrigger.com Rusty Iron page, 2026"
  },
  {
   "name": "Race Around the Island",
@@ -293,14 +378,33 @@
   "category": "Long Distance",
   "categorySlug": "long-distance-race",
   "venue": {
-   "name": "Chinook Landing",
+   "name": "Chinook Landing Marine Park",
+   "street": "5201 NE 223rd Ave",
    "city": "Fairview",
    "region": "OR"
   },
-  "results": "https://pnworca.org/wp-content/uploads/2021/12/RATI-2026-_Final-Results.pdf"
+  "results": "https://pnworca.org/wp-content/uploads/2021/12/RATI-2026-_Final-Results.pdf",
+  "summary": "Columbia River Outrigger Canoe Club's OC6 race from Chinook Landing Marine Park in Fairview, OR. The long course is 10+ miles and the short course 4 to 6 miles, both open to Mixed, Women and Men from Novice through Master 70 and Unlimited. Continental breakfast provided, lunch for purchase, raffle and awards. Expect current, wing dams and ship traffic on the Columbia.",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "10+",
+    "note": "Open to all divisions."
+   },
+   {
+    "label": "Short course",
+    "miles": "4–6",
+    "note": "Open to all divisions."
+   }
+  ],
+  "coursesHeading": [
+   "Columbia River,",
+   "2 courses"
+  ],
+  "source": "RATI registration packet, 2026"
  },
  {
-  "name": "Manu K Baker Regatta",
+  "name": "Uncle Manu K. Baker Regatta",
   "slug": "manu-k-baker-regatta-spanaway-lake-hosted-by-kikaha-o-ke-kai",
   "date": "2026-05-16",
   "year": 2026,
@@ -313,10 +417,12 @@
    "name": "Spanaway Lake Park",
    "city": "Spanaway",
    "region": "WA"
-  }
+  },
+  "summary": "Kīkaha O Ke Kai's sprint regatta at Spanaway Lake Park: 500, 1000 and 1500 meter OC6 races on a 250 meter course with turns, plus 500 meter straightaway V1 and OC1 events. Spec OC6 canoes only. Club points awards, a raffle tent, and plate lunches for sale.",
+  "source": "Host email and race info, 2026 and 2025"
  },
  {
-  "name": "Green Lake Sprints",
+  "name": "Na Poʻe O ke Kai Sprint Regatta",
   "slug": "na-poe-o-ke-kai-springs-green-lake-sprints-hosted-by-wakinikona",
   "date": "2026-05-23",
   "year": 2026,
@@ -325,7 +431,7 @@
   "where": "Seattle, WA",
   "category": "Sprint",
   "categorySlug": "sprint-race",
-  "summary": "The 26th running of the Na Poe O Ke Kai sprints on Green Lake, hosted by Wakinikona.",
+  "summary": "Hui Waʻa O Wakinikona's sprint regatta on Green Lake in Seattle, run for the 27th time in 2026. Spec OC6 races on a 250 meter course with turns, plus 500 meter straightaway V1 and OC1 events. Clubs pre-register their crews. Ribbons for keiki, junior and novice events, and a raffle table.",
   "venue": {
    "name": "Green Lake Park",
    "city": "Seattle",
@@ -338,7 +444,8 @@
     "What races are run?",
     "Spec OC6 races on a 250 m course with turns, and V1 and OC1 straightaway races over 500 m."
    ]
-  ]
+  ],
+  "source": "Host email 2026, flyer 2025"
  },
  {
   "name": "Silverdale Sprints",
@@ -354,7 +461,9 @@
    "name": "Silverdale Waterfront Park",
    "city": "Silverdale",
    "region": "WA"
-  }
+  },
+  "summary": "Hui Heihei Waʻa's sprint regatta in Silverdale. All events run on a 250 meter course with turns for each distance. Clubs pre-register their crews by email before race day.",
+  "source": "Host email, 2026 (announcement attachment not read)"
  },
  {
   "name": "Silver Lake Sprints",
@@ -368,9 +477,13 @@
   "categorySlug": "sprint-race",
   "venue": {
    "name": "Thornton Sullivan Park",
+   "street": "11405 Silver Lake Rd",
    "city": "Everett",
-   "region": "WA"
-  }
+   "region": "WA",
+   "postal": "98208"
+  },
+  "summary": "Hui Waʻa O Puget Sound's sprint regatta at Thornton Sullivan Park on Everett's Silver Lake. 500, 1000 and 1500 meter OC6 races on a 250 meter course with turns, plus 500 meter straightaway V1 and OC1 events. Spec OC6 canoes only in 2026. Plate lunches for sale, and club points plaques.",
+  "source": "Host email 2026, information page 2025"
  },
  {
   "name": "Rooster Rock Race",
@@ -387,7 +500,25 @@
    "city": "Corbett",
    "region": "OR"
   },
-  "infoUrl": "https://www.maunahale.org/Rooster_Rock_Race"
+  "infoUrl": "https://www.maunahale.org/Rooster_Rock_Race",
+  "summary": "Mountain Home Canoe Club's OC6 race on the Columbia River at Rooster Rock State Park, Corbett, OR. The long course is about 10.5 miles (women and mixed first, then men); the short course is about 5 miles, with novice, junior and youth crews encouraged. Entry includes swag, a raffle ticket and optional camping. Tacos and burritos for sale.",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "10.5",
+    "note": "OC6. Women and mixed start first, men after."
+   },
+   {
+    "label": "Short course",
+    "miles": "5",
+    "note": "OC6. Novice, junior and youth crews encouraged."
+   }
+  ],
+  "coursesHeading": [
+   "Columbia River,",
+   "2 courses"
+  ],
+  "source": "Rooster Rock flyer and maunahale.org, 2026"
  },
  {
   "name": "The Gorge Race",
@@ -404,7 +535,20 @@
    "city": "Stevenson",
    "region": "WA"
   },
-  "infoUrl": "https://threeoceans.co/pages/the-gorge-race"
+  "infoUrl": "https://threeoceans.co/pages/the-gorge-race",
+  "summary": "Three Oceans' OC6 race down the Columbia River Gorge from Stevenson, WA to Drano Lake, listed at 21 miles. Women and mixed crews start first; men start half an hour after the last women's or mixed canoe finishes. Spray skirts required. Entry includes Friday and Saturday camping at the Stevenson fairgrounds. A two-person surfski and OC1 relay runs the next day.",
+  "courses": [
+   {
+    "label": "OC6 course",
+    "miles": "21",
+    "note": "Stevenson, WA to Drano Lake."
+   }
+  ],
+  "coursesHeading": [
+   "Columbia River Gorge,",
+   "21 miles"
+  ],
+  "source": "threeoceans.co Gorge Race page"
  },
  {
   "name": "Gorge Downwind Champs",
@@ -421,10 +565,12 @@
    "city": "Stevenson",
    "region": "WA"
   },
-  "infoUrl": "https://gorgedownwindchamps.com"
+  "infoUrl": "https://gorgedownwindchamps.com",
+  "summary": "A week of downwind paddling in the Columbia River Gorge for outrigger, surfski and SUP, with daily downwind shuttles, clinics and a solo race held on the day with the best wind.",
+  "source": "gorgedownwindchamps.com (shows 2021 event only)"
  },
  {
-  "name": "BBOP/Autumn Rose Iron",
+  "name": "Texwech Tayeawlh",
   "slug": "bellingham-bay-classic",
   "date": "2026-08-01",
   "year": 2026,
@@ -435,7 +581,32 @@
   "categorySlug": "long-distance-race",
   "coHostSlugs": [
    "autumn-rose-canoe-club"
-  ]
+  ],
+  "summary": "“The Canoe Race to Eliza Island,” co-hosted by Bellingham Bay Outrigger Paddlers and Autumn Rose Canoe Club from the Lummi Nation Stommish Grounds. The 14-mile iron course runs south between Lummi and Portage islands, rounds Eliza Island and returns; the 5-mile short course is for novice and youth crews. OC6 only, unlimited or spec. Camping at the Stommish Grounds included with entry.",
+  "venue": {
+   "name": "Stommish Grounds",
+   "street": "2295 Lummi View Dr",
+   "city": "Bellingham",
+   "region": "WA",
+   "postal": "98226"
+  },
+  "courses": [
+   {
+    "label": "Iron course",
+    "miles": "14",
+    "note": "South between Lummi and Portage islands, around Eliza Island and back."
+   },
+   {
+    "label": "Short course",
+    "miles": "5",
+    "note": "Novice and youth crews only."
+   }
+  ],
+  "coursesHeading": [
+   "Eliza Island,",
+   "2 courses"
+  ],
+  "source": "BBOP/ARCC flyer, 2026"
  },
  {
   "name": "Pacific Northwest Challenge",
@@ -451,7 +622,9 @@
    "name": "Sail Sand Point Marina and Beach",
    "city": "Seattle",
    "region": "WA"
-  }
+  },
+  "summary": "Hosted in 2026 by Sand Point Outrigger Canoe Club and Kīkaha O Ke Kai, with a beach relay course.",
+  "source": "Host emails, 2026 (information PDF attachment not read)"
  },
  {
   "name": "da Grind",
@@ -464,10 +637,30 @@
   "category": "Long Distance",
   "categorySlug": "long-distance-race",
   "venue": {
-   "name": "Alki Beach Boathouse",
+   "name": "Alki Beach",
+   "street": "Alki Ave SW, between 55th and 57th Ave SW",
    "city": "Seattle",
    "region": "WA"
-  }
+  },
+  "summary": "Seattle Outrigger Canoe Club's race from Alki Beach in West Seattle. The 12-mile long course circles Blake Island clockwise (OC6 and double-hull; Wahine, Kane and All-Gender). The 4-mile short course is a triangle off Alki for keiki, novices, OC1, OC2, V1, surfski and SUP. First-place Spec Wahine and Kane long-course crews go on the Da Grind trophy.",
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "12",
+    "note": "Clockwise around Blake Island. OC6 and double-hull."
+   },
+   {
+    "label": "Short course",
+    "miles": "4",
+    "note": "Triangle off Alki: Duwamish Head to Alki Point Lighthouse. Keiki, novice and small boats."
+   }
+  ],
+  "coursesHeading": [
+   "Blake Island,",
+   "2 courses"
+  ],
+  "infoUrl": "https://www.seattleoutrigger.com/dagrind",
+  "source": "seattleoutrigger.com Da Grind page and host email, 2026"
  },
  {
   "name": "Chicken Long Race",
@@ -479,7 +672,7 @@
   "where": "Tacoma, WA",
   "category": "Small Boat",
   "categorySlug": "small-boat-race",
-  "summary": "Kīkaha O Ke Kai's annual small boat race along Ruston Way. Every paddler gets endless bowls of Aunty Bren's Chicken Long Rice Soup.",
+  "summary": "Kīkaha O Ke Kai's small boat race along Ruston Way in Tacoma for OC1 and OC2: solo or relay over 10.5 miles, or a 5.3-mile short course (two 2.6-mile laps). Every paddler gets endless bowls of Aunty Bren's Chicken Long Rice Soup.",
   "start": "08:00",
   "end": "13:00",
   "timeLabel": "8 AM to 1 PM",
@@ -539,6 +732,7 @@
     "The full course is 10.5 miles on Ruston Way. The short course is 2 laps, 5.3 miles. Each lap is 2.6 miles."
    ]
   ],
-  "photo": "/assets/img/photos/basics-mj5a2948.webp"
+  "photo": "/assets/img/photos/basics-mj5a2948.webp",
+  "source": "pnworca.org race page, 2026"
  }
 ]

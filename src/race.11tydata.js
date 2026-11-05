@@ -12,7 +12,7 @@ export default {
     title: (d) => `${d.race.name} ${d.race.year} | PNWORCA Race Calendar`,
     description: (d) => {
       const r = d.race;
-      let t = `${r.name}, ${fmt(r.date, { month: "long", day: "numeric", year: "numeric" })}`;
+      let t = `${r.name}${r.series && r.series !== r.name ? ` (PNWORCA ${r.series})` : ""}, ${fmt(r.date, { month: "long", day: "numeric", year: "numeric" })}`;
       if (r.where) t += `, ${r.where}`;
       t += ".";
       if (r.host) t += ` Hosted by ${r.host}.`;

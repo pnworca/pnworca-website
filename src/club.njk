@@ -56,7 +56,7 @@ permalink: "/directory/{{ club.slug }}/"
 {{ eyebrow("On the race calendar") }}
 <h2 class="cond" style="{{ H2 }}">Races <span style="color: #283485">hosted</span></h2>
 <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px">
-{% for r in hosted %}<li><a href="/events/{{ r.slug }}/" style="display: block; height: 100%; box-sizing: border-box; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><span class="cond" style="display: block; font-size: 24px; color: #1E2427">{{ r.name }} {{ r.year }}</span><span style="display: block; font-size: 14px; color: #626A70; margin-top: 4px">{{ r.date | dayShort }}{% if r.where %} · {{ r.where }}{% endif %}</span></a></li>
+{% for r in hosted %}<li><a href="/events/{{ r.slug }}/" style="display: block; height: 100%; box-sizing: border-box; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><span style="display: block; font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #283485">{{ r.callout }}</span><span class="cond" style="display: block; font-size: 24px; color: #1E2427; margin-top: 4px">{{ r.name }} {{ r.year }}</span><span style="display: block; font-size: 14px; color: #626A70; margin-top: 4px">{{ r.date | dayShort }}{% if r.where %} · {{ r.where }}{% endif %}</span></a></li>
 {% endfor %}</ul>
 </div>
 {% endif %}
