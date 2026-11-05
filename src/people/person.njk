@@ -9,7 +9,7 @@ eleventyComputed:
   title: "{{ person.name }}, PNWORCA {{ person.role }}"
   heading: "{{ person.name }}"
   eyebrowText: "PNWORCA {{ person.role }}"
-  intro: "{% if person.club %}{{ person.club }}{% if person.city %} · {{ person.city }}{% endif %}{% endif %}"
+  intro: "{% if person.club %}{% if person.clubSlug %}<a href='/directory/{{ person.clubSlug }}/' style='color: #FDB714'>{{ person.club }}</a>{% else %}{{ person.club }}{% endif %}{% if person.city %} · {{ person.city }}{% endif %}{% endif %}"
   description: "{{ person.name }} is the PNWORCA {{ person.role | lower }}.{% if person.club %} Member of {{ person.club }}.{% endif %}"
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
