@@ -1,0 +1,33 @@
+---
+title: Contact
+listKind: contact
+permalink: /contact/
+eyebrowText: Get in touch
+intro: "PNWORCA is run by a volunteer executive board elected by the member clubs. Please be patient with us, we will get back to you as soon as we can. Mahalo!"
+description: "Contact PNWORCA, the Pacific Northwest Outrigger Racing Canoe Association. General questions, race questions and club questions."
+---
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 40px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 18px; font-size: 18px; max-width: 520px">
+<p style="margin: 0">Looking for a specific member of the board? See the <a href="/people/">leadership page</a>.</p>
+<p style="margin: 0">For a race, contact the host club. Each race page lists its host, and each <a href="/directory/">club page</a> has the club's contact details.</p>
+<p style="margin: 0">To talk with paddlers across the region, join the <a href="https://groups.google.com/a/pnworca.org/g/members">PNWORCA message board</a>.</p>
+<p style="margin: 0">Follow PNWORCA on <a href="{{ site.facebook }}">Facebook</a>.</p>
+</div>
+<div class="fpo-wrap" style="position: relative">
+<div class="fpo-note" role="note"><strong>FPO:</strong> This form is a layout placeholder. It goes live once the Cloudflare Turnstile site key and the Google Apps Script web address are in (see the forms setup in the handoff notes).</div>
+<form class="site-form" action="#" method="post" aria-describedby="fpo-form-note" onsubmit="return false">
+<p id="fpo-form-note" class="sr-only">This form is not active yet.</p>
+<fieldset disabled style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 18px">
+<legend class="cond" style="font-size: 32px; line-height: 1; color: #1E2427; padding: 0; margin-bottom: 4px">Send a message</legend>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 14px">
+<label>First name <span aria-hidden="true">*</span><input type="text" name="first" autocomplete="given-name" required></label>
+<label>Last name <span aria-hidden="true">*</span><input type="text" name="last" autocomplete="family-name" required></label>
+</div>
+<label>Email <span aria-hidden="true">*</span><input type="email" name="email" autocomplete="email" required></label>
+<label>Message <span aria-hidden="true">*</span><textarea name="message" rows="6" required></textarea></label>
+<div class="turnstile-slot" aria-hidden="true">Spam check (Cloudflare Turnstile)</div>
+<button type="submit">Send message</button>
+</fieldset>
+</form>
+</div>
+</div>

@@ -1,0 +1,25 @@
+---
+permalink: /events/pnworca-races.ics
+eleventyExcludeFromCollections: true
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PNWORCA//Race Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PNWORCA Races
+X-WR-TIMEZONE:America/Los_Angeles
+{%- for r in raceCalendar %}
+BEGIN:VEVENT
+UID:{{ r.slug }}-{{ r.year }}@pnworca.org
+DTSTAMP:{{ r.date | replace("-", "") }}T000000Z
+DTSTART;VALUE=DATE:{{ r.date | replace("-", "") }}
+SUMMARY:{{ r.name }}{% if r.dateStatus == "draft" %} (draft date){% endif %}
+{%- if r.venue %}
+LOCATION:{{ r.venue.name | replace(",", "\\,") }}\, {{ r.venue.city }}\, {{ r.venue.region }}
+{%- endif %}
+URL:{{ site.url }}/events/{{ r.slug }}/
+DESCRIPTION:{{ r.callout }}{% if r.host %}. Hosted by {{ r.host | replace(",", "\\,") }}{% endif %}. {{ site.url }}/events/{{ r.slug }}/
+END:VEVENT
+{%- endfor %}
+END:VCALENDAR
