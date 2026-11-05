@@ -110,3 +110,5 @@ a{color:#283485}a:hover{color:#221D35}
 .section-nav a{display:inline-block;padding:9px 16px;border:1.5px solid #283485;border-radius:9999px;color:#283485;text-decoration:none;font-weight:700;font-size:15px}
 .section-nav a:hover{background:#E6E8F5}
 .section-nav a[aria-current="page"]{background:#221D35;border-color:#221D35;color:#FFFFFF}
+.race-row.is-past .race-ended{display:inline-block!important}
+.race-row[hidden],.nextup[hidden]{display:none!important}
