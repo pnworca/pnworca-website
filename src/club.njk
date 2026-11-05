@@ -4,6 +4,7 @@ pagination:
   data: clubs
   size: 1
   alias: club
+  addAllPagesToCollections: true
 permalink: "/directory/{{ club.slug }}/"
 ---
 {% from "macros.njk" import divider, crumbs as crumbnav, faq, eyebrow, arrow, pin, logoTile with context %}
@@ -47,6 +48,16 @@ permalink: "/directory/{{ club.slug }}/"
 {{ eyebrow("About the club") }}
 <h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">{{ club.name }}</span></h2>
 <div class="prose" style="font-size: 18px">{% for p in club.about %}{% if p is string %}<p>{{ p }}</p>{% else %}<ul>{% for i in p %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}{% endfor %}</div>
+</div>
+{% endif %}
+{% set hosted = [] %}{% for r in races %}{% if r.hostSlug == club.slug or (r.coHostSlugs and club.slug in r.coHostSlugs) %}{% set hosted = (hosted.push(r), hosted) %}{% endif %}{% endfor %}
+{% if hosted.length %}
+<div style="display: flex; flex-direction: column; gap: 18px">
+{{ eyebrow("On the race calendar") }}
+<h2 class="cond" style="{{ H2 }}">Races <span style="color: #283485">hosted</span></h2>
+<ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px">
+{% for r in hosted %}<li><a href="/events/{{ r.slug }}/" style="display: block; height: 100%; box-sizing: border-box; border: 1px solid #E1E7EC; border-radius: 16px; padding: 18px; text-decoration: none; color: #221D35"><span class="cond" style="display: block; font-size: 24px; color: #1E2427">{{ r.name }} {{ r.year }}</span><span style="display: block; font-size: 14px; color: #626A70; margin-top: 4px">{{ r.date | dayShort }}{% if r.where %} · {{ r.where }}{% endif %}</span></a></li>
+{% endfor %}</ul>
 </div>
 {% endif %}
 {% if club.practice or club.season or club.newPaddlers %}
