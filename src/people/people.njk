@@ -1,0 +1,17 @@
+---
+title: Leadership
+permalink: /people/
+eyebrowText: The association
+intro: "The PNWORCA board and representatives, elected by the member clubs."
+description: "PNWORCA leadership: the president, vice president, secretary, treasurer, race chair, sergeant at arms and USAORCA representative."
+---
+<ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px">
+{% for p in people %}<li><a href="/people/{{ p.slug }}/" style="display: flex; align-items: center; gap: 18px; height: 100%; box-sizing: border-box; padding: 18px; border: 1px solid #E1E7EC; border-radius: 16px; text-decoration: none; color: #221D35">
+{% set size = 76 %}{% include "person-photo.njk" %}
+<span style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #283485">{{ p.role }}</span>
+<span class="cond" style="font-size: 28px; line-height: 1; color: #1E2427">{{ p.name }}</span>
+{% if p.club %}<span style="font-size: 15px; color: #626A70">{{ p.club }}{% if p.city %} · {{ p.city }}{% endif %}</span>{% endif %}
+</span>
+</a></li>
+{% endfor %}</ul>
