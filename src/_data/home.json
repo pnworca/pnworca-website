@@ -10,7 +10,7 @@
   },
   {
    "label": "Outrigger Basics",
-   "href": "#basics"
+   "href": "/outrigger-basics/"
   },
   {
    "label": "Leadership",
@@ -26,7 +26,7 @@
   },
   {
    "label": "Resources",
-   "href": "#resources"
+   "href": "/resources/"
   },
   {
    "label": "Contact",
@@ -44,15 +44,15 @@
   },
   {
    "label": "Race Rules",
-   "href": "#rules"
+   "href": "/race-rules/"
   },
   {
    "label": "Singapore",
-   "href": "#singapore"
+   "href": "/singapore/"
   },
   {
    "label": "Member Grants",
-   "href": "#grants"
+   "href": "/member-enhancement-grants/"
   }
  ],
  "races": [
