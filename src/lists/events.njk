@@ -1,0 +1,27 @@
+---
+title: Race Calendar
+listKind: races
+permalink: /events/
+eyebrowText: On the calendar
+eleventyComputed:
+  intro: "{{ seasonRaces.length }} races on the {{ raceDates.season }} calendar.{% if raceDates.status == 'draft' %} These dates are a draft until the {{ raceDates.season }} calendar is approved.{% endif %}"
+  description: "The PNWORCA {{ raceDates.season }} outrigger race calendar: {{ seasonRaces.length }} races across the Pacific Northwest, with dates, venues and host clubs."
+---
+{% from "macros.njk" import raceCard, arrow with context %}
+<nav class="section-nav" aria-label="Races by type"><ul>
+{% for t in raceTypes %}{% set n = 0 %}{% for r in raceCalendar %}{% if r.categorySlug == t.slug %}{% set n = n + 1 %}{% endif %}{% endfor %}<li><a href="/event-category/{{ t.slug }}/">{{ t.name }} ({{ n }})</a></li>
+{% endfor %}</ul></nav>
+{% set month = "" %}
+<div style="display: flex; flex-direction: column; gap: 14px">
+{% for r in seasonRaces %}{% set m = r.date | monthYear %}{% if m != month %}{% set month = m %}<h2 class="cond" style="margin: {{ '0' if loop.first else '26px' }} 0 0; font-size: 36px; line-height: 1; color: #1E2427">{{ m }}</h2>{% endif %}
+{{ raceCard(r) }}
+{% endfor %}
+</div>
+{% set earlier = [] %}{% for r in raceCalendar %}{% if r.year != raceDates.season %}{% set earlier = (earlier.push(r), earlier) %}{% endif %}{% endfor %}
+{% if earlier.length %}
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 class="cond" style="margin: 0; font-size: 36px; line-height: 1; color: #1E2427">Not yet on the {{ raceDates.season }} calendar</h2>
+{% for r in earlier %}{{ raceCard(r) }}
+{% endfor %}
+</div>
+{% endif %}

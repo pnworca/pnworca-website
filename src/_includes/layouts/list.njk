@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+{% from "macros.njk" import divider, crumbs as crumbnav with context %}
+<section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
+<div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 150px; display: flex; flex-direction: column; gap: 22px">
+{{ crumbnav(crumbs) }}
+{% if eyebrowText %}<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">{{ eyebrowText }}</div>{% endif %}
+<h1 class="cond page-h1" style="margin: 0; line-height: 0.9; max-width: 900px">{{ heading or title }}</h1>
+{% if intro %}<p style="margin: 0; font-size: 21px; max-width: 680px">{{ intro | safe }}</p>{% endif %}
+</div>
+{{ divider('#FFFFFF', line='#F36D21', overlay=true) }}
+</section>
+
+<section style="background: #FFFFFF">
+<div class="wrap" style="padding-top: 32px; padding-bottom: 96px; display: flex; flex-direction: column; gap: 40px">
+{{ content | safe }}
+</div>
+{{ divider('#1E2427', fin=true) }}
+</section>
