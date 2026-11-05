@@ -29,6 +29,8 @@ Listed alphabetically.
 - **[Paddle Zoo](https://www.paddlezoo.com/)**, Edmonds, WA: outrigger paddles, accessories and apparel.
 - **[Ozone Northwest](https://www.outriggerzone.com/dealers/ozonenorthwest/)**, Carson, WA: the Northwest dealer for Ozone (Outrigger Zone) canoes and paddles, run by Jimi and Maddie Spoto.
 
+For canoes, see [Canoe Makers](/resources/canoe-makers/).
+
 ## Paddle length
 
 Again, there are many philosophies about choosing the right length. In our view you will not go wrong if you use our basic rules:
