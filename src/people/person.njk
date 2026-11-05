@@ -1,0 +1,29 @@
+---
+pagination:
+  data: people
+  size: 1
+  alias: person
+  addAllPagesToCollections: true
+permalink: "/people/{{ person.slug }}/"
+eleventyComputed:
+  title: "{{ person.name }}, PNWORCA {{ person.role }}"
+  heading: "{{ person.name }}"
+  eyebrowText: "PNWORCA {{ person.role }}"
+  intro: "{% if person.club %}{% if person.clubSlug %}<a href='/directory/{{ person.clubSlug }}/' style='color: #FDB714'>{{ person.club }}</a>{% else %}{{ person.club }}{% endif %}{% if person.city %} · {{ person.city }}{% endif %}{% endif %}"
+  description: "{{ person.name }} is the PNWORCA {{ person.role | lower }}.{% if person.club %} Member of {{ person.club }}.{% endif %}"
+---
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+{% set p = person %}{% set size = 160 %}{% include "person-photo.njk" %}
+<div class="prose" style="flex: 1 1 420px; max-width: 760px; font-size: 18px">
+{% for para in person.bio %}<p>{{ para }}</p>
+{% else %}<p>Bio coming soon.</p>
+{% endfor %}
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 class="cond" style="margin: 0; font-size: 32px; color: #1E2427">More of the board</h2>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px">
+{% for o in people %}{% if o.slug != person.slug %}<li><a href="/people/{{ o.slug }}/" style="display: inline-block; padding: 9px 16px; border: 1.5px solid #283485; border-radius: 9999px; color: #283485; text-decoration: none; font-weight: 700; font-size: 15px">{{ o.name }}, {{ o.role }}</a></li>{% endif %}
+{% endfor %}<li><a href="/people/" style="display: inline-block; padding: 9px 16px; color: #283485; font-weight: 700; font-size: 15px">All leadership</a></li>
+</ul>
+</div>
