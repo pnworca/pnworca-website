@@ -18,6 +18,6 @@ Check that you have at least two bailers per boat. Each crew must be responsible
 
 You should know how to swim at an intermediate level before paddling. If you cannot swim or cannot swim well, make sure you notify your coaches and wear your lifejacket. And make sure you remind them occasionally.
 
-You should not wear or carry anything in the boat that you are not willing to give to the river, lake or ocean. If the boat should huli, everything goes into the water. Car keys, slippers, bracelets, watches, earrings, water bottles, and money has all been lost after a [huli.](/huli-recovery-basics/)
+You should not wear or carry anything in the boat that you are not willing to give to the river, lake or ocean. If the boat should huli, everything goes into the water. Car keys, slippers, bracelets, watches, earrings, water bottles, and money has all been lost after a [huli.](/outrigger-basics/huli-recovery-basics/)
 
 *Content sourced from [Kai Ikaika Paddling Club](https://www.kaiikaika.com/)*
