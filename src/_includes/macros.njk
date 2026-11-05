@@ -41,7 +41,7 @@
 <div class="cond" style="font-size: 30px; line-height: 1; color: #1E2427">{{ r.name }}</div>
 {% if summary and r.summary %}<p style="margin: 2px 0 0; font-size: 16px; line-height: 1.45; color: #4A4458; max-width: 72ch">{{ r.summary }}</p>{% endif %}
 <div style="display: flex; flex-wrap: wrap; gap: 6px 18px; color: #626A70; font-size: 15px">
-<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>{% if r.venue %}{{ r.venue.city }}, {{ r.venue.region }}{% else %}{{ r.where }}{% endif %}</span>
+<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>{% if r.venue %}{{ r.venue.name }}, {{ r.venue.city }}, {{ r.venue.region }}{% else %}{{ r.where }}{% endif %}</span>
 <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 11a3 3 0 1 0 0-6M18 20c0-2.5-1-4.4-2.5-5.4"></path></svg>Hosted by {{ r.host or "Host to be announced" }}</span>
 </div>
 </div>
