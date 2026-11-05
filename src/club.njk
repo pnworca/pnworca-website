@@ -50,7 +50,7 @@ permalink: "/directory/{{ club.slug }}/"
 <div class="prose" style="font-size: 18px">{% for p in club.about %}{% if p is string %}<p>{{ p }}</p>{% else %}<ul>{% for i in p %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}{% endfor %}</div>
 </div>
 {% endif %}
-{% set hosted = [] %}{% for r in races %}{% if r.hostSlug == club.slug or (r.coHostSlugs and club.slug in r.coHostSlugs) %}{% set hosted = (hosted.push(r), hosted) %}{% endif %}{% endfor %}
+{% set hosted = [] %}{% for r in raceCalendar %}{% if r.hostSlug == club.slug or (r.coHostSlugs and club.slug in r.coHostSlugs) %}{% set hosted = (hosted.push(r), hosted) %}{% endif %}{% endfor %}
 {% if hosted.length %}
 <div style="display: flex; flex-direction: column; gap: 18px">
 {{ eyebrow("On the race calendar") }}

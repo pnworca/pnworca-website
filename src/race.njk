@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 pagination:
-  data: races
+  data: raceCalendar
   size: 1
   alias: race
   addAllPagesToCollections: true
@@ -13,6 +13,8 @@ permalink: "/events/{{ race.slug }}/"
 {% set H2 = "margin: 0; font-size: 44px; line-height: 0.95; color: #1E2427" %}
 {% set LINK = "font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 14px" %}
 {% set isOver = race.date | ended %}
+{% set detailsYear = race.detailsYear or race.year %}
+{% set current = detailsYear == race.year %}
 {% set hostClub = null %}{% for c in clubs %}{% if c.slug == race.hostSlug %}{% set hostClub = c %}{% endif %}{% endfor %}
 {% macro fact(label, value, sub) -%}
 <div style="padding: 18px 20px; border-left: 1px solid rgba(255,255,255,0.18)"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">{{ label }}</div><div class="cond" style="font-size: 26px; line-height: 1; margin-top: 8px">{{ value }}</div>{% if sub %}<div style="font-size: 14px; color: #CCD5DB; margin-top: 4px">{{ sub }}</div>{% endif %}</div>
@@ -23,22 +25,22 @@ permalink: "/events/{{ race.slug }}/"
 <div class="wrap" style="position: relative; z-index: 1; padding-top: 40px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 24px">
 {{ crumbnav(crumbs) }}
 <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
-{% if isOver %}<span style="background: #CCD5DB; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">This race has ended</span>{% endif %}
+{% if isOver %}<span style="background: #CCD5DB; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">This race has ended</span>{% elif race.dateStatus == "draft" %}<span style="background: #FDB714; color: #221D35; padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase">Draft {{ race.year }} date</span>{% endif %}
 {% if race.host %}<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">Hosted by {{ race.host }}{% if hostClub and hostClub.city %} · {{ hostClub.city }}, {{ hostClub.stateAbbr }}{% endif %}</span>{% endif %}
 </div>
 <h1 class="cond page-h1" style="margin: 0; line-height: 0.88; max-width: 900px">{{ race.name }} <span style="color: #F36D21">{{ race.year }}</span></h1>
 {% if race.summary %}<p style="margin: 0; font-size: 21px; max-width: 640px">{{ race.summary }}</p>{% endif %}
-{% if race.results or (race.register and not isOver) %}
+{% if race.results or (race.register and not isOver and current) %}
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
-{% if race.results %}<a href="{{ race.results }}" style="{{ PILL_O }}">See results{{ arrow() }}</a>{% endif %}
-{% if race.register and not isOver %}<a href="{{ race.register }}" style="{{ PILL_O }}">Register{{ arrow() }}</a>{% endif %}
+{% if race.results %}<a href="{{ race.results }}" style="{{ PILL_O }}">See {% if not current %}{{ detailsYear }} {% endif %}results{{ arrow() }}</a>{% endif %}
+{% if race.register and not isOver and current %}<a href="{{ race.register }}" style="{{ PILL_O }}">Register{{ arrow() }}</a>{% endif %}
 </div>
 {% endif %}
 <div class="facts" style="margin-top: 12px; background: rgba(30,36,39,0.7); border: 1px solid rgba(255,255,255,0.18); border-radius: 16px; overflow: hidden">
 {{ fact("Date", race.date | dayShort, race.year) }}
-{% if race.timeLabel %}{{ fact("Time", race.timeLabel, race.timeSub) }}{% endif %}
+{% if race.timeLabel and current %}{{ fact("Time", race.timeLabel, race.timeSub) }}{% endif %}
 {% if race.venue %}{{ fact("Where", race.venue.name, race.venue.city + ", " + race.venue.region) }}{% elif race.where %}{{ fact("Where", race.where) }}{% endif %}
-{% if race.cost != null %}{{ fact("Cost", "$" + race.cost, "per paddler") }}{% endif %}
+{% if race.cost != null and current %}{{ fact("Cost", "$" + race.cost, "per paddler") }}{% endif %}
 {% if race.classes %}{{ fact("Classes", race.classes, race.classesSub) }}{% endif %}
 </div>
 </div>
@@ -52,9 +54,9 @@ permalink: "/events/{{ race.slug }}/"
 <div style="display: flex; flex-direction: column; gap: 56px; min-width: 0">
 {% set steps = [] %}
 {% if not isOver %}
-{% if race.register %}{% set steps = (steps.push(["Register", race.steps.register if race.steps else "Register online before race day.", race.register, "Register online"]), steps) %}{% endif %}
+{% if race.register and current %}{% set steps = (steps.push(["Register", race.steps.register if race.steps else "Register online before race day.", race.register, "Register online"]), steps) %}{% endif %}
 {% if site.waiverUrl %}{% set steps = (steps.push(["Sign the PNWORCA waiver", "Every racer signs the PNWORCA waiver before race day.", site.waiverUrl, "Sign the waiver"]), steps) %}{% endif %}
-{% if race.steps and race.steps.checkin %}{% set steps = (steps.push(["Check in", race.steps.checkin, null, null]), steps) %}{% endif %}
+{% if race.steps and race.steps.checkin and current %}{% set steps = (steps.push(["Check in", race.steps.checkin, null, null]), steps) %}{% endif %}
 {% endif %}
 {% if steps.length %}
 <div style="display: flex; flex-direction: column; gap: 18px">
@@ -67,7 +69,7 @@ permalink: "/events/{{ race.slug }}/"
 {% endif %}
 {% if race.courses %}
 <div style="display: flex; flex-direction: column; gap: 18px">
-{{ eyebrow("Courses") }}
+{{ eyebrow("Courses" if current else "Courses in " + detailsYear) }}
 <h2 class="cond" style="{{ H2 }}">{{ race.coursesHeading[0] }} <span style="color: #283485">{{ race.coursesHeading[1] }}</span></h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px">
 {% for c in race.courses %}{% if loop.first %}<div style="background: #221D35; color: #FFFFFF; border-radius: 16px; padding: 22px"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #FDB714">{{ c.label }}</div><div class="cond" style="font-size: 64px; line-height: 0.85; margin-top: 10px">{{ c.miles }} <span style="font-size: 28px">mi</span></div><p style="margin: 10px 0 0; color: #CCD5DB">{{ c.note }}</p></div>{% else %}<div style="background: #F6F5F5; border-radius: 16px; padding: 22px"><div style="font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #283485">{{ c.label }}</div><div class="cond" style="font-size: 64px; line-height: 0.85; margin-top: 10px; color: #1E2427">{{ c.miles }} <span style="font-size: 28px">mi</span></div><p style="margin: 10px 0 0; color: #4A4458">{{ c.note }}</p></div>{% endif %}
@@ -76,7 +78,7 @@ permalink: "/events/{{ race.slug }}/"
 {% endif %}
 {% if race.schedule %}
 <div style="display: flex; flex-direction: column; gap: 18px">
-{{ eyebrow("Race day") }}
+{{ eyebrow("Race day" if current else "Race day in " + detailsYear) }}
 <h2 class="cond" style="{{ H2 }}">Schedule</h2>
 <ol style="list-style: none; margin: 0; padding: 0; border-left: 3px solid #F36D21">
 {% for s in race.schedule %}<li style="display: flex; gap: 20px; padding: 6px 0 {% if loop.last %}6px{% else %}18px{% endif %} 20px"><div class="cond" style="flex: none; width: 116px; font-size: 22px; white-space: nowrap; color: #283485">{{ s[0] }}</div><div style="font-size: 18px">{{ s[1] }}</div></li>
@@ -85,7 +87,7 @@ permalink: "/events/{{ race.slug }}/"
 {% endif %}
 {% if race.faq and race.faq.length %}
 <div style="display: flex; flex-direction: column; gap: 18px">
-{{ eyebrow("Questions") }}
+{{ eyebrow("Questions" if current else "From the " + detailsYear + " race") }}
 <h2 class="cond" style="{{ H2 }}">About <span style="color: #283485">this race</span></h2>
 {{ faq(race.faq) }}
 </div>

@@ -76,21 +76,22 @@ permalink: /
 </div>
 </div>
 <div style="display: flex; flex-direction: column; gap: 14px">
-{% for r in home.races %}
-<a href="#calendar" style="display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; padding: 18px; border: 1px solid #E1E7EC; border-radius: 16px; text-decoration: none; color: #221D35; background: #FFFFFF">
+{% set upcoming = [] %}{% for r in raceCalendar %}{% if not (r.date | ended) and upcoming.length < 3 %}{% set upcoming = (upcoming.push(r), upcoming) %}{% endif %}{% endfor %}
+{% for r in upcoming %}
+<a href="/events/{{ r.slug }}/" style="display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; padding: 18px; border: 1px solid #E1E7EC; border-radius: 16px; text-decoration: none; color: #221D35; background: #FFFFFF">
 <div style="flex: none; width: 92px; height: 92px; border-radius: 12px; background: #F36D21; color: #221D35; display: flex; flex-direction: column; align-items: center; justify-content: center">
-<div class="cond" style="font-size: 44px; line-height: 0.9">[DD]</div>
-<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em">[MON]</div>
+<div class="cond" style="font-size: 44px; line-height: 0.9">{{ r.date | dayNum }}</div>
+<div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em">{{ r.date | monShort }}</div>
 </div>
 <div style="flex: 999 1 240px; display: flex; flex-direction: column; gap: 6px; min-width: 0">
 <div class="cond" style="font-size: 30px; line-height: 1; color: #1E2427">{{ r.name }}</div>
 <div style="display: flex; flex-wrap: wrap; gap: 6px 18px; color: #626A70; font-size: 15px">
-<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>[Location]</span>
-<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 11a3 3 0 1 0 0-6M18 20c0-2.5-1-4.4-2.5-5.4"></path></svg>Hosted by [host club]</span>
+<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>{% if r.venue %}{{ r.venue.city }}, {{ r.venue.region }}{% else %}{{ r.where }}{% endif %}</span>
+<span style="display: inline-flex; align-items: center; gap: 6px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#283485" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 11a3 3 0 1 0 0-6M18 20c0-2.5-1-4.4-2.5-5.4"></path></svg>Hosted by {{ r.host or "Host to be announced" }}</span>
 </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px">
-<div style="background: #E1E7EC; color: #221D35; font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 9999px; letter-spacing: 0.06em">[OC6 / OC1 / V1]</div>
+<div style="background: #E1E7EC; color: #221D35; font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 9999px; letter-spacing: 0.06em">{{ r.classes or r.category }}</div>
 <div style="width: 44px; height: 44px; border-radius: 9999px; background: #221D35; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></div>
 </div>
 </a>

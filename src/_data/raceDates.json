@@ -1,0 +1,26 @@
+{
+ "season": 2027,
+ "status": "draft",
+ "source": "PNWORCA Race Calendar 2027 DRAFT.xlsx",
+ "dates": {
+  "winter-series-race-1-hosted-by-wasabi": "2027-01-02",
+  "winter-series-race-2-hosted-by-jericho-paddling-club": "2027-01-16",
+  "winter-series-race-3-hosted-by-mhcc": "2027-01-30",
+  "winter-series-race-4": "2027-02-13",
+  "winter-series-race-5": "2027-02-27",
+  "winter-series-race-6-hosted-by-kai-ikaika": "2027-03-13",
+  "winter-series-race-7": "2027-03-27",
+  "rusty-iron-hosted-by-pacific-outrigger-canoe-club": "2027-04-24",
+  "race-around-the-island-hosted-by-crocc": "2027-05-01",
+  "manu-k-baker-regatta-spanaway-lake-hosted-by-kikaha-o-ke-kai": "2027-05-15",
+  "na-poe-o-ke-kai-springs-green-lake-sprints-hosted-by-wakinikona": "2027-05-29",
+  "silverdale-sprints": "2027-06-05",
+  "silverlake-sprints": "2027-06-12",
+  "rooster-rock-race": "2027-06-26",
+  "gorge-race": "2027-07-17",
+  "gorge-downwind-champs": "2027-07-24",
+  "da-grind": "2027-08-07",
+  "pacific-northwest-challenge-hosted-by-sail-sand-point": "2027-08-28",
+  "chicken-long-race-hosted-by-kikaha": "2027-10-16"
+ }
+}
