@@ -8,7 +8,63 @@
   "hostSlug": "wasabi-paddling-club",
   "where": "Portland, OR",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "summary": "Wasabi Bridge to Bridge, the first PNWORCA Winter Series race of 2026. The course runs from Fred's Marina on Multnomah Channel out past St. Johns Bridge and back past Wapato Bridge.",
+  "venue": {
+   "name": "Fred's Marina",
+   "street": "12800 NW Marina Way",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97231"
+  },
+  "cost": 35,
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "8",
+    "note": "Four legs: out past St. Johns Bridge, back past Wapato Bridge to the finish."
+   },
+   {
+    "label": "Short course",
+    "miles": "4",
+    "note": "Same route, turning well before St. Johns Bridge."
+   }
+  ],
+  "coursesHeading": [
+   "Multnomah Channel,",
+   "2 courses"
+  ],
+  "schedule": [
+   [
+    "9:00 AM",
+    "Registration and numbers"
+   ],
+   [
+    "10:20 AM",
+    "Safety meeting"
+   ],
+   [
+    "11:00 AM",
+    "Short course start"
+   ],
+   [
+    "11:15 AM",
+    "Long course start"
+   ],
+   [
+    "12:00 PM",
+    "Finishes, 12 to 1 PM"
+   ],
+   [
+    "1:30 PM",
+    "Soup, raffle and awards"
+   ],
+   [
+    "2:30 PM",
+    "Pack up"
+   ]
+  ],
+  "results": "https://paddleguru.com/races/PNWORCAWinterSeriesRace1WasabiBridgeToBridge2026/results"
  },
  {
   "name": "Winter Series Race #2",
@@ -19,7 +75,37 @@
   "hostSlug": null,
   "where": "Vancouver, BC",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "summary": "Race #2 of 7 in the PNWORCA 2026 Winter Series, at Jericho Sailing Centre in Vancouver. All small boats welcome. The host pledged 100% of the race profits to BC Cancer's pancreatic cancer research.",
+  "venue": {
+   "name": "Jericho Sailing Centre",
+   "city": "Vancouver",
+   "region": "BC",
+   "country": "CA"
+  },
+  "cost": 25,
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "7",
+    "note": "About 12 km. Course set on race day, depending on conditions."
+   },
+   {
+    "label": "Short course",
+    "miles": "4",
+    "note": "About 6 km."
+   }
+  ],
+  "coursesHeading": [
+   "Vancouver,",
+   "2 courses"
+  ],
+  "schedule": [
+   [
+    "10:30 AM",
+    "Race start"
+   ]
+  ]
  },
  {
   "name": "Winter Series Race #3",
@@ -30,7 +116,54 @@
   "hostSlug": "mountain-home-outrigger-canoe-club",
   "where": "Kalama, WA",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "summary": "The third Winter Series race of 2026, hosted by Mountain Home Canoe Club at Rasmussen Park in Kalama. Both courses loop counterclockwise around Sandy Island.",
+  "venue": {
+   "name": "Rasmussen Park",
+   "street": "Port of Kalama",
+   "city": "Kalama",
+   "region": "WA",
+   "postal": "98625"
+  },
+  "cost": 30,
+  "courses": [
+   {
+    "label": "Long course",
+    "miles": "6.2",
+    "note": "Around Sandy Island with a turn near the channel marker at Deer Island Beach."
+   },
+   {
+    "label": "Short course",
+    "miles": "4.2",
+    "note": "Around Sandy Island, then across the river to the finish."
+   }
+  ],
+  "coursesHeading": [
+   "Sandy Island,",
+   "2 courses"
+  ],
+  "schedule": [
+   [
+    "8:00 AM",
+    "Onsite registration and canoe numbers, until 9:45"
+   ],
+   [
+    "10:15 AM",
+    "Safety meeting, all paddlers"
+   ],
+   [
+    "11:00 AM",
+    "Race, until 1:00 PM"
+   ],
+   [
+    "1:15 PM",
+    "Chili lunch and awards"
+   ],
+   [
+    "2:30 PM",
+    "Take down and clean up"
+   ]
+  ]
  },
  {
   "name": "Winter Series Race #4",
@@ -39,9 +172,52 @@
   "year": 2026,
   "host": "Bellingham Bay Outrigger Paddlers",
   "hostSlug": "bellingham-bay-outrigger-paddlers",
-  "where": "Marine Park",
+  "where": "Bellingham, WA",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "summary": "Bellingham Bay Outrigger Paddlers' annual small boat race at Marine Park in Fairhaven: a 6-mile loop past Clark's Point and through Mud Bay, with views of the San Juan Islands.",
+  "venue": {
+   "name": "Marine Park",
+   "street": "100 Harris Ave",
+   "city": "Bellingham",
+   "region": "WA",
+   "postal": "98225"
+  },
+  "classes": "OC1 · OC2 · V1",
+  "classesSub": "Surfski 1 and 2, SUP",
+  "courses": [
+   {
+    "label": "Course",
+    "miles": "6",
+    "note": "Starts and finishes at Marine Park. Past Clark's Point, a loop through Mud Bay and back."
+   }
+  ],
+  "coursesHeading": [
+   "Fairhaven,",
+   "one 6-mile loop"
+  ],
+  "schedule": [
+   [
+    "8:30 AM",
+    "Check-in"
+   ],
+   [
+    "9:30 AM",
+    "Safety meeting, mandatory"
+   ],
+   [
+    "10:00 AM",
+    "Race start"
+   ],
+   [
+    "11:00 AM",
+    "Hot soup at the fire pits"
+   ],
+   [
+    "12:00 PM",
+    "Awards"
+   ]
+  ]
  },
  {
   "name": "Winter Series Race #5",
@@ -52,7 +228,14 @@
   "hostSlug": null,
   "where": "Vancouver, BC",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "summary": "Race #5 of the PNWORCA Winter Series, from the False Creek Racing Canoe Club outrigger compound at Burrard Civic Marina, Vanier Park.",
+  "venue": {
+   "name": "Burrard Civic Marina",
+   "city": "Vancouver",
+   "region": "BC",
+   "country": "CA"
+  }
  },
  {
   "name": "Winter Series Race #6",
@@ -72,9 +255,14 @@
   "year": 2026,
   "host": "Sand Point Outrigger",
   "hostSlug": "sand-point-paddling-club",
-  "where": "Magnuson Park",
+  "where": "Seattle, WA",
   "category": "Winter Series",
-  "categorySlug": "winter-series-race"
+  "categorySlug": "winter-series-race",
+  "venue": {
+   "name": "Magnuson Park",
+   "city": "Seattle",
+   "region": "WA"
+  }
  },
  {
   "name": "Rusty Iron",
@@ -85,7 +273,14 @@
   "hostSlug": "pacific-outrigger-canoe-club",
   "where": "Vancouver, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Frenchman's Bar Park",
+   "city": "Vancouver",
+   "region": "WA"
+  },
+  "results": "https://pnworca.org/wp-content/uploads/2021/12/Rusty-Results-2026f.pdf",
+  "infoUrl": "http://pacificoutrigger.com/rusty-iron-race/"
  },
  {
   "name": "Race Around the Island",
@@ -96,7 +291,13 @@
   "hostSlug": "columbia-river-outrigger-canoe-club",
   "where": "Fairview, OR",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Chinook Landing",
+   "city": "Fairview",
+   "region": "OR"
+  },
+  "results": "https://pnworca.org/wp-content/uploads/2021/12/RATI-2026-_Final-Results.pdf"
  },
  {
   "name": "Manu K Baker Regatta",
@@ -107,7 +308,12 @@
   "hostSlug": "kikaha-o-ke-kai",
   "where": "Spanaway, WA",
   "category": "Sprint",
-  "categorySlug": "sprint-race"
+  "categorySlug": "sprint-race",
+  "venue": {
+   "name": "Spanaway Lake Park",
+   "city": "Spanaway",
+   "region": "WA"
+  }
  },
  {
   "name": "Green Lake Sprints",
@@ -118,7 +324,21 @@
   "hostSlug": "hui-waa-o-wakinikona",
   "where": "Seattle, WA",
   "category": "Sprint",
-  "categorySlug": "sprint-race"
+  "categorySlug": "sprint-race",
+  "summary": "The 26th running of the Na Poe O Ke Kai sprints on Green Lake, hosted by Wakinikona.",
+  "venue": {
+   "name": "Green Lake Park",
+   "city": "Seattle",
+   "region": "WA"
+  },
+  "classes": "OC6 · V1 · OC1",
+  "classesSub": "Sprints",
+  "faq": [
+   [
+    "What races are run?",
+    "Spec OC6 races on a 250 m course with turns, and V1 and OC1 straightaway races over 500 m."
+   ]
+  ]
  },
  {
   "name": "Silverdale Sprints",
@@ -129,7 +349,12 @@
   "hostSlug": "hui-heihei-waa",
   "where": "Silverdale, WA",
   "category": "Sprint",
-  "categorySlug": "sprint-race"
+  "categorySlug": "sprint-race",
+  "venue": {
+   "name": "Silverdale Waterfront Park",
+   "city": "Silverdale",
+   "region": "WA"
+  }
  },
  {
   "name": "Silver Lake Sprints",
@@ -140,7 +365,12 @@
   "hostSlug": "hui-waa-o-puget-sound",
   "where": "Everett, WA",
   "category": "Sprint",
-  "categorySlug": "sprint-race"
+  "categorySlug": "sprint-race",
+  "venue": {
+   "name": "Thornton Sullivan Park",
+   "city": "Everett",
+   "region": "WA"
+  }
  },
  {
   "name": "Rooster Rock Race",
@@ -151,7 +381,13 @@
   "hostSlug": "mountain-home-outrigger-canoe-club",
   "where": "Corbett, OR",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Rooster Rock State Park",
+   "city": "Corbett",
+   "region": "OR"
+  },
+  "infoUrl": "https://www.maunahale.org/Rooster_Rock_Race"
  },
  {
   "name": "The Gorge Race",
@@ -162,7 +398,13 @@
   "hostSlug": null,
   "where": "Stevenson, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Skamania County Fairgrounds",
+   "city": "Stevenson",
+   "region": "WA"
+  },
+  "infoUrl": "https://threeoceans.co/pages/the-gorge-race"
  },
  {
   "name": "Gorge Downwind Champs",
@@ -173,7 +415,13 @@
   "hostSlug": null,
   "where": "Stevenson, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Skamania County Fairgrounds",
+   "city": "Stevenson",
+   "region": "WA"
+  },
+  "infoUrl": "https://gorgedownwindchamps.com"
  },
  {
   "name": "BBOP/Autumn Rose Iron",
@@ -181,10 +429,13 @@
   "date": "2026-08-01",
   "year": 2026,
   "host": "Bellingham Bay Outrigger Paddlers and Autumn Rose",
-  "hostSlug": null,
+  "hostSlug": "bellingham-bay-outrigger-paddlers",
   "where": "Bellingham, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "coHostSlugs": [
+   "autumn-rose-canoe-club"
+  ]
  },
  {
   "name": "Pacific Northwest Challenge",
@@ -195,7 +446,12 @@
   "hostSlug": "sand-point-paddling-club",
   "where": "Seattle, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Sail Sand Point Marina and Beach",
+   "city": "Seattle",
+   "region": "WA"
+  }
  },
  {
   "name": "da Grind",
@@ -206,7 +462,12 @@
   "hostSlug": "seattle-outrigger-canoe-club",
   "where": "Seattle, WA",
   "category": "Long Distance",
-  "categorySlug": "long-distance-race"
+  "categorySlug": "long-distance-race",
+  "venue": {
+   "name": "Alki Beach Boathouse",
+   "city": "Seattle",
+   "region": "WA"
+  }
  },
  {
   "name": "Chicken Long Race",

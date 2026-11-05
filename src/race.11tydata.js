@@ -39,7 +39,12 @@ export default {
       };
       if (r.end) ev.endDate = isoLocal(r.date, r.end);
       if (r.summary) ev.description = r.summary;
-      if (r.venue) ev.location = { "@type": "Place", name: r.venue.name, address: { "@type": "PostalAddress", streetAddress: r.venue.street, addressLocality: r.venue.city, addressRegion: r.venue.region, postalCode: r.venue.postal, addressCountry: "US" } };
+      if (r.venue) {
+        const a = { "@type": "PostalAddress", addressLocality: r.venue.city, addressRegion: r.venue.region, addressCountry: r.venue.country || "US" };
+        if (r.venue.street) a.streetAddress = r.venue.street;
+        if (r.venue.postal) a.postalCode = r.venue.postal;
+        ev.location = { "@type": "Place", name: r.venue.name, address: a };
+      }
       else if (r.where) ev.location = { "@type": "Place", name: r.where };
       if (r.host) ev.organizer.unshift(r.hostSlug ? { "@type": "SportsOrganization", name: r.host, url: `${s.url}/directory/${r.hostSlug}/` } : { "@type": "SportsOrganization", name: r.host });
       if (r.cost != null && r.register) ev.offers = { "@type": "Offer", price: String(r.cost), priceCurrency: "USD", url: r.register};

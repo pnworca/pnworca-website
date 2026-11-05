@@ -12,7 +12,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("ended", (d) => new Date(isoLocal(d, "23:59")) < new Date());
   eleventyConfig.addFilter("mapsUrl", (v) =>
     "https://www.google.com/maps/search/?api=1&query=" +
-    encodeURIComponent([v.name, v.street, `${v.city}, ${v.region} ${v.postal}`].filter(Boolean).join(", ")));
+    encodeURIComponent([v.name, v.street, [v.city, [v.region, v.postal].filter(Boolean).join(" ")].filter(Boolean).join(", ")].filter(Boolean).join(", ")));
   eleventyConfig.addFilter("hostName", (u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""));
 
   return {
