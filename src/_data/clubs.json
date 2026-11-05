@@ -7,7 +7,25 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Seattle area",
-  "logo": "/assets/img/logos/seattle-outrigger.webp"
+  "logo": "/assets/img/logos/seattle-outrigger.webp",
+  "email": "info@seattleoutrigger.com",
+  "website": "http://www.seattleoutrigger.com",
+  "social": {
+   "twitter": "https://twitter.com/seaoutrigger",
+   "facebook": "https://www.facebook.com/SeattleOutrigger/",
+   "instagram": "https://www.instagram.com/seattle.outrigger/"
+  },
+  "address": {
+   "street": "Waterway 18 North Northlake Way",
+   "city": "Seattle",
+   "region": "WA",
+   "postal": "98103"
+  },
+  "tagline": "Seattle Outrigger Canoe Club is a group of active men and women with a passion for water sports along with an interest in Hawaiian Culture.",
+  "about": [
+   "We paddle six-person outrigger canoes year-round, pushing ourselves and each other while having as much fun as possible. If you are interested in giving outrigger canoe paddling a try, know that above all, we love to share our passion with others. You may start by reading on to learn more about SOCC and outrigger paddling. You can also contact us if you want to come out for a paddle. In addition, visiting paddlers from out of town are also welcome to join us!",
+   "In the Pacific Northwest, canoe paddlers have the opportunity to enjoy the surrounding of unique waterways like Lake Washington, the Gorge, and Puget Sound. Teams in Oregon, Washington, and British Columbia compete regularly during the spring and summer. Some clubs even travel to California and Pacific island competitions as the season progresses."
+  ]
  },
  {
   "name": "Sand Point Outrigger",
@@ -17,7 +35,26 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Seattle area",
-  "logo": "/assets/img/logos/sand-point.webp"
+  "logo": "/assets/img/logos/sand-point.webp",
+  "email": "info@sandpointpaddlingclub.com",
+  "website": "http://www.sandpointpaddlingclub.com",
+  "social": {
+   "facebook": "https://www.facebook.com/SandPointOutriggerCanoeClub/",
+   "instagram": "https://www.instagram.com/sandpointpaddlingclub/"
+  },
+  "address": {
+   "street": "7861 62nd Ave NE",
+   "city": "Seattle",
+   "region": "WA",
+   "postal": "98115"
+  },
+  "tagline": "Sand Point Outrigger and Sand Point Paddling Club (SPPC), located in Seattle’s Magnuson Park, offers year-round canoeing and paddling activities.",
+  "about": [
+   "It’s a place to experience outrigger canoeing, stand up paddling (SUP), dragon boating, and more. We host outrigger practices, paddling workshops, and recreational racing events.",
+   "We are a team of recreational and competitive paddling enthusiasts who want to promote and perpetuate paddle sports in the Pacific Northwest. We strive to provide opportunities to improve fitness, health, and teamwork through paddling.",
+   "SPPC holds practices for outrigger canoeing and SUP; organizes team building paddling events for corporate and school communities; and hosts races for both competitive and recreational paddlers.",
+   "We’re located right on the shores of Lake Washington, a 19.5-mile long lake, with unobstructed views of Mt Rainier and the Cascade Mountain Range. We paddle in all sorts of weather and conditions — from glassy and calm water, to fun and surf-able downwind waves."
+  ]
  },
  {
   "name": "Hui Wa'a O Wakinikona",
@@ -27,7 +64,25 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Seattle area",
-  "logo": "/assets/img/logos/wakinikona.webp"
+  "logo": "/assets/img/logos/wakinikona.webp",
+  "email": "wakinikona@gmail.com",
+  "website": "http://www.wakinikonaclub.com",
+  "social": {
+   "twitter": "https://twitter.com/Wakinikona",
+   "facebook": "https://www.facebook.com/Wakinikona-Hawaiian-Club-126108430761649/timeline"
+  },
+  "address": {
+   "street": "2157 N Northlake Way",
+   "city": "Seattle",
+   "region": "WA",
+   "postal": "98103"
+  },
+  "about": [
+   "E Komo Mai!",
+   "Wakinikona is a non-profit club based in Seattle, Washington, dedicated to the promotion and preservation of Hawaiian culture. Founded in 1962, Wakinikona has been actively involved in the Pacific Northwest through various festivals, our Hui Wa’a Canoe team and our Wakinikona Hawaiian Club potluck gatherings that are held monthly. We invite you to join our Facebook group & follow our Twitter feed to learn about opportunities to engage in Hawaiian history and culture. We have a dedicated membership possessing extensive knowledge and grasp of Hawaiian language, legends, customs song and history.",
+   "“Komo mai kau mapuna hoe”– Hawaiian proverb meaning “dip your paddle in!”",
+   "We invite you to explore our website to learn about our history, our dedicated membership and the wonderful aloha culture we have brought to Washington for more than 50 years from the beautiful islands and ohanas of Hawaii."
+  ]
  },
  {
   "name": "Seattle SAKE Paddling Club",
@@ -37,7 +92,35 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Seattle area",
-  "logo": "/assets/img/logos/seattle-sake.webp"
+  "logo": "/assets/img/logos/seattle-sake.webp",
+  "email": "info@clubsake.com",
+  "website": "http://www.clubsake.com",
+  "social": {
+   "facebook": "https://www.facebook.com/ClubSake/",
+   "yelp": "https://www.yelp.com/biz/club-sake-dragon-boat-club-seattle"
+  },
+  "address": {
+   "street": "140 Lakeside Ave. Ste. A #96",
+   "city": "Seattle",
+   "region": "WA",
+   "postal": "98122"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Seattle SAKE is an organization of national and international competitors that promotes the physical, mental, and emotional benefits of the paddle sports to the community at-large.",
+  "about": [
+   "We have a long history as Seattle’s oldest and largest dragon boat club, but have expanded into stand up paddleboard (SUP) and outrigger canoe (OC).",
+   "The Club is a 501(c)3 non-profit and has an executive board comprised of club members.",
+   "Our goals as a club are to:",
+   [
+    "Support amateur paddling athletes for training and competition",
+    "Promote the physical, social, and emotional benefits of the paddle sports",
+    "Provide safe training, advocacy, and opportunities for paddling enthusiasts",
+    "Build relationships with the community and other paddling clubs"
+   ],
+   "Our core membership is very diverse, with paddlers aged 20 to 80+, with fitness and experience levels of all kinds. All are welcome in Club SAKE."
+  ]
  },
  {
   "name": "Hui Wa'a O Puget Sound",
@@ -47,7 +130,22 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Seattle area",
-  "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp"
+  "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp",
+  "email": "HWOPS.contact@gmail.com",
+  "website": "https://www.hwops.org/",
+  "social": {
+   "facebook": "https://www.facebook.com/groups/HWOPS/"
+  },
+  "address": {
+   "street": "7515 NE 175th St",
+   "city": "Kenmore",
+   "region": "WA",
+   "postal": "98028"
+  },
+  "tagline": "We are dedicated to perpetuating native Hawaiian culture in the Pacific Northwest.",
+  "about": [
+   "We are a family-oriented organization involving children and adults from all backgrounds. As a club, we not only participate in the sport of outrigger canoe racing, but we also participate in hula and Tahitian dance, Hawaiian language classes, native Hawaiian history and ukulele lessons. We teach our paddlers water safety and the different techniques of paddling."
+  ]
  },
  {
   "name": "Kīkaha O Ke Kai",
@@ -57,7 +155,26 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "South Sound and Kitsap",
-  "logo": "/assets/img/logos/kikaha.webp"
+  "logo": "/assets/img/logos/kikaha.webp",
+  "email": "Kikaha.info@gmail.com",
+  "website": "http://kikaha.com",
+  "social": {
+   "facebook": "https://www.facebook.com/kikaha/"
+  },
+  "address": {
+   "street": "1930 E D Street",
+   "city": "Tacoma",
+   "region": "WA",
+   "postal": "98421"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Kikaha o Ke Kai is a 501(c)3 Nonprofit Organization dedicated to maintaining and perpetuating Hawaiian culture through the paddling of Outrigger Canoes.",
+  "about": [
+   "Formed in 1996, we paddle 6-person canoes on Tacoma’s Foss Waterway and around the Pacific Northwest and beyond!",
+   "We invite all paddlers from age 5 to 75 to join us! Our season runs from March through September, though you’ll find the most dedicated paddlers continuing through the cold winter months."
+  ]
  },
  {
   "name": "Hui Heihei Wa'a",
@@ -67,7 +184,22 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "South Sound and Kitsap",
-  "logo": "/assets/img/logos/hui-heihei-waa.webp"
+  "logo": "/assets/img/logos/hui-heihei-waa.webp",
+  "email": "info@hhwsilverdale.org",
+  "website": "http://www.hhwsilverdale.org",
+  "social": {
+   "facebook": "https://www.facebook.com/HuiHeiHeiWaa/"
+  },
+  "address": {
+   "street": "3337 NW Byron St",
+   "city": "Silverdale",
+   "region": "WA",
+   "postal": "98383"
+  },
+  "tagline": "Hui Heihei Wa’a is an Outrigger Canoe Club located in Silverdale, Washington on the Puget Sound.",
+  "about": [
+   "We race throughout the Pacific Northwest and on occasion, internationally. We’d love to have you join us! (no experience necessary)"
+  ]
  },
  {
   "name": "Kai Pana Outrigger Canoe Club",
@@ -77,7 +209,24 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Bellingham and Whatcom",
-  "logo": "/assets/img/logos/kai-pana.webp"
+  "logo": "/assets/img/logos/kai-pana.webp",
+  "email": "kaipanaoutrigger@gmail.com",
+  "website": "http://www.kaipanaoutrigger.com",
+  "social": {
+   "facebook": "https://www.facebook.com/kaipanaoutrigger/",
+   "instagram": "https://www.instagram.com/kaipanacanoeclub/"
+  },
+  "address": {
+   "street": "101 Pine St",
+   "city": "Bellingham",
+   "region": "WA",
+   "postal": "98225"
+  },
+  "tagline": "Kai Pana Outrigger Canoe Club is a non-profit competitive racing club based out of Bellingham, Washington.",
+  "about": [
+   "Megan Gebhardt and Tyler Irwin founded Kai Pana Outrigger Canoe Club in 2013 following a move from San Diego, California where they were involved in outrigger canoe racing with both, San Diego Outrigger Canoe Club and Kai Elua Outrigger Canoe Club. They felt the need to create a club that actively perpetuates the Polynesian sport of outrigger canoe racing and the culture that comes with it.",
+   "Kai Pana in Hawaiian translates to “Rhythm of the Ocean.” This name was chosen to symbolize the technique and mindset needed to paddle on the open ocean and how paddlers need to be in tune with the waters around them."
+  ]
  },
  {
   "name": "Bellingham Bay Outrigger Paddlers",
@@ -87,7 +236,27 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Bellingham and Whatcom",
-  "logo": "/assets/img/logos/bellingham-bay.webp"
+  "logo": "/assets/img/logos/bellingham-bay.webp",
+  "email": "bbopmembership@gmail.com",
+  "website": "http://www.bbop.us",
+  "social": {
+   "facebook": "https://www.facebook.com/BBOPinBellingham/",
+   "instagram": "https://www.instagram.com/bellingham_bay_outrigger/"
+  },
+  "address": {
+   "street": "555 Harris Ave",
+   "city": "Bellingham",
+   "region": "WA",
+   "postal": "98225"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Launched in 2011 – the Bellingham Bay Outrigger Paddlers club (BBOP) has become a mainstay for helping to get our local communities out on the water on a regular basis.",
+  "about": [
+   "The club consists of Men’s, Women’s and Co-Ed competitive teams as well as a large Recreational group and a youth program dedicated to enjoying the beautiful Pacific Northwest ocean scenery. Outrigger canoes launch from the beautiful waterfront in Fairhaven at the Community Boat Center located at 555 Harris Street in Bellingham.",
+   "BBOP is a federally recognized 501(c)3 nonprofit organization, and all donations are 100% tax deductible."
+  ]
  },
  {
   "name": "Rikkole Cree Canoe Club",
@@ -97,7 +266,23 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Bellingham and Whatcom",
-  "logo": "/assets/img/logos/rikkole-cree.webp"
+  "logo": "/assets/img/logos/rikkole-cree.webp",
+  "email": "Wyoxsted22@gmail.com",
+  "social": {
+   "facebook": "https://www.facebook.com/RikkoleCree?mibextid=LQQJ4d",
+   "instagram": "https://www.instagram.com/rikkole_cree_canoe_club/?igshid=YWJhMjlhZTc%3D"
+  },
+  "address": {
+   "street": "Bloedel Donovan Park, 2114 Electric Ave",
+   "city": "Bellingham",
+   "region": "WA",
+   "postal": "98229"
+  },
+  "tagline": "The mission of the Rikkole Cree Canoe Club (RCCC) is to revive, develop, perpetuate, and promote the Canoe Way of Life and Coast Salish traditions.",
+  "about": [
+   "This will be accomplished through cross training conditioning, educational, recreational, cultural, and competitive Coast Salish Racing and Outrigger Canoeing programs for youth and adults; in a safe, healthy, and nurturing environment. Our vision is to have our program recognized as a Native American Canoe Club, by sharing our Coast Salish culture and traditions.",
+   "The RCCC gas been in existence since 1991. As a team, we are a canoe family who strives to create a safe space where we can not only share and pass on the knowledge and teachings of our elders but also learn from each other throughout our travels to other Indigenous Nations."
+  ]
  },
  {
   "name": "Autumn Rose Canoe Club",
@@ -107,7 +292,14 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Bellingham and Whatcom",
-  "logo": "/assets/img/logos/autumn-rose.webp"
+  "logo": "/assets/img/logos/autumn-rose.webp",
+  "email": "a_rose_w@hotmail.com",
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=100054661530663"
+  },
+  "about": [
+   "Formed in 1992. Based on the Lummi reservation in Washington. Focused on keeping the spirit of paddling alive for generations to come. All are welcome."
+  ]
  },
  {
   "name": "Tri-Cities Outrigger Canoe Club",
@@ -117,7 +309,22 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Tri-Cities",
-  "logo": "/assets/img/logos/tri-cities.webp"
+  "logo": "/assets/img/logos/tri-cities.webp",
+  "website": "http://www.tricitiesoutrigger.org",
+  "social": {
+   "facebook": "https://www.facebook.com/TriCitiesOutrigger",
+   "instagram": "https://www.instagram.com/tricities_outrigger_canoe_club/"
+  },
+  "address": {
+   "street": "1766 Columbia Park Trail",
+   "city": "Richland",
+   "region": "WA",
+   "postal": "99352"
+  },
+  "tagline": "Recreational and Competitive Outrigger Canoe Paddling",
+  "about": [
+   "Celebrating 20 years in 2018, Tri-Cities Outrigger Canoe Club was founded in 1998. We are based in the Tri-Cities, Washington. We train three days per week on the Columbia River. Our season starts in April and ends in October. We belong to PNW-ORCA and participate in the summer race series. TCOCC typically attends 6-7 short and long distance races each season. The club currently owns 3 OC-6 canoes and one OC-4 Canoe. Additionally many of our members paddle OC-1 and OC-2 canoes."
+  ]
  },
  {
   "name": "Three Rivers Outrigger Canoe Club",
@@ -127,7 +334,24 @@
   "stateId": "washington",
   "stateAbbr": "WA",
   "area": "Tri-Cities",
-  "logo": "/assets/img/logos/three-rivers.webp"
+  "logo": "/assets/img/logos/three-rivers.webp",
+  "social": {
+   "facebook": "https://www.facebook.com/ThreeRiversOutrigger"
+  },
+  "address": {
+   "street": "Columbia Point Marina",
+   "city": "Richland",
+   "region": "WA",
+   "postal": "99354"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Three Rivers Outrigger Canoe Club is a small club located at the Columbia Point Marina in Richland WA.",
+  "about": [
+   "We are a non-profit 501(c)3 organization.",
+   "Our primary focus is on recreational paddling although we have been an occasional participant in competitive races. We offer an opportunity for paddlers of all experience levels to learn and improve their paddling skills. This is done with a foundation in traditional Hawaiian values and cultural aspects of outrigger canoe paddling. Come join us on our beautiful stretch of the Columbia River."
+  ]
  },
  {
   "name": "Skamania",
@@ -147,7 +371,26 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Portland area",
-  "logo": "/assets/img/logos/columbia-river.webp"
+  "logo": "/assets/img/logos/columbia-river.webp",
+  "email": "croccpaddle@gmail.com",
+  "website": "http://croccpaddle.com",
+  "social": {
+   "facebook": "https://www.facebook.com/ColumbiaRiverOutriggerCanoeClub/"
+  },
+  "address": {
+   "street": "2915 NE Marine Dr",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97211"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Columbia River Outrigger Canoe Club (CROCC) was founded in 1992 and was the first dedicated outrigger canoe club in Portland and the Northwest.",
+  "about": [
+   "Through the years the club has remained dedicated to the spirit and traditions of outrigger canoeing. Our main goal is to have fun, though we also thrive on thrills of competitive racing. As a 501(c)(3) amateur sporting organization we aim to stay true to our mission.",
+   "Our mission: To encourage, sustain, and perpetuate outrigger canoe paddling, racing and the related Hawai’ian traditions. We strive to embrace and nurture the community through inclusiveness and all skill levels in order to teach and improve paddling technique and to maximize enjoyment of the sport."
+  ]
  },
  {
   "name": "Pacific Outrigger Canoe Club",
@@ -157,7 +400,22 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Portland area",
-  "logo": "/assets/img/logos/pacific.webp"
+  "logo": "/assets/img/logos/pacific.webp",
+  "email": "kmcksharrer@comcast.net",
+  "website": "http://pacificoutrigger.com",
+  "address": {
+   "street": "12800 NW Marina Way",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97231"
+  },
+  "tagline": "Pacific Outrigger Canoe Club was established in 1997.",
+  "about": [
+   "It is an association of adult men and women who train for recreational and competition paddling in six-person outrigger canoes. Members commit to regular paddling and training schedules and donate time, energy and resources to maintain club operations and to pursue club goals.",
+   "We are a small club of gentle folk looking to grow our membership. We welcome all adults 18 and over, people from all walks of life and folks of varying paddling experience. We offer competitive and recreational opportunities. If you’ve never paddled before, it’s not a problem. We have life jackets and paddles on site, and we’ll show you the ropes.",
+   "For fun fitness practice and potential for competition, this is your place!",
+   "Mission statement: Pacific Outrigger Canoe Club strives to intertwine the Hawaiian culture that surrounds outrigger canoeing with current trends in competitive sport. While the primary focus is to train competitive racing teams, Pacific Outrigger also offers paddling for recreation and fitness."
+  ]
  },
  {
   "name": "Zamboanga Paddling Club",
@@ -167,7 +425,27 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Portland area",
-  "logo": "/assets/img/logos/zamboanga.webp"
+  "logo": "/assets/img/logos/zamboanga.webp",
+  "email": "zambopdx@gmail.com",
+  "website": "http://zambopdx.org",
+  "social": {
+   "twitter": "https://twitter.com/zamboangapdx",
+   "facebook": "https://www.facebook.com/zamboangapdx/",
+   "instagram": "https://www.instagram.com/zambopdx/"
+  },
+  "address": {
+   "street": "515 NE Tomahawk Island Drive",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97217"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "The Zamboanga Paddling Club is a 501(c)(3) organization that develops and supports youth and adult athletes to compete in Dragon Boats and Outrigger Canoe competitions year-round.",
+  "about": [
+   "Within our Club, we bolster three phenomenal teams – The Zamboanga AquaRockets (Youth Dragon Boats and Outrigger Canoe), The Zamboanga SOLdiers (Adult Dragon Boats) and Zamboanga OC (Adult Outrigger Canoe). The Club and its teams have a combined history going back over 30 years, with our roots being in Portland, Oregon USA."
+  ]
  },
  {
   "name": "Kai Ikaika Paddling Club",
@@ -177,7 +455,26 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Portland area",
-  "logo": "/assets/img/logos/kai-ikaika.webp"
+  "logo": "/assets/img/logos/kai-ikaika.webp",
+  "email": "info@kaiikaika.com",
+  "website": "http://kaiikaika.com",
+  "social": {
+   "facebook": "https://www.facebook.com/KaiIkaika",
+   "instagram": "https://www.instagram.com/kaiikaikapaddlingclub/"
+  },
+  "address": {
+   "street": "0315 SW Montgomery St",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97201"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Kai Ikaika Paddling Club is a community based tax-exempt 501(c)3 paddling club based in Portland, Oregon.",
+  "about": [
+   "We offer both competitive and recreational level Outrigger paddling opportunities for adult men and women. Kai Ikaika Paddling Club was formed with the spirit of Ohana (meaning Family). We promote the sports of Dragon Boating and Outrigger both nationally and internationally by exemplifying our core values of integrity, growth, passion, community, and balance. We embrace the diversity of our team and support each other in our commitment to develop and grow as individuals and community members."
+  ]
  },
  {
   "name": "Wasabi Paddling Club",
@@ -187,7 +484,18 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Portland area",
-  "logo": "/assets/img/logos/wasabi.webp"
+  "logo": "/assets/img/logos/wasabi.webp",
+  "email": "wasabiusa.info@gmail.com",
+  "website": "http://wasabiusa.org",
+  "tagline": "Wasabi Paddling Club is a non-profit organization dedicated to the participation in, and promotion of, the National and International amateur sports of Dragon Boat and Outrigger Canoe racing.",
+  "about": [
+   "Our Charter includes assisting novice through experienced paddlers in our community. The Club goal is to develop strong, competitive teams through sponsoring and coaching.",
+   "The Wasabi Paddling Club is Portland’s largest dragon boat and outrigger canoe Club. Founded in 1993, it now has over 300 active members.",
+   "We own 10-person and 20-person dragon boats, 6-person outrigger canoes, and our small boat OC1 and OC2’s.",
+   "Our paddlers come from all ages and stages of life. Our teams are comprised of all abilities and physical fitness levels. There is a team for everyone, from the novice paddler who is just learning the basics, to the most competitive athlete who races at international venues around the world.",
+   "Wasabi teams range from recreational to competitive, including specialized teams like our High School team, Kraken. We also have our Wasabi Special Dragons, our Visually Impaired Paddlers (Team VIP), and Wasabi Team SOAR, our women’s cancer survivor and supporter team. At Nehalem Bay, we have our dragon boat team, the Tide Runners.",
+   "We are an inclusive Club welcoming all paddlers. Regardless of your age, experience, or gender identity, we all have one thing in common, we find great joy in being on the water with one another."
+  ]
  },
  {
   "name": "Gorge Canoe Club",
@@ -197,7 +505,23 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Columbia Gorge",
-  "logo": "/assets/img/logos/gorge.webp"
+  "logo": "/assets/img/logos/gorge.webp",
+  "email": "info@gorgecanoeclub.com",
+  "website": "http://gorgecanoeclub.com",
+  "phone": "(541) 716-1079",
+  "address": {
+   "street": "515 SW Portage Rd",
+   "city": "Cascade Locks",
+   "region": "OR",
+   "postal": "97014"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "Founded in 2021, Gorge Canoe Club is a volunteer based 501c3 non-profit club located in Cascade Locks, Oregon.",
+  "about": [
+   "We are blessed to be within the center of the Columbia River Gorge downwinds and practice weekly during Spring, Summer, and Fall months. Located on the Oregon & Washington border, we are focused on fostering both recreation and competitive teams, providing other water sport activities, generating public interest, education, culture, and community support for these activities. We practice with traditional Tahitian OC6, OC2, OC1, Sup, and other kayak/canoes. Welcome to the Gorge and come paddle with us!"
+  ]
  },
  {
   "name": "Hood River Outrigger Canoe Club",
@@ -224,7 +548,10 @@
    "region": "OR",
    "postal": "97031"
   },
-  "photo": "/assets/img/photos/huli-practice-hood-river-2024.webp"
+  "photo": "/assets/img/photos/huli-practice-hood-river-2024.webp",
+  "social": {
+   "facebook": "https://www.facebook.com/HoodRiverOutrigger"
+  }
  },
  {
   "name": "Ohana O Ke Kahawai Outrigger Canoe Club",
@@ -234,7 +561,16 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Willamette Valley",
-  "logo": "/assets/img/logos/ohana-o-ke-kahawai.webp"
+  "logo": "/assets/img/logos/ohana-o-ke-kahawai.webp",
+  "email": "ohanahoesalem@gmail.com",
+  "website": "http://www.ohanahoesalem.com",
+  "social": {
+   "facebook": "https://www.facebook.com/people/Ohana-Hoe-Outrigger-Salem-Oregon/100089390562170/"
+  },
+  "tagline": "The goal of the club is to promote the national and international amateur sport of outrigger canoe racing, other paddling, and associated activities.",
+  "about": [
+   "This includes as high a level as possible of coaching and regular and progressive training. It includes racing in local, regional, and eventually international competitions. It also includes facilitating a positive, family oriented, and respectful atmosphere that supports each other as well as the history and culture of outrigger canoeing."
+  ]
  },
  {
   "name": "Bend Oregon Outrigger",
@@ -244,7 +580,18 @@
   "stateId": "oregon",
   "stateAbbr": "OR",
   "area": "Central Oregon",
-  "logo": "/assets/img/logos/bend-oregon.webp"
+  "logo": "/assets/img/logos/bend-oregon.webp",
+  "email": "bendoutriggercc@gmail.com",
+  "website": "http://www.bendoutrigger.org",
+  "social": {
+   "facebook": "https://www.facebook.com/bendoutrigger",
+   "instagram": "https://www.instagram.com/bendoutrigger/"
+  },
+  "tagline": "Founded in 1993 as a non-profit athletic club, the Bend Oregon Outrigger Canoe Club strives to perpetuate the Hawaiian culture through outrigger paddling in the high desert of Central Oregon.",
+  "about": [
+   "We are blessed to call the Deschutes River and the beautiful surrounding lakes our home as we continue to enhance our competitive nature within the paddling community.",
+   "We practice weekly throughout the spring and summer and compete in races throughout the Pacific Northwest. Our club strives to reach further and race more races, at greater distances as we excitedly see, and do our part, to grow this incredible sport. If you are interested in paddling with us, reach out to us through our website! Mahalo!"
+  ]
  },
  {
   "name": "Multnomah",
@@ -259,12 +606,27 @@
  {
   "name": "Mountain Home Outrigger Canoe Club",
   "slug": "mountain-home-outrigger-canoe-club",
-  "city": null,
+  "city": "Portland",
   "state": "Oregon",
   "stateId": "oregon",
   "stateAbbr": "OR",
-  "area": null,
-  "logo": "/assets/img/logos/mountain-home.webp"
+  "area": "Portland area",
+  "logo": "/assets/img/logos/mountain-home.webp",
+  "email": "paddler-inquiry@maunahale.org",
+  "website": "http://www.maunahale.org",
+  "social": {
+   "facebook": "https://www.facebook.com/MountainHomeOutrigger/"
+  },
+  "address": {
+   "street": "2915 NE Marine Dr",
+   "city": "Portland",
+   "region": "OR",
+   "postal": "97211"
+  },
+  "tagline": "We are a competitive outrigger canoe club located on the mighty Columbia River in beautiful Portland, Oregon.",
+  "about": [
+   "We work hard year round and place a strong emphasis on technique in addition to distance and speed in our training. We believe that hard work pays off, but that none of it matters unless you have fun in the process. We put our hearts into this sport and we hope you’ll find it as rewarding as we do!"
+  ]
  },
  {
   "name": "Inland Northwest & Montana Canoe Club",
@@ -274,6 +636,19 @@
   "stateId": "montana",
   "stateAbbr": "MT",
   "area": null,
-  "logo": "/assets/img/logos/inland-nw-montana.webp"
+  "logo": "/assets/img/logos/inland-nw-montana.webp",
+  "website": "https://montanacanoeclub.com/",
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=61552137175743",
+   "instagram": "https://www.instagram.com/montana_canoe_club"
+  },
+  "badges": [
+   "501(c)(3) nonprofit"
+  ],
+  "tagline": "The Inland NW Canoe Club was formed in 2023 as a 501c3 entity.",
+  "about": [
+   "Included in this club are both the Coeur d’Alene Club, as well as the Montana Canoe Club. These clubs paddle on both Lake Coeur d’Alene and Flathead Lake.",
+   "The Montana Canoe Club paddles out of Big Arm, MT and hosts a fleet of OC6’s, 1’s and 2’s that are shared with the Silver Lining Montana all-breast cancer paddling team.These groups work hand-in-hand together, creating community around the canoe with a focus on honoring the traditions of both Native American and Hawaiian canoe culture and protecting our Mother Earth and the waters on which we paddle. We believe that by connecting communities through the shared traditions of paddling and the canoe, we can indeed foster a sense of peace and unity. And we believe that by embracing diverse cultural histories, we will continue to add richness to the tapestry of our paddling community."
+  ]
  }
 ]
