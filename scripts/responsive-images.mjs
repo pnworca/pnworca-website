@@ -1,5 +1,5 @@
 import sharp from 'sharp';
-import { readdir, writeFile } from 'node:fs/promises';
+import { readdir, writeFile, stat, unlink } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -8,7 +8,7 @@ const urlOf = (abs) => '/' + path.relative(path.join(root, 'src'), abs).split(pa
 const manifest = {};
 
 async function originals(dir) {
-  const names = (await readdir(dir)).filter((n) => n.endsWith('.webp') && !/-(160|480|800|1200)\.webp$/.test(n));
+  const names = (await readdir(dir)).filter((n) => n.endsWith('.webp') && !/-(160|320|480|800|1200)\.webp$/.test(n));
   return names.sort().map((n) => path.join(dir, n));
 }
 
@@ -23,6 +23,11 @@ async function handle(file, plan) {
       .resize(resize)
       .webp(opts)
       .toFile(out);
+    // A same-size re-encode only counts if it is smaller than the original.
+    if (info.width === w && info.height === h && (await stat(out)).size >= (await stat(file)).size) {
+      await unlink(out);
+      continue;
+    }
     variants.push({ src: urlOf(out), w: info.width, h: info.height });
   }
   variants.sort((a, b) => a.w - b.w);
@@ -39,8 +44,22 @@ for (const f of await originals(path.join(imgDir, 'logos'))) {
   await handle(f, (w, h) =>
     Math.max(w, h) <= 160
       ? []
-      : [{ suffix: 160, resize: { width: 160, height: 160, fit: 'inside', withoutEnlargement: true }, opts: logoOpts }]
+      : [
+          { suffix: 160, resize: { width: 160, height: 160, fit: 'inside', withoutEnlargement: true }, opts: logoOpts },
+          { suffix: 320, resize: { width: 320, height: 320, fit: 'inside', withoutEnlargement: true }, opts: logoOpts },
+        ]
   );
+}
+
+// News photos moved from WordPress (JPG and PNG): WebP copies at 480, 800 and 1200,
+// plus a full-size WebP that replaces the original in srcset when it is smaller.
+const wpDir = path.join(root, 'src/assets/wp');
+const wpOpts = { quality: 80, effort: 6 };
+for (const f of (await readdir(wpDir)).filter((n) => /\.(jpe?g|png)$/i.test(n)).sort().map((n) => path.join(wpDir, n))) {
+  await handle(f, (w) => [
+    ...[480, 800, 1200].filter((x) => x < w).map((width) => ({ suffix: width, resize: { width, withoutEnlargement: true }, opts: wpOpts })),
+    { suffix: 'full', resize: { width: w }, opts: wpOpts },
+  ]);
 }
 
 for (const name of ['pnworca-logo-white', 'pnworca-logo-ink']) {

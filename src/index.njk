@@ -173,7 +173,7 @@ permalink: /
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px">
 {% set shown = 0 %}{% for n in news %}{% if n.slug != "oc6-huli-instruction-video" and shown < 3 %}{% set shown = shown + 1 %}
 <a href="/{{ n.slug }}/" style="display: flex; flex-direction: column; background: #262D31; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; border: 1px solid #3A4247">
-{% if n.image %}<img src="{{ n.image }}" alt="" loading="lazy" style="width: 100%; height: 200px; object-fit: cover; display: block; background: #FFFFFF">{% endif %}
+{% if n.image %}<img src="{{ n.image }}" srcset="{{ n.image | srcset }}" sizes="(min-width: 900px) 400px, 100vw" width="{{ n.image | imgW }}" height="{{ n.image | imgH }}" alt="" loading="lazy" style="width: 100%; height: 200px; object-fit: cover; display: block; background: #FFFFFF">{% endif %}
 <div style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
 <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #FDB714">{{ n.date | dayLong }}</div>
 <div class="cond" style="font-size: 26px; line-height: 1">{{ n.title }}</div>
