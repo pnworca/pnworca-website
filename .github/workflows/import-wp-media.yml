@@ -1,0 +1,59 @@
+name: Import WordPress media
+# One-time job: copies the files the new site links to from pnworca.org/wp-content/uploads
+# into src/assets/wp/ and checks each one against a known SHA-256. Delete this file after it runs.
+on:
+  push:
+    branches: [media-move]
+    paths: [.github/workflows/import-wp-media.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify
+        run: |
+          mkdir -p src/assets/wp
+          cat > /tmp/list.txt <<'LIST'
+          66107f6835e6901149ffeed3ad47ccafad71486c28f12c4389b4bcdc3f3d2f13  2019/02/PNWORCA-Assumption-of-risk-and-release-of-liability-agreement.pdf
+          7e584c336f9bc540d697a44f7517c6023dc05f4572925ca1200be899c04784c0  2019/02/PNWORCA-Official-Race-Protest-Rules_Updated2018.pdf
+          6ea6e02e4a0500846ce07086cb3e45235011a55f10760a01fe10675b07b9ce9e  2019/02/PNWORCA_RaceProtestForm.pdf
+          397d9d404eb73896de7dbdc92e46b015da557cc022decaab76e72fb728bad209  2019/02/Sprint-Registration-Form.pdf
+          ff7200ffb85122cb83fb9a02aa6b124de2f151f03238ceae9d9d2689de6b5b2d  2019/03/BOD-Meetings-Image.jpg
+          e88a19f11107edb595e1414b70ac0e3a919184f44ee61886384a5c4c16bdaece  2019/04/Message-Board-Image.jpg
+          a16df4b851a44a9af9dc28f326e8574bec091067810eb2798d161c8da5c64274  2019/04/Race-Results-Image.jpg
+          6e824b0c2891c9da933e34ff1310caae92f4540a2e41343a1ffff3745c314eed  2020/04/Statment-from-the-EB.png
+          3dcbaa3f9b518b45e3c0dc0afe711b229629f5b34b7765bd50e00fd07c83f321  2021/01/Sunday-May-2-2021.png
+          e3db84591ac1d5c947a66300d7d9f52a44b09527e2ef3f59944d68eb9b477d5f  2021/10/nov6meeting.png
+          eb8f9d8daa582cb4faa87879436d4b6f98e7dbcefc25948595cd0de63eee6fb4  2021/11/IVF-World-Sprint-Paddler-FAQ.pdf
+          f7c3ebb29f6257355afda2661a1b961c2251f6ed41cd337ed98e441d0fae56ac  2021/12/RATI-2026-_Final-Results.pdf
+          f48d2e65313d5aca1a9760cb17c3741d3e083d72ee2ab88a5a1128158eabfb0d  2021/12/Rusty-Results-2026f.pdf
+          1241e252c0ee2bab78c77df01a4e7b4507fa83e677442147ba509c328e78f2c4  2023/01/News-and-Announcements.png
+          50cf19bbfaf1de1a80d055423fc7230b239592d33a01d4a669c86ec259faf63d  2024/04/Huli-practice-2024-Hood-River-2-1024x660.jpg
+          1ab678f1da994797d70fa4f095a8664a334fe7ec72343726d7fa53aba7166f0f  2024/04/Huli-practice-2024-Hood-River.jpg
+          ef61d4d1d1508088feb2ea9609fcb35d1143f24d4df675c1509aeb7382cbdc3c  2024/07/PNW-ORCA-Race-Rules-Updated-2024.docx
+          8efd150d06204c15761275203d0c2032dc902e4658c47bbe705b68c1faafb54b  2025/02/Paddlefest-Montana-announcement.jpg
+          0571f186e8df4e4bf5d1e3bfa09a907c625367adfc186dc9efdce89ef6991610  2025/03/2025-Brazil-banner.jpg
+          dda49eb4becc408674a45cf1bd76e0487b63a2dd0426b5f1fb4a742694a225d5  2025/04/Nationals-training.png
+          8d72963099751cc4d272be3968b7ed85cea2b323f5887993966464b7c2655e8d  2025/04/Workshops-canoe-paddlers.pdf
+          8e811281c57cda0abc893e99fcd1af3f643f966fa393fe48ec679e31c279fc1d  2025/08/2026-World-Sprint-announcement-WD-2.docx
+          e7ffa2ec7f3ac1b44895215a80f62d58295327e2707ad81c20fdbe60c2af08a6  2025/08/Singapore-Sprints-2.jpg
+          fbc92d5cfef3fddc3fcdf922c44998cfb411c3f4aa2e8d46bfbcd820b5b51cb6  2025/09/Important.jpg
+          9cbddb63862b642926c15c46c0f0c12c88affbb8ac2baabeaf74f98de904eacc  2025/09/USAORCA-announcement-sprint.jpg
+          3cc1ab8f9daf162c7c5d215508a3f94eeb3d90365683d4b25d525b3d5a9d4eaf  2025/10/2025-_-PNWORCA-Bylaws.pdf
+          LIST
+          sed -i 's/^ *//' /tmp/list.txt
+          while read -r sum path; do
+            name=$(basename "$path")
+            curl -fsSL --retry 3 -o "src/assets/wp/$name" "https://pnworca.org/wp-content/uploads/$path"
+            echo "$sum  src/assets/wp/$name" | sha256sum -c -
+          done < /tmp/list.txt
+          ls src/assets/wp | wc -l
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add src/assets/wp
+          git commit -m "Import 26 WordPress media files into src/assets/wp" -m "Downloaded from pnworca.org/wp-content/uploads and checked against SHA-256."
+          git push
