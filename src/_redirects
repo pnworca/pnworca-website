@@ -7,6 +7,13 @@
 /wp-content/uploads/2019/02/PNWORCA_RaceProtestForm.pdf /assets/wp/PNWORCA_RaceProtestForm.pdf 301
 /wp-content/uploads/2019/02/Sprint-Registration-Form.pdf /assets/wp/Sprint-Registration-Form.pdf 301
 /wp-content/uploads/2019/03/BOD-Meetings-Image.jpg /assets/wp/BOD-Meetings-Image.jpg 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_Black.png /assets/wp/PNWORCA_Lockup_Black.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_Blue.png /assets/wp/PNWORCA_Lockup_Blue.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_DarkGray.png /assets/wp/PNWORCA_Lockup_DarkGray.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_LightGray.png /assets/wp/PNWORCA_Lockup_LightGray.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_Orange.png /assets/wp/PNWORCA_Lockup_Orange.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_White.png /assets/wp/PNWORCA_Lockup_White.png 301
+/wp-content/uploads/2019/03/PNWORCA_Lockup_Yellow.png /assets/wp/PNWORCA_Lockup_Yellow.png 301
 /wp-content/uploads/2019/04/Message-Board-Image.jpg /assets/wp/Message-Board-Image.jpg 301
 /wp-content/uploads/2019/04/Race-Results-Image.jpg /assets/wp/Race-Results-Image.jpg 301
 /wp-content/uploads/2020/04/Statment-from-the-EB.png /assets/wp/Statment-from-the-EB.png 301
@@ -30,13 +37,12 @@
 /wp-content/uploads/2025/10/2025-_-PNWORCA-Bylaws.pdf /assets/wp/2025-_-PNWORCA-Bylaws.pdf 301
 
 # Pages, race listings and results pages that are not on the new site
-/nominations/ /people/ 301
-/events/molokai-hoe-world-championship/ /events/ 301
-/events/na-wahine-o-ke-kai-world-championship/ /events/ 301
-/events/pailolo-crossing-race/ /events/ 301
-/events/queen-liliuokalani-race/ /events/ 301
-/events/catalina-crossing/ /events/ 301
-/events/na-pali-challenge-in-kauai/ /events/ 301
+/events/molokai-hoe-world-championship/ /events/#beyond-the-pnw 301
+/events/na-wahine-o-ke-kai-world-championship/ /events/#beyond-the-pnw 301
+/events/pailolo-crossing-race/ /events/#beyond-the-pnw 301
+/events/queen-liliuokalani-race/ /events/#beyond-the-pnw 301
+/events/catalina-crossing/ /events/#beyond-the-pnw 301
+/events/na-pali-challenge-in-kauai/ /events/#beyond-the-pnw 301
 /events/70-48-race-in-tacoma/ /events/ 301
 /events/narrows-challenge/ /events/ 301
 /events/paddle-palooza-hosted-by-montana-canoe-club/ /events/ 301
@@ -50,6 +56,7 @@
 /documents/2021-race-results/ /race-results/ 301
 /documents/2020-race-results/ /race-results/ 301
 /documents/pnworca-logo-files/ /resources/ 301
+/events/bellingham-bay-classic/ /events/ 301
 /documents/2019-race-results/ /race-results/ 301
 /documents/2018-race-results/ /race-results/ 301
 /documents/2017-race-results/ /race-results/ 301

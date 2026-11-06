@@ -65,4 +65,12 @@ Below you will find a variety of links to important local and national paddling 
 
 The PNWORCA logo is intended for use by member clubs and community partners only. Do not alter the logo in any way; redesign, redraw, animate, modify, distort or alter the proportions of the logo; rotate or render the logo three-dimensionally; replace the typeface with any other typeface; or modify the size or position relationship of any element within the logo.
 
-[View Logo Files](/documents/pnworca-logo-files/)
+Full-size PNG files (2292 by 834 pixels, transparent background):
+
+- [Blue](/assets/wp/PNWORCA_Lockup_Blue.png)
+- [Black](/assets/wp/PNWORCA_Lockup_Black.png)
+- [Dark gray](/assets/wp/PNWORCA_Lockup_DarkGray.png)
+- [Light gray](/assets/wp/PNWORCA_Lockup_LightGray.png)
+- [Orange](/assets/wp/PNWORCA_Lockup_Orange.png)
+- [Yellow](/assets/wp/PNWORCA_Lockup_Yellow.png)
+- [White](/assets/wp/PNWORCA_Lockup_White.png)

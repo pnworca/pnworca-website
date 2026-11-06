@@ -24,4 +24,4 @@ Canoe racing became an important part of island life, as much pride and prestige
 
 Hawaii became the birthplace of contemporary outrigger canoe racing, with a governing body being established in 1950 the Hawaiian Canoe Racing Association. The sport has since spread far and wide to Tahiti, New Zealand, Samoa, Cook Islands, New Caledonia, USA, Canada, France, England, Italy, South Africa, Guam, Hong Kong, Australia, Fiji and is expanding all the time. There are an estimated 35,000 outrigger canoe paddlers worldwide, and the sport is currently experiencing huge growth.
 
-*Content sourced from [Kai Ikaika Paddling Club](https://www.kaiikaika.com)*
+*Content sourced from [Kai Ikaika Paddling Club](https://www.facebook.com/KaiIkaika)*

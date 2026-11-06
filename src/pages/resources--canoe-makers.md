@@ -28,7 +28,7 @@ Listed alphabetically.
 - **[Kai Wa'a](https://www.kaiwaa.com/)**: canoe and kayak designs, founded by Kai Bartlett in 2001. Kai Wa'a designs are built and distributed worldwide by Outrigger Zone.
 - **[Kamanu Composites](https://www.kamanucomposites.com/)**: high-performance canoes handcrafted in Kailua, Hawai'i, including open class OC6.
 - **[Nalu Canoes](https://nalucanoes.com/)**: OC1 and OC2 canoes. Three Oceans supplies Nalu spare parts and accessories.
-- **[Outrigger Connection](http://www.outriggerconnection.com.au/)**: maker of the Mirage OC6.
+- **[Outrigger Connection](https://www.facebook.com/outriggerconnectionaus/)**: maker of the Mirage OC6.
 - **[Ozone (Outrigger Zone)](https://www.outriggerzone.com/)**: builds canoes, surfskis and paddles designed by Fai Va'a, Foti Bros, Kai Wa'a, Mike Giblin and Puakea Designs. Founded by canoe designer Mike Giblin.
 - **[Puakea Designs](https://puakeadesigns.com/)**: canoes designed by Johnny Puakea, including the Sentire, Volare and Cantare OC1s, the Ballare OC2 and the Malolo OC6.
 

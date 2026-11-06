@@ -38,4 +38,4 @@ An additional responsibility of Seats 2 & 4 is to watch the ‘iako – always l
 
 An additional responsibility of Seats 3 & 5 is to steady the canoe. Seats 3 and 5 must also pass along commands from the Steersperson, if necessary. The steersman is always in command of the canoe, however, everyone is responsible for the safety of the crew and the safety of the boat.
 
-*Content sourced from [Kai Ikaika Paddling Club](https://www.kaiikaika.com/)*
+*Content sourced from [Kai Ikaika Paddling Club](https://www.facebook.com/KaiIkaika)*

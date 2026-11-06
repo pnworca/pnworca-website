@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Molokaʻi Hoe",
+  "where": "Molokaʻi to Oʻahu, Hawaiʻi",
+  "text": "The men's world championship of outrigger canoe racing, across the Kaʻiwi Channel to Waikīkī. Run by the Oahu Hawaiian Canoe Racing Association since 1952.",
+  "url": "https://www.molokaihoe.com/"
+ },
+ {
+  "name": "Na Wahine O Ke Kai",
+  "where": "Molokaʻi to Oʻahu, Hawaiʻi",
+  "text": "The women's world championship: 41 miles from Hale O Lono on Molokaʻi across the Kaʻiwi Channel to Waikīkī.",
+  "url": "https://nawahineokekai.com/"
+ },
+ {
+  "name": "Queen Liliʻuokalani Canoe Race",
+  "where": "Kailua-Kona, Hawaiʻi",
+  "text": "The world's largest outrigger canoe race, held each September on the Big Island.",
+  "url": "https://qlcanoerace.com/"
+ },
+ {
+  "name": "Na Pali Challenge",
+  "where": "Kauaʻi, Hawaiʻi",
+  "text": "A 37-mile mixed water-change race down the Na Pali Coast, presented by the Kauaʻi Outrigger Association.",
+  "url": "https://racenapali.com/"
+ },
+ {
+  "name": "Pailolo Challenge",
+  "where": "Maui to Molokaʻi, Hawaiʻi",
+  "text": "A channel crossing race across the Pailolo Channel, one of the windiest in Hawaiʻi.",
+  "url": "https://www.pailolo.com/"
+ },
+ {
+  "name": "Catalina Crossing",
+  "where": "Catalina Island, California",
+  "text": "The US Outrigger Championships, run by the Southern California Outrigger Racing Association each September.",
+  "url": "https://www.scora.org/catalina/"
+ }
+]

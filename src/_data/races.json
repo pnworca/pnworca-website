@@ -446,7 +446,8 @@
     "Spec OC6 races on a 250 m course with turns, and V1 and OC1 straightaway races over 500 m."
    ]
   ],
-  "source": "Host email 2026, flyer 2025"
+  "source": "Host email 2026, flyer 2025",
+  "results": "https://drive.google.com/file/d/11SJIAVjr6-5ed0HVhvoaTO4W0yECQzii/view"
  },
  {
   "name": "Silverdale Sprints",
@@ -463,8 +464,26 @@
    "city": "Silverdale",
    "region": "WA"
   },
-  "summary": "Hui Heihei Waʻa's sprint regatta in Silverdale. All events run on a 250 meter course with turns for each distance. Clubs pre-register their crews by email before race day.",
-  "source": "Host email, 2026 (announcement attachment not read)"
+  "summary": "Hui Heihei Waʻa's OC6 sprint regatta at Silverdale Waterfront Park. Every event runs on a 250-meter course with 7 or 8 lanes and includes a turn. Clubs pre-register their crews by email before race day, and awards go to the top three clubs in the AA (20 or more events) and A divisions. The beach is tidal and rocky, so bring foot protection and canoe cradles.",
+  "source": "Host race announcement, 2026 (2026 Silverdale Sprints Regatta Announcement.docx)",
+  "schedule": [
+   [
+    "7:00 AM",
+    "Registration and check-in at the gazebo"
+   ],
+   [
+    "8:00 AM",
+    "Coach and steering meeting"
+   ],
+   [
+    "8:30 AM",
+    "First OC6 race"
+   ],
+   [
+    "2:00 PM",
+    "Raffle tent closes"
+   ]
+  ]
  },
  {
   "name": "Silver Lake Sprints",
@@ -519,7 +538,8 @@
    "Columbia River,",
    "2 courses"
   ],
-  "source": "Rooster Rock flyer and maunahale.org, 2026"
+  "source": "Rooster Rock flyer and maunahale.org, 2026",
+  "results": "https://drive.google.com/drive/folders/1v-a0lyZAUZ470efGZORBkl-KQff8qxLa"
  },
  {
   "name": "The Gorge Race",
@@ -567,47 +587,8 @@
    "region": "WA"
   },
   "infoUrl": "https://gorgedownwindchamps.com",
-  "summary": "A week of downwind paddling in the Columbia River Gorge for outrigger, surfski and SUP, with daily downwind shuttles, clinics and a solo race held on the day with the best wind.",
-  "source": "gorgedownwindchamps.com (shows 2021 event only)"
- },
- {
-  "name": "Texwech Tayeawlh",
-  "slug": "bellingham-bay-classic",
-  "date": "2026-08-01",
-  "year": 2026,
-  "host": "Bellingham Bay Outrigger Paddlers and Autumn Rose",
-  "hostSlug": "bellingham-bay-outrigger-paddlers",
-  "where": "Bellingham, WA",
-  "category": "Long Distance",
-  "categorySlug": "long-distance-race",
-  "coHostSlugs": [
-   "autumn-rose-canoe-club"
-  ],
-  "summary": "“The Canoe Race to Eliza Island,” co-hosted by Bellingham Bay Outrigger Paddlers and Autumn Rose Canoe Club from the Lummi Nation Stommish Grounds. The 14-mile iron course runs south between Lummi and Portage islands, rounds Eliza Island and returns; the 5-mile short course is for novice and youth crews. OC6 only, unlimited or spec. Camping at the Stommish Grounds included with entry.",
-  "venue": {
-   "name": "Stommish Grounds",
-   "street": "2295 Lummi View Dr",
-   "city": "Bellingham",
-   "region": "WA",
-   "postal": "98226"
-  },
-  "courses": [
-   {
-    "label": "Iron course",
-    "miles": "14",
-    "note": "South between Lummi and Portage islands, around Eliza Island and back."
-   },
-   {
-    "label": "Short course",
-    "miles": "5",
-    "note": "Novice and youth crews only."
-   }
-  ],
-  "coursesHeading": [
-   "Eliza Island,",
-   "2 courses"
-  ],
-  "source": "BBOP/ARCC flyer, 2026"
+  "summary": "A week-long downwind paddling festival in the Columbia River Gorge for OC, surfski and SUP, based at the Skamania County Fairgrounds in Stevenson, about an hour from Portland. Shuttles run daily from Home Valley Park. The main solo race is held Thursday, Friday or Saturday, on the day with the best wind, and the top five in each pro division share cash prizes.",
+  "source": "gorgedownwindchamps.com (2027 event page)"
  },
  {
   "name": "Pacific Northwest Challenge",
@@ -620,12 +601,63 @@
   "category": "Long Distance",
   "categorySlug": "long-distance-race",
   "venue": {
-   "name": "Sail Sand Point Marina and Beach",
+   "name": "Magnuson Park",
+   "street": "7751 63rd Ave NE",
    "city": "Seattle",
-   "region": "WA"
+   "region": "WA",
+   "postal": "98115"
   },
-  "summary": "Hosted in 2026 by Sand Point Outrigger Canoe Club and Kīkaha O Ke Kai, with a beach relay course.",
-  "source": "Host emails, 2026 (information PDF attachment not read)"
+  "summary": "Sand Point Outrigger and Kīkaha O Ke Kai's Lake Washington race from Magnuson Park in Seattle, with four courses to fit a crew's size and ability: a beach-change race off Sand Point, an iron race through the 520 and I-90 bridges with no changes, a water-change race around Mercer Island, and a beach relay with change points around the lake. Two safety boats cover the course, and every canoe must carry one PFD per paddler. Registration is on race day, and the entry fee includes the post-race meal.",
+  "source": "Host race information sheet, 2026 (Pacific Northwest Challenge 2026 Information.pdf)",
+  "cost": 50,
+  "schedule": [
+   [
+    "7:00 AM",
+    "Check-in opens (closes 9:00 AM)"
+   ],
+   [
+    "9:30 AM",
+    "Safety meeting"
+   ],
+   [
+    "10:00 AM",
+    "All races start"
+   ],
+   [
+    "3:00 PM",
+    "Food served (approx.)"
+   ],
+   [
+    "4:00 PM",
+    "Awards and raffle (approx.)"
+   ]
+  ],
+  "courses": [
+   {
+    "label": "Beach change race",
+    "miles": "18",
+    "note": "Seven laps from Sand Point Beach to the buoy north of the swim platform. Any number of paddler changes at the beach. Open division."
+   },
+   {
+    "label": "Iron race",
+    "miles": "19",
+    "note": "South through the 520 and I-90 bridges to a turn buoy off Seward Park and back. No paddler changes."
+   },
+   {
+    "label": "Water change race",
+    "miles": "28",
+    "note": "Through the 520 bridge and counterclockwise around Mercer Island. Water changes allowed from 20 minutes after the start."
+   },
+   {
+    "label": "Beach relay",
+    "miles": "26",
+    "note": "OC6 relay around Lake Washington with set beach change points. Open division."
+   }
+  ],
+  "coursesHeading": [
+   "Lake Washington,",
+   "4 courses"
+  ]
  },
  {
   "name": "da Grind",
