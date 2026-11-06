@@ -1,0 +1,29 @@
+---
+title: Race Results
+listKind: results
+permalink: /race-results/
+eyebrowText: Race Calendar
+intro: "Results as posted by each race host. Race hosts can send their results through the <a href='/contact/' style='color: #FDB714'>contact page</a>."
+description: "PNWORCA race results: Winter Series and summer race results from the hosts, plus earlier seasons."
+---
+{% set seasons = [] %}{% for r in races %}{% if r.year not in seasons %}{% set seasons = (seasons.push(r.year), seasons) %}{% endif %}{% endfor %}
+{% for y in seasons | sort(true) %}
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 class="cond" style="margin: 0; font-size: 40px; line-height: 1; color: #1E2427">{{ y }} season</h2>
+<ul style="list-style: none; margin: 0; padding: 0; border-top: 1px solid #E1E7EC">
+{% for r in races | sort(false, false, "date") %}{% if r.year == y %}<li style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; padding: 14px 0; border-bottom: 1px solid #E1E7EC">
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-size: 13px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #283485">{{ r.date | dayShort }}{% if r.series %} · {{ r.series }}{% endif %}</span>
+<a href="/events/{{ r.slug }}/" class="cond" style="font-size: 24px; line-height: 1.05; color: #1E2427; text-decoration: none">{{ r.name }}</a>
+</span>
+{% if r.results %}<a href="{{ r.results }}" style="display: inline-flex; align-items: center; gap: 8px; background: #F36D21; color: #221D35; text-decoration: none; padding: 10px 18px; border-radius: 9999px; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em">Results<span class="sr-only"> for {{ r.name }} {{ y }}</span></a>{% else %}<span style="font-size: 14px; color: #626A70">Not posted yet</span>{% endif %}
+</li>
+{% endif %}{% endfor %}</ul>
+</div>
+{% endfor %}
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h2 class="cond" style="margin: 0; font-size: 40px; line-height: 1; color: #1E2427">Earlier seasons</h2>
+<ul style="margin: 0; padding-left: 20px; font-size: 18px">
+{% for n in news %}{% if "Race Results" in n.title %}<li><a href="/{{ n.slug }}/">{{ n.title }}</a></li>{% endif %}{% endfor %}
+</ul>
+</div>

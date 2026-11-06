@@ -19,6 +19,10 @@ export default function (eleventyConfig) {
     encodeURIComponent([v.name, v.street, [v.city, [v.region, v.postal].filter(Boolean).join(" ")].filter(Boolean).join(", ")].filter(Boolean).join(", ")));
   eleventyConfig.addFilter("hostName", (u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""));
 
+  // Calendar files need CRLF line endings (RFC 5545).
+  eleventyConfig.addTransform("ics-crlf", (content, outputPath) =>
+    outputPath && outputPath.endsWith(".ics") ? content.replace(/\r?\n/g, "\r\n") : content);
+
   eleventyConfig.on("eleventy.after", ({ dir }) => checkLinks(dir.output.replace(/\/$/, "")));
 
   return {

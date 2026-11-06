@@ -16,6 +16,8 @@ function crumbs(d) {
   if (d.listKind === "state") c.push([d.st.name, `/directory-category/${d.st.id}/`]);
   if (d.listKind === "races" || d.listKind === "type") c.push(["Race Calendar", "/events/"]);
   if (d.listKind === "type") c.push([`${d.rt.name} Races`, `/event-category/${d.rt.slug}/`]);
+  if (d.listKind === "results") c.push(["Race Results", "/race-results/"]);
+  if (d.listKind === "contact") c.push(["Contact", "/contact/"]);
   return c;
 }
 
@@ -33,6 +35,8 @@ export default {
       if (d.listKind === "state") return listSchema(d, d.st.areas.flatMap((a) => a.clubs.map((c) => c.href)));
       if (d.listKind === "races") return listSchema(d, d.raceCalendar.map((r) => `/events/${r.slug}/`));
       if (d.listKind === "type") return listSchema(d, d.raceCalendar.filter((r) => r.categorySlug === d.rt.slug).map((r) => `/events/${r.slug}/`));
+      if (d.listKind === "results") return listSchema(d, d.raceCalendar.filter((r) => r.results).map((r) => `/events/${r.slug}/`));
+      if (d.listKind === "contact") return { "@context": "https://schema.org", "@graph": [{ "@type": "ContactPage", "@id": `${d.site.url}/contact/#page`, name: d.metaTitle, url: `${d.site.url}/contact/` }, d.schemaLib.breadcrumbs(d.site, crumbs(d))] };
       return null;
     },
   },

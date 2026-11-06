@@ -10,6 +10,7 @@
       "url": "{{ site.url }}/",
       "logo": "{{ site.url }}{{ site.logo }}",
       "sport": "Outrigger canoe racing",
+      "sameAs": ["{{ site.facebook }}"],
       "areaServed": [{% for s in site.areaServed %}{ "@type": "State", "name": "{{ s }}" }{% if not loop.last %}, {% endif %}{% endfor %}]
     },
     {

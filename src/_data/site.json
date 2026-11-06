@@ -3,5 +3,12 @@
   "name": "Pacific Northwest Outrigger Racing Canoe Association",
   "shortName": "PNWORCA",
   "logo": "/assets/img/pnworca-logo-ink.png",
-  "areaServed": ["Washington", "Oregon", "Montana", "Idaho", "Utah"]
+  "areaServed": [
+    "Washington",
+    "Oregon",
+    "Montana",
+    "Idaho",
+    "Utah"
+  ],
+  "facebook": "https://www.facebook.com/pacificnorthwestoutrigger/"
 }
