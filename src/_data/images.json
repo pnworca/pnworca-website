@@ -7,6 +7,11 @@
         "src": "/assets/img/logos/autumn-rose-160.webp",
         "w": 160,
         "h": 160
+      },
+      {
+        "src": "/assets/img/logos/autumn-rose-320.webp",
+        "w": 320,
+        "h": 320
       }
     ]
   },
@@ -18,6 +23,11 @@
         "src": "/assets/img/logos/bellingham-bay-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/bellingham-bay-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -29,6 +39,11 @@
         "src": "/assets/img/logos/bend-oregon-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/bend-oregon-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -40,6 +55,11 @@
         "src": "/assets/img/logos/columbia-river-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/columbia-river-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -51,6 +71,11 @@
         "src": "/assets/img/logos/gorge-160.webp",
         "w": 160,
         "h": 160
+      },
+      {
+        "src": "/assets/img/logos/gorge-320.webp",
+        "w": 320,
+        "h": 320
       }
     ]
   },
@@ -62,6 +87,11 @@
         "src": "/assets/img/logos/hood-river-160.webp",
         "w": 160,
         "h": 121
+      },
+      {
+        "src": "/assets/img/logos/hood-river-320.webp",
+        "w": 320,
+        "h": 242
       }
     ]
   },
@@ -73,6 +103,11 @@
         "src": "/assets/img/logos/hui-heihei-waa-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/hui-heihei-waa-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -84,6 +119,11 @@
         "src": "/assets/img/logos/hui-waa-o-puget-sound-160.webp",
         "w": 160,
         "h": 116
+      },
+      {
+        "src": "/assets/img/logos/hui-waa-o-puget-sound-320.webp",
+        "w": 320,
+        "h": 231
       }
     ]
   },
@@ -95,6 +135,11 @@
         "src": "/assets/img/logos/inland-nw-montana-160.webp",
         "w": 160,
         "h": 112
+      },
+      {
+        "src": "/assets/img/logos/inland-nw-montana-320.webp",
+        "w": 320,
+        "h": 225
       }
     ]
   },
@@ -106,6 +151,11 @@
         "src": "/assets/img/logos/kai-ikaika-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/kai-ikaika-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -117,6 +167,11 @@
         "src": "/assets/img/logos/kai-pana-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/kai-pana-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -128,6 +183,11 @@
         "src": "/assets/img/logos/kikaha-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/kikaha-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -139,6 +199,11 @@
         "src": "/assets/img/logos/mountain-home-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/mountain-home-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -150,6 +215,11 @@
         "src": "/assets/img/logos/ohana-o-ke-kahawai-160.webp",
         "w": 160,
         "h": 156
+      },
+      {
+        "src": "/assets/img/logos/ohana-o-ke-kahawai-320.webp",
+        "w": 320,
+        "h": 312
       }
     ]
   },
@@ -161,6 +231,11 @@
         "src": "/assets/img/logos/pacific-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/pacific-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -172,6 +247,11 @@
         "src": "/assets/img/logos/rikkole-cree-160.webp",
         "w": 160,
         "h": 159
+      },
+      {
+        "src": "/assets/img/logos/rikkole-cree-320.webp",
+        "w": 320,
+        "h": 318
       }
     ]
   },
@@ -183,6 +263,11 @@
         "src": "/assets/img/logos/sand-point-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/sand-point-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -194,6 +279,11 @@
         "src": "/assets/img/logos/seattle-outrigger-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/seattle-outrigger-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -205,6 +295,11 @@
         "src": "/assets/img/logos/seattle-sake-160.webp",
         "w": 128,
         "h": 160
+      },
+      {
+        "src": "/assets/img/logos/seattle-sake-320.webp",
+        "w": 256,
+        "h": 320
       }
     ]
   },
@@ -216,6 +311,11 @@
         "src": "/assets/img/logos/three-rivers-160.webp",
         "w": 160,
         "h": 160
+      },
+      {
+        "src": "/assets/img/logos/three-rivers-320.webp",
+        "w": 320,
+        "h": 320
       }
     ]
   },
@@ -227,6 +327,11 @@
         "src": "/assets/img/logos/tri-cities-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/tri-cities-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -238,6 +343,11 @@
         "src": "/assets/img/logos/wakinikona-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/wakinikona-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -249,6 +359,11 @@
         "src": "/assets/img/logos/wasabi-160.webp",
         "w": 160,
         "h": 120
+      },
+      {
+        "src": "/assets/img/logos/wasabi-320.webp",
+        "w": 320,
+        "h": 240
       }
     ]
   },
@@ -260,6 +375,11 @@
         "src": "/assets/img/logos/zamboanga-160.webp",
         "w": 160,
         "h": 116
+      },
+      {
+        "src": "/assets/img/logos/zamboanga-320.webp",
+        "w": 320,
+        "h": 232
       }
     ]
   },
@@ -403,6 +523,281 @@
         "src": "/assets/img/pnworca-logo-white-420.webp",
         "w": 420,
         "h": 153
+      }
+    ]
+  },
+  "/assets/wp/2025-Brazil-banner.jpg": {
+    "w": 1200,
+    "h": 800,
+    "variants": [
+      {
+        "src": "/assets/wp/2025-Brazil-banner-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/wp/2025-Brazil-banner-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/wp/2025-Brazil-banner-full.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/wp/BOD-Meetings-Image.jpg": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/BOD-Meetings-Image-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/BOD-Meetings-Image-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/Huli-practice-2024-Hood-River-2-1024x660.jpg": {
+    "w": 1024,
+    "h": 660,
+    "variants": [
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-2-1024x660-480.webp",
+        "w": 480,
+        "h": 309
+      },
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-2-1024x660-800.webp",
+        "w": 800,
+        "h": 516
+      },
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-2-1024x660-full.webp",
+        "w": 1024,
+        "h": 660
+      }
+    ]
+  },
+  "/assets/wp/Huli-practice-2024-Hood-River.jpg": {
+    "w": 1095,
+    "h": 753,
+    "variants": [
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-480.webp",
+        "w": 480,
+        "h": 330
+      },
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-800.webp",
+        "w": 800,
+        "h": 550
+      },
+      {
+        "src": "/assets/wp/Huli-practice-2024-Hood-River-full.webp",
+        "w": 1095,
+        "h": 753
+      }
+    ]
+  },
+  "/assets/wp/Important.jpg": {
+    "w": 1000,
+    "h": 592,
+    "variants": [
+      {
+        "src": "/assets/wp/Important-480.webp",
+        "w": 480,
+        "h": 284
+      },
+      {
+        "src": "/assets/wp/Important-800.webp",
+        "w": 800,
+        "h": 474
+      },
+      {
+        "src": "/assets/wp/Important-full.webp",
+        "w": 1000,
+        "h": 592
+      }
+    ]
+  },
+  "/assets/wp/Message-Board-Image.jpg": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/Message-Board-Image-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/Message-Board-Image-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/Nationals-training.png": {
+    "w": 1545,
+    "h": 2000,
+    "variants": [
+      {
+        "src": "/assets/wp/Nationals-training-480.webp",
+        "w": 480,
+        "h": 621
+      },
+      {
+        "src": "/assets/wp/Nationals-training-800.webp",
+        "w": 800,
+        "h": 1036
+      },
+      {
+        "src": "/assets/wp/Nationals-training-1200.webp",
+        "w": 1200,
+        "h": 1553
+      },
+      {
+        "src": "/assets/wp/Nationals-training-full.webp",
+        "w": 1545,
+        "h": 2000
+      }
+    ]
+  },
+  "/assets/wp/News-and-Announcements.png": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/News-and-Announcements-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/News-and-Announcements-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/Paddlefest-Montana-announcement.jpg": {
+    "w": 526,
+    "h": 681,
+    "variants": [
+      {
+        "src": "/assets/wp/Paddlefest-Montana-announcement-480.webp",
+        "w": 480,
+        "h": 621
+      },
+      {
+        "src": "/assets/wp/Paddlefest-Montana-announcement-full.webp",
+        "w": 526,
+        "h": 681
+      }
+    ]
+  },
+  "/assets/wp/Race-Results-Image.jpg": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/Race-Results-Image-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/Race-Results-Image-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/Singapore-Sprints-2.jpg": {
+    "w": 960,
+    "h": 720,
+    "variants": [
+      {
+        "src": "/assets/wp/Singapore-Sprints-2-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/Singapore-Sprints-2-800.webp",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "src": "/assets/wp/Singapore-Sprints-2-full.webp",
+        "w": 960,
+        "h": 720
+      }
+    ]
+  },
+  "/assets/wp/Statment-from-the-EB.png": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/Statment-from-the-EB-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/Statment-from-the-EB-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/Sunday-May-2-2021.png": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/Sunday-May-2-2021-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/Sunday-May-2-2021-full.webp",
+        "w": 640,
+        "h": 480
+      }
+    ]
+  },
+  "/assets/wp/USAORCA-announcement-sprint.jpg": {
+    "w": 593,
+    "h": 505,
+    "variants": [
+      {
+        "src": "/assets/wp/USAORCA-announcement-sprint-480.webp",
+        "w": 480,
+        "h": 409
+      },
+      {
+        "src": "/assets/wp/USAORCA-announcement-sprint-full.webp",
+        "w": 593,
+        "h": 505
+      }
+    ]
+  },
+  "/assets/wp/nov6meeting.png": {
+    "w": 640,
+    "h": 480,
+    "variants": [
+      {
+        "src": "/assets/wp/nov6meeting-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/wp/nov6meeting-full.webp",
+        "w": 640,
+        "h": 480
       }
     ]
   }

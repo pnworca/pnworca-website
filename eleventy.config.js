@@ -22,13 +22,17 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("srcset", (src) => {
     const i = images[src];
     if (!i) return "";
-    return [...i.variants.map((v) => `${v.src} ${v.w}w`), `${src} ${i.w}w`].join(", ");
+    const list = i.variants.map((v) => `${v.src} ${v.w}w`);
+    // A same-width copy (smaller file) stands in for the original.
+    if (!i.variants.some((v) => v.w === i.w)) list.push(`${src} ${i.w}w`);
+    return list.join(", ");
   });
-  // 1x and 2x for small logos: the 160px copy, then the original.
+  // 1x and 2x for small logos: the 160px copy, then the 320px copy (or the original).
   eleventyConfig.addFilter("logoSrcset", (src) => {
     const i = images[src];
     const v = i && i.variants.find((x) => Math.max(x.w, x.h) === 160);
-    return v ? `${v.src} 1x, ${src} 2x` : "";
+    const v2 = i && i.variants.find((x) => Math.max(x.w, x.h) > 160);
+    return v ? `${v.src} 1x, ${v2 ? v2.src : src} 2x` : "";
   });
   eleventyConfig.addFilter("smallest", (src) => {
     const i = images[src];
