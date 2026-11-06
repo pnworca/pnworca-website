@@ -39,16 +39,16 @@ PNWORCA official race protest rules.
 
 PNWORCA offical race protest form.
 
-[Download form](/wp-content/uploads/2019/02/PNWORCA_RaceProtestForm.pdf)
+[Download form](/assets/wp/PNWORCA_RaceProtestForm.pdf)
 
 ### PNWORCA Assumption of Liability
 
 PNWORCA assumption of liability form.
 
-[Download form](/wp-content/uploads/2019/02/PNWORCA-Assumption-of-risk-and-release-of-liability-agreement.pdf)
+[Download form](/assets/wp/PNWORCA-Assumption-of-risk-and-release-of-liability-agreement.pdf)
 
 ### PNWORCA Sprint Race Registration Form
 
 PNWORCA sprint race registration form.
 
-[Download form](/wp-content/uploads/2019/02/Sprint-Registration-Form.pdf)
+[Download form](/assets/wp/Sprint-Registration-Form.pdf)

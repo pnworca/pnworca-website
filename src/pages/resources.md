@@ -11,7 +11,7 @@ Below you will find a variety of links to important local and national paddling 
 
 ## PNWORCA Bylaws
 
-[2025 \_ PNWORCA Bylaws](/wp-content/uploads/2025/10/2025-_-PNWORCA-Bylaws.pdf)[Download](/wp-content/uploads/2025/10/2025-_-PNWORCA-Bylaws.pdf)
+[2025 \_ PNWORCA Bylaws](/assets/wp/2025-_-PNWORCA-Bylaws.pdf)[Download](/assets/wp/2025-_-PNWORCA-Bylaws.pdf)
 
 **Outrigger Associations**
 
@@ -21,19 +21,19 @@ Below you will find a variety of links to important local and national paddling 
 
 **Canadian Outrigger Racing Association (CORA)**
 
-[www.canadianoutrigger.com﻿](https://www.canadianoutrigger.com/)
+[www.canadianoutrigger.com﻿](https://www.canadianoutrigger.ca/)
 
 **International Va’a Federation**
 
-[http://www.ivfiv.org](http://www.ivfiv.org/)
+[https://www.ivfiv.org](https://www.ivfiv.org/)
 
 **Northern California Outrigger Canoe Association**
 
-[http://www.ncoca.com](http://www.ncoca.com/)
+[https://www.ncoca.com](https://www.ncoca.com/)
 
 **Southern California Outrigger Racing Association**
 
-[http://www.scora.org](http://www.scora.org/)
+[https://www.scora.org](https://www.scora.org/)
 
 **East Coast Outrigger Association**
 
@@ -41,11 +41,11 @@ Below you will find a variety of links to important local and national paddling 
 
 **Kanaka Ikaika Racing Association**
 
-<http://www.kanakaikaika.com>
+<https://www.kanakaikaika.com>
 
 **Oahu Hawaiian Canoe Racing Association**
 
-<http://www.ohcra.com>
+<https://www.ohcra.com>
 
 **Waka Ama New Zealand**
 

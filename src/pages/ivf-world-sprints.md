@@ -10,7 +10,7 @@ order: 1
 
 For questions about regional time trials, crew selection, or logistics, contact the PNWORCA Area Representative: **Kate Kauffman [kate.kauffman.lpc@gmail.com](mailto:kate.kauffman.lpc@gmail.com)**
 
-[Download IVF world sprint FAQ](/wp-content/uploads/2021/11/IVF-World-Sprint-Paddler-FAQ.pdf)
+[Download IVF world sprint FAQ](/assets/wp/IVF-World-Sprint-Paddler-FAQ.pdf)
 
 #### To receive regular communications from PNWORCA’S Area Rep, join the [PNWORCA MEMBERS GROUP HERE!](https://groups.google.com/a/pnworca.org/g/members)
 

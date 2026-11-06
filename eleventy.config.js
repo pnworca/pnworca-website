@@ -8,6 +8,7 @@ const images = JSON.parse(readFileSync("src/_data/images.json", "utf8"));
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/_headers": "_headers" });
+  eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
   // Self-hosted fonts (Fontsource packages): Latin and Latin Extended subsets only.
   for (const f of ["roboto-condensed-latin{,-ext}-{700,800}-normal.woff2", "source-sans-3-latin{,-ext}-{400,600,700}-normal.woff2"]) {
     const pkg = f.startsWith("roboto") ? "roboto-condensed" : "source-sans-3";

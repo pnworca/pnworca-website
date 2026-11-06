@@ -9,13 +9,13 @@ order: 3
 
 Updated 2018
 
-[Download PDF](/wp-content/uploads/2019/02/PNWORCA-Official-Race-Protest-Rules_Updated2018.pdf)
+[Download PDF](/assets/wp/PNWORCA-Official-Race-Protest-Rules_Updated2018.pdf)
 
 ## PNWORCA Race Protest Form
 
 Please write clearly, legibly and intelligently. Use more paper if needed for description or drawings.
 
-[Download form](/wp-content/uploads/2019/02/PNWORCA_RaceProtestForm.pdf)
+[Download form](/assets/wp/PNWORCA_RaceProtestForm.pdf)
 
 ## PNWORCA official race protest rules
 
@@ -45,7 +45,7 @@ infracting canoe(s).
 ## Protest Form
 
 - Write clearly, legibly and intelligently. Use more paper if needed for description or drawings.
-- Host clubs shall have copies of [protest forms](/wp-content/uploads/2019/02/PNWORCA_RaceProtestForm.pdf) and procedures for attending clubs to lodge.
+- Host clubs shall have copies of [protest forms](/assets/wp/PNWORCA_RaceProtestForm.pdf) and procedures for attending clubs to lodge.
 - A non-refundable fee of $25.00 USD, payable to PNWORCA, must accompany each protest.
 
 ## Protest Committee Rules
