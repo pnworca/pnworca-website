@@ -9,7 +9,7 @@
   "area": "Seattle area",
   "logo": "/assets/img/logos/seattle-outrigger.webp",
   "email": "info@seattleoutrigger.com",
-  "website": "http://www.seattleoutrigger.com",
+  "website": "https://www.seattleoutrigger.com",
   "social": {
    "twitter": "https://twitter.com/seaoutrigger",
    "facebook": "https://www.facebook.com/SeattleOutrigger/",
@@ -66,7 +66,7 @@
   "area": "Seattle area",
   "logo": "/assets/img/logos/wakinikona.webp",
   "email": "wakinikona@gmail.com",
-  "website": "http://www.wakinikonaclub.com",
+  "website": "https://www.wakinikonaclub.com",
   "social": {
    "twitter": "https://twitter.com/Wakinikona",
    "facebook": "https://www.facebook.com/Wakinikona-Hawaiian-Club-126108430761649/timeline"
@@ -94,7 +94,7 @@
   "area": "Seattle area",
   "logo": "/assets/img/logos/seattle-sake.webp",
   "email": "info@clubsake.com",
-  "website": "http://www.clubsake.com",
+  "website": "https://www.clubsake.com",
   "social": {
    "facebook": "https://www.facebook.com/ClubSake/",
    "yelp": "https://www.yelp.com/biz/club-sake-dragon-boat-club-seattle"
@@ -132,7 +132,7 @@
   "area": "Seattle area",
   "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp",
   "email": "HWOPS.contact@gmail.com",
-  "website": "https://www.hwops.org/",
+  "website": "https://huiwaaopugetsound.com/",
   "social": {
    "facebook": "https://www.facebook.com/groups/HWOPS/"
   },
@@ -157,7 +157,7 @@
   "area": "South Sound and Kitsap",
   "logo": "/assets/img/logos/kikaha.webp",
   "email": "Kikaha.info@gmail.com",
-  "website": "http://kikaha.com",
+  "website": "https://kikaha.com",
   "social": {
    "facebook": "https://www.facebook.com/kikaha/"
   },
@@ -186,7 +186,7 @@
   "area": "South Sound and Kitsap",
   "logo": "/assets/img/logos/hui-heihei-waa.webp",
   "email": "info@hhwsilverdale.org",
-  "website": "http://www.hhwsilverdale.org",
+  "website": "https://www.hhwsilverdale.org",
   "social": {
    "facebook": "https://www.facebook.com/HuiHeiHeiWaa/"
   },
@@ -211,7 +211,7 @@
   "area": "Bellingham and Whatcom",
   "logo": "/assets/img/logos/kai-pana.webp",
   "email": "kaipanaoutrigger@gmail.com",
-  "website": "http://www.kaipanaoutrigger.com",
+  "website": "https://kaipanaoutrigger.com",
   "social": {
    "facebook": "https://www.facebook.com/kaipanaoutrigger/",
    "instagram": "https://www.instagram.com/kaipanacanoeclub/"
@@ -238,7 +238,7 @@
   "area": "Bellingham and Whatcom",
   "logo": "/assets/img/logos/bellingham-bay.webp",
   "email": "bbopmembership@gmail.com",
-  "website": "http://www.bbop.us",
+  "website": "https://www.bbop.us",
   "social": {
    "facebook": "https://www.facebook.com/BBOPinBellingham/",
    "instagram": "https://www.instagram.com/bellingham_bay_outrigger/"
@@ -310,7 +310,7 @@
   "stateAbbr": "WA",
   "area": "Tri-Cities",
   "logo": "/assets/img/logos/tri-cities.webp",
-  "website": "http://www.tricitiesoutrigger.org",
+  "website": "https://www.tricitiesoutrigger.org",
   "social": {
    "facebook": "https://www.facebook.com/TriCitiesOutrigger",
    "instagram": "https://www.instagram.com/tricities_outrigger_canoe_club/"
@@ -373,7 +373,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/columbia-river.webp",
   "email": "croccpaddle@gmail.com",
-  "website": "http://croccpaddle.com",
+  "website": "https://croccpaddle.com",
   "social": {
    "facebook": "https://www.facebook.com/ColumbiaRiverOutriggerCanoeClub/"
   },
@@ -402,7 +402,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/pacific.webp",
   "email": "kmcksharrer@comcast.net",
-  "website": "http://pacificoutrigger.com",
+  "website": "https://pacificoutrigger.com",
   "address": {
    "street": "12800 NW Marina Way",
    "city": "Portland",
@@ -486,7 +486,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/wasabi.webp",
   "email": "wasabiusa.info@gmail.com",
-  "website": "http://wasabiusa.org",
+  "website": "https://wasabiusa.org",
   "tagline": "Wasabi Paddling Club is a non-profit organization dedicated to the participation in, and promotion of, the National and International amateur sports of Dragon Boat and Outrigger Canoe racing.",
   "about": [
    "Our Charter includes assisting novice through experienced paddlers in our community. The Club goal is to develop strong, competitive teams through sponsoring and coaching.",
@@ -507,7 +507,7 @@
   "area": "Columbia Gorge",
   "logo": "/assets/img/logos/gorge.webp",
   "email": "info@gorgecanoeclub.com",
-  "website": "http://gorgecanoeclub.com",
+  "website": "https://www.gorgecanoeclub.com",
   "phone": "(541) 716-1079",
   "address": {
    "street": "515 SW Portage Rd",
@@ -563,7 +563,7 @@
   "area": "Willamette Valley",
   "logo": "/assets/img/logos/ohana-o-ke-kahawai.webp",
   "email": "ohanahoesalem@gmail.com",
-  "website": "http://www.ohanahoesalem.com",
+  "website": "https://www.ohanahoesalem.com",
   "social": {
    "facebook": "https://www.facebook.com/people/Ohana-Hoe-Outrigger-Salem-Oregon/100089390562170/"
   },
@@ -582,7 +582,7 @@
   "area": "Central Oregon",
   "logo": "/assets/img/logos/bend-oregon.webp",
   "email": "bendoutriggercc@gmail.com",
-  "website": "http://www.bendoutrigger.org",
+  "website": "https://www.bendoutrigger.org",
   "social": {
    "facebook": "https://www.facebook.com/bendoutrigger",
    "instagram": "https://www.instagram.com/bendoutrigger/"
@@ -613,7 +613,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/mountain-home.webp",
   "email": "paddler-inquiry@maunahale.org",
-  "website": "http://www.maunahale.org",
+  "website": "https://www.maunahale.org",
   "social": {
    "facebook": "https://www.facebook.com/MountainHomeOutrigger/"
   },
@@ -637,7 +637,7 @@
   "stateAbbr": "MT",
   "area": null,
   "logo": "/assets/img/logos/inland-nw-montana.webp",
-  "website": "https://montanacanoeclub.com/",
+  "website": "https://inlandnorthwestcanoeclub.org/",
   "social": {
    "facebook": "https://www.facebook.com/profile.php?id=61552137175743",
    "instagram": "https://www.instagram.com/montana_canoe_club"

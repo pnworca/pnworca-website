@@ -347,8 +347,8 @@
    "region": "WA",
    "postal": "98660"
   },
-  "results": "https://pnworca.org/wp-content/uploads/2021/12/Rusty-Results-2026f.pdf",
-  "infoUrl": "http://pacificoutrigger.com/rusty-iron-race/",
+  "results": "/assets/wp/Rusty-Results-2026f.pdf",
+  "infoUrl": "https://pacificoutrigger.com/rusty-iron-race/",
   "summary": "Pacific Outrigger Canoe Club's race on the Columbia River at Frenchman's Bar Park, Vancouver, WA. The long course (about 8 mi) is OC6, with Mixed, Kupuna, Women's and Men's heats; the short course (about 4 mi) is open to all divisions and canoe types, including OC1 and SUP. Morning snacks included; hamburger lunch by donation.",
   "courses": [
    {
@@ -384,7 +384,7 @@
    "city": "Fairview",
    "region": "OR"
   },
-  "results": "https://pnworca.org/wp-content/uploads/2021/12/RATI-2026-_Final-Results.pdf",
+  "results": "/assets/wp/RATI-2026-_Final-Results.pdf",
   "summary": "Columbia River Outrigger Canoe Club's OC6 race from Chinook Landing Marine Park in Fairview, OR. The long course is 10+ miles and the short course 4 to 6 miles, both open to Mixed, Women and Men from Novice through Master 70 and Unlimited. Continental breakfast provided, lunch for purchase, raffle and awards. Expect current, wing dams and ship traffic on the Columbia.",
   "courses": [
    {
