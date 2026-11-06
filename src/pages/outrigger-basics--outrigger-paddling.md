@@ -46,4 +46,4 @@ There is no perfect rate. There is a comfortable rate relative to your team’s 
 
 Get the boat up and moving as fast as you can, then start to back off power until the boat speed is seen to fall off. A smooth team can back off 3 to 5% in effort once the boat is moving and still maintain speed. Boat speed and stroke rate are directly relative as long as technique and reach are the same. When training at lower effort levels, the stroke rate and boat speed will be down.
 
-*Content sourced from [Kai Ikaika Paddling Club](https://www.kaiikaika.com/)*
+*Content sourced from [Kai Ikaika Paddling Club](https://www.facebook.com/KaiIkaika)*

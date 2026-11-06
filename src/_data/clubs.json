@@ -427,7 +427,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/zamboanga.webp",
   "email": "zambopdx@gmail.com",
-  "website": "http://zambopdx.org",
+  "website": null,
   "social": {
    "twitter": "https://twitter.com/zamboangapdx",
    "facebook": "https://www.facebook.com/zamboangapdx/",
@@ -457,7 +457,7 @@
   "area": "Portland area",
   "logo": "/assets/img/logos/kai-ikaika.webp",
   "email": "info@kaiikaika.com",
-  "website": "http://kaiikaika.com",
+  "website": null,
   "social": {
    "facebook": "https://www.facebook.com/KaiIkaika",
    "instagram": "https://www.instagram.com/kaiikaikapaddlingclub/"

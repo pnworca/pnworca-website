@@ -29,10 +29,10 @@ permalink: "/directory/{{ club.slug }}/"
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
 {% for b in ["PNWORCA member club"].concat(club.badges or []) %}<span style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3); padding: 6px 14px; border-radius: 9999px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">{{ b }}</span>{% endfor %}
 </div>
-{% if club.email or club.website %}
+{% if club.email or club.website or (club.social and club.social.facebook) %}
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
 {% if club.email %}<a href="mailto:{{ club.email }}?subject=Paddling%20with%20{{ club.name | urlencode }}" style="{{ PILL_O }}">Ask about paddling{{ arrow() }}</a>{% endif %}
-{% if club.website %}<a href="{{ club.website }}" style="{{ PILL_W }}">Visit club website</a>{% endif %}
+{% if club.website %}<a href="{{ club.website }}" style="{{ PILL_W }}">Visit club website</a>{% elif club.social and club.social.facebook %}<a href="{{ club.social.facebook }}" style="{{ PILL_W }}">Club on Facebook</a>{% endif %}
 </div>
 {% endif %}
 </div>

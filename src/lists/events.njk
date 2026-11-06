@@ -25,3 +25,10 @@ eleventyComputed:
 {% endfor %}
 </div>
 {% endif %}
+<section id="beyond-the-pnw" style="display: flex; flex-direction: column; gap: 14px; margin-top: 26px">
+<h2 class="cond" style="margin: 0; font-size: 36px; line-height: 1; color: #1E2427">Beyond the PNW</h2>
+<p style="margin: 0; max-width: 640px">Major races outside the region that PNWORCA crews travel to. These are not PNWORCA events: check each race's own site for dates, entry and rules.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+{% for b in beyondRaces %}<li style="border-left: 4px solid #FDB714; padding-left: 14px"><a href="{{ b.url }}" style="font-weight: 700; color: #1E2427">{{ b.name }}</a> <span style="color: #4A4F57">{{ b.where }}</span><br>{{ b.text }}</li>
+{% endfor %}</ul>
+</section>

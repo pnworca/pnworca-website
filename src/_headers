@@ -1,2 +1,4 @@
-/*
+# Keep the workers.dev preview and branch sites out of search results.
+# pnworca.org and www.pnworca.org get no header and can be indexed.
+https://*.webmaster2026.workers.dev/*
   X-Robots-Tag: noindex

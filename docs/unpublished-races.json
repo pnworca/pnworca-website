@@ -1,0 +1,48 @@
+{
+ "note": "Races taken off the site for now. To publish one again, move its entry back into src/_data/races.json, add a date in raceDates.json if it has one, and remove its line from src/_redirects.",
+ "races": [
+  {
+   "unpublished": "2026-11-06",
+   "reason": "No 2027 date yet",
+   "race": {
+    "name": "Texwech Tayeawlh",
+    "slug": "bellingham-bay-classic",
+    "date": "2026-08-01",
+    "year": 2026,
+    "host": "Bellingham Bay Outrigger Paddlers and Autumn Rose",
+    "hostSlug": "bellingham-bay-outrigger-paddlers",
+    "where": "Bellingham, WA",
+    "category": "Long Distance",
+    "categorySlug": "long-distance-race",
+    "coHostSlugs": [
+     "autumn-rose-canoe-club"
+    ],
+    "summary": "“The Canoe Race to Eliza Island,” co-hosted by Bellingham Bay Outrigger Paddlers and Autumn Rose Canoe Club from the Lummi Nation Stommish Grounds. The 14-mile iron course runs south between Lummi and Portage islands, rounds Eliza Island and returns; the 5-mile short course is for novice and youth crews. OC6 only, unlimited or spec. Camping at the Stommish Grounds included with entry.",
+    "venue": {
+     "name": "Stommish Grounds",
+     "street": "2295 Lummi View Dr",
+     "city": "Bellingham",
+     "region": "WA",
+     "postal": "98226"
+    },
+    "courses": [
+     {
+      "label": "Iron course",
+      "miles": "14",
+      "note": "South between Lummi and Portage islands, around Eliza Island and back."
+     },
+     {
+      "label": "Short course",
+      "miles": "5",
+      "note": "Novice and youth crews only."
+     }
+    ],
+    "coursesHeading": [
+     "Eliza Island,",
+     "2 courses"
+    ],
+    "source": "BBOP/ARCC flyer, 2026"
+   }
+  }
+ ]
+}
