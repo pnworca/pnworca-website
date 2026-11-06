@@ -1,0 +1,409 @@
+{
+  "/assets/img/logos/autumn-rose.webp": {
+    "w": 320,
+    "h": 320,
+    "variants": [
+      {
+        "src": "/assets/img/logos/autumn-rose-160.webp",
+        "w": 160,
+        "h": 160
+      }
+    ]
+  },
+  "/assets/img/logos/bellingham-bay.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/bellingham-bay-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/bend-oregon.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/bend-oregon-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/columbia-river.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/columbia-river-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/gorge.webp": {
+    "w": 320,
+    "h": 320,
+    "variants": [
+      {
+        "src": "/assets/img/logos/gorge-160.webp",
+        "w": 160,
+        "h": 160
+      }
+    ]
+  },
+  "/assets/img/logos/hood-river.webp": {
+    "w": 320,
+    "h": 242,
+    "variants": [
+      {
+        "src": "/assets/img/logos/hood-river-160.webp",
+        "w": 160,
+        "h": 121
+      }
+    ]
+  },
+  "/assets/img/logos/hui-heihei-waa.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/hui-heihei-waa-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/hui-waa-o-puget-sound.webp": {
+    "w": 320,
+    "h": 231,
+    "variants": [
+      {
+        "src": "/assets/img/logos/hui-waa-o-puget-sound-160.webp",
+        "w": 160,
+        "h": 116
+      }
+    ]
+  },
+  "/assets/img/logos/inland-nw-montana.webp": {
+    "w": 320,
+    "h": 225,
+    "variants": [
+      {
+        "src": "/assets/img/logos/inland-nw-montana-160.webp",
+        "w": 160,
+        "h": 112
+      }
+    ]
+  },
+  "/assets/img/logos/kai-ikaika.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/kai-ikaika-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/kai-pana.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/kai-pana-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/kikaha.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/kikaha-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/mountain-home.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/mountain-home-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/ohana-o-ke-kahawai.webp": {
+    "w": 320,
+    "h": 312,
+    "variants": [
+      {
+        "src": "/assets/img/logos/ohana-o-ke-kahawai-160.webp",
+        "w": 160,
+        "h": 156
+      }
+    ]
+  },
+  "/assets/img/logos/pacific.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/pacific-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/rikkole-cree.webp": {
+    "w": 320,
+    "h": 318,
+    "variants": [
+      {
+        "src": "/assets/img/logos/rikkole-cree-160.webp",
+        "w": 160,
+        "h": 159
+      }
+    ]
+  },
+  "/assets/img/logos/sand-point.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/sand-point-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/seattle-outrigger.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/seattle-outrigger-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/seattle-sake.webp": {
+    "w": 256,
+    "h": 320,
+    "variants": [
+      {
+        "src": "/assets/img/logos/seattle-sake-160.webp",
+        "w": 128,
+        "h": 160
+      }
+    ]
+  },
+  "/assets/img/logos/three-rivers.webp": {
+    "w": 320,
+    "h": 320,
+    "variants": [
+      {
+        "src": "/assets/img/logos/three-rivers-160.webp",
+        "w": 160,
+        "h": 160
+      }
+    ]
+  },
+  "/assets/img/logos/tri-cities.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/tri-cities-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/wakinikona.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/wakinikona-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/wasabi.webp": {
+    "w": 320,
+    "h": 240,
+    "variants": [
+      {
+        "src": "/assets/img/logos/wasabi-160.webp",
+        "w": 160,
+        "h": 120
+      }
+    ]
+  },
+  "/assets/img/logos/zamboanga.webp": {
+    "w": 320,
+    "h": 232,
+    "variants": [
+      {
+        "src": "/assets/img/logos/zamboanga-160.webp",
+        "w": 160,
+        "h": 116
+      }
+    ]
+  },
+  "/assets/img/photos/basics-mj5a2948.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "src": "/assets/img/photos/basics-mj5a2948-480.webp",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "/assets/img/photos/basics-mj5a2948-800.webp",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "/assets/img/photos/basics-mj5a2948-1200.webp",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "/assets/img/photos/hero-home.webp": {
+    "w": 1800,
+    "h": 900,
+    "variants": [
+      {
+        "src": "/assets/img/photos/hero-home-480.webp",
+        "w": 480,
+        "h": 240
+      },
+      {
+        "src": "/assets/img/photos/hero-home-800.webp",
+        "w": 800,
+        "h": 400
+      },
+      {
+        "src": "/assets/img/photos/hero-home-1200.webp",
+        "w": 1200,
+        "h": 600
+      }
+    ]
+  },
+  "/assets/img/photos/huli-practice-hood-river-2024.webp": {
+    "w": 1095,
+    "h": 753,
+    "variants": [
+      {
+        "src": "/assets/img/photos/huli-practice-hood-river-2024-480.webp",
+        "w": 480,
+        "h": 330
+      },
+      {
+        "src": "/assets/img/photos/huli-practice-hood-river-2024-800.webp",
+        "w": 800,
+        "h": 550
+      }
+    ]
+  },
+  "/assets/img/photos/race-mj5a3753.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-mj5a3753-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-mj5a3753-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-mj5a3753-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-mj5a7870.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-mj5a7870-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-mj5a7870-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-mj5a7870-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-will-dawson-643a7105.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-will-dawson-643a7105-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-will-dawson-643a7105-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-will-dawson-643a7105-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/pnworca-logo-ink.png": {
+    "w": 600,
+    "h": 218,
+    "variants": [
+      {
+        "src": "/assets/img/pnworca-logo-ink-420.webp",
+        "w": 420,
+        "h": 153
+      }
+    ]
+  },
+  "/assets/img/pnworca-logo-white.png": {
+    "w": 600,
+    "h": 218,
+    "variants": [
+      {
+        "src": "/assets/img/pnworca-logo-white-420.webp",
+        "w": 420,
+        "h": 153
+      }
+    ]
+  }
+}
