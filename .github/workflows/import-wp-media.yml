@@ -1,0 +1,24 @@
+name: Import WordPress media
+# One-time job: copies src/assets/wp/ (26 WordPress files, already SHA-256 checked on
+# branch media-move) onto this branch. Delete this file after it runs.
+on:
+  push:
+    branches: [media-links]
+    paths: [.github/workflows/import-wp-media.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Copy files and commit
+        run: |
+          git checkout origin/media-move -- src/assets/wp
+          ls src/assets/wp | wc -l
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add 26 WordPress media files to src/assets/wp" -m "Copied from branch media-move, where each file was checked against SHA-256."
+          git push

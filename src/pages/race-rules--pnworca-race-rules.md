@@ -9,7 +9,7 @@ order: 1
 
 Updated 2024
 
-[Download PDF](/wp-content/uploads/2024/07/PNW-ORCA-Race-Rules-Updated-2024.docx)
+[Download PDF](/assets/wp/PNW-ORCA-Race-Rules-Updated-2024.docx)
 
 ## PNWORCA official race and regatta rules
 

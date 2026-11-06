@@ -57,4 +57,4 @@ When a huli happens during a race, the boat is expected to continue the race. In
 
 **Once everyone is in, seats 1 – 2 – 5 – 6 start paddling!** Seats 3 and 4 continue to bail. Seat 3 starts paddling when 80%off the water out of the boat Seat 4 continues to bail until 95% of the water is out. Any water in the bottom of the canoe will cause a heavy boat and make it hard to steer and paddle.
 
-Huli recovery content courtesy of **[CORA.](https://www.canadianoutrigger.com/safety/huli/)**
+Huli recovery content courtesy of **[CORA.](https://www.canadianoutrigger.ca/races/safety/huli-recovery/)**

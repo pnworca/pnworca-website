@@ -23,7 +23,11 @@ description: "PNWORCA race results: Winter Series and summer race results from t
 {% endfor %}
 <div style="display: flex; flex-direction: column; gap: 14px">
 <h2 class="cond" style="margin: 0; font-size: 40px; line-height: 1; color: #1E2427">Earlier seasons</h2>
-<ul style="margin: 0; padding-left: 20px; font-size: 18px">
-{% for n in news %}{% if "Race Results" in n.title %}<li><a href="/{{ n.slug }}/">{{ n.title }}</a></li>{% endif %}{% endfor %}
-</ul>
+<p style="margin: 0; font-size: 16px; color: #626A70">Older results live in Google Drive and Google Sheets.</p>
+<ul style="list-style: none; margin: 0; padding: 0; border-top: 1px solid #E1E7EC">
+{% for s in resultsArchive %}<li style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; padding: 12px 0; border-bottom: 1px solid #E1E7EC">
+<span class="cond" style="font-size: 24px; line-height: 1; color: #1E2427; min-width: 64px">{{ s.year }}</span>
+{% if s.note %}<span style="font-size: 16px; color: #626A70">{{ s.note }}</span>{% else %}<span style="display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 17px">{% for l in s.links %}<a href="{{ l.url }}">{% if l.label == "All results" %}All {{ s.year }} results{% else %}{{ s.year }} {{ l.label }}{% endif %}</a>{% endfor %}</span>{% endif %}
+</li>
+{% endfor %}</ul>
 </div>
