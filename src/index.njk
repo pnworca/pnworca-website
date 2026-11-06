@@ -9,7 +9,7 @@ permalink: /
 {% set upcoming = [] %}{% for r in raceCalendar %}{% if not (r.date | ended) and upcoming.length < 8 %}{% set upcoming = (upcoming.push(r), upcoming) %}{% endif %}{% endfor %}
 {% set next = upcoming[0] %}
 <section style="position: relative; background: #1E2427; color: #FFFFFF; overflow: hidden">
-<img class="kb" src="/assets/img/photos/hero-home.webp" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; transform-origin: 60% 40%">
+{% set hp = "/assets/img/photos/hero-home.webp" %}<img class="kb" src="{{ hp | smallest }}" srcset="{{ hp | srcset }}" sizes="100vw" width="{{ hp | imgW }}" height="{{ hp | imgH }}" fetchpriority="high" alt="" aria-hidden="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; transform-origin: 60% 40%">
 <div class="scrim" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(30,36,39,0.94) 0%, rgba(30,36,39,0.9) 50%, rgba(30,36,39,0.55) 100%)"></div>
 <div style="position: absolute; top: 16px; right: 20px; z-index: 2; display: flex; align-items: center; gap: 8px; background: rgba(30,36,39,0.8); border: 1px solid rgba(255,255,255,0.35); color: #FFFFFF; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 12px; border-radius: 9999px">
 <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5" fill="#F36D21"></circle></svg>[Hero video: 15s muted race loop]
@@ -58,7 +58,7 @@ permalink: /
 <div class="marq" style="display: flex; gap: 14px; width: max-content">
 {% for m in home.marquee %}
 <div{% if loop.index > (home.marquee.length / 2) %} aria-hidden="true"{% endif %} style="flex: none; width: 132px; height: 92px; box-sizing: border-box; background: #FFFFFF; border-radius: 10px; padding: 10px; display: flex; align-items: center; justify-content: center">
-<img src="{{ m.logo }}" alt="{{ m.name }}" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block">
+<img src="{{ m.logo }}" srcset="{{ m.logo | logoSrcset }}" width="{{ m.logo | imgW }}" height="{{ m.logo | imgH }}" loading="lazy" alt="{{ m.name }}" style="width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; display: block">
 </div>
 {% endfor %}
 </div>
@@ -88,7 +88,7 @@ permalink: /
 </section>
 
 <section style="position: relative; overflow: hidden; color: #FFFFFF">
-<img class="photo-band" src="/assets/img/photos/race-will-dawson-643a7105.webp" alt="Aerial view of outrigger canoes racing past a marina" style="width: 100%; object-fit: cover; display: block">
+{% set pb = "/assets/img/photos/race-will-dawson-643a7105.webp" %}<img class="photo-band" src="{{ pb }}" srcset="{{ pb | srcset }}" sizes="100vw" width="{{ pb | imgW }}" height="{{ pb | imgH }}" loading="lazy" alt="Aerial view of outrigger canoes racing past a marina" style="width: 100%; object-fit: cover; display: block">
 <div class="scrim-band" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(30,36,39,0.25) 0%, rgba(30,36,39,0.88) 100%)"></div>
 <div style="position: absolute; left: 0; bottom: 120px; width: 100%">
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
@@ -109,7 +109,7 @@ permalink: /
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 20px">
 {% for b in home.basics %}
 <a href="/outrigger-basics/{{ b.title | slugify }}/" style="position: relative; display: flex; flex-direction: column; background: #FFFFFF; border-radius: 16px; overflow: hidden; text-decoration: none; color: #221D35; border: 1px solid #E1E7EC">
-<img src="{{ b.img }}" alt="" aria-hidden="true" style="width: 100%; height: 160px; object-fit: cover; display: block; background: #1E2427">
+<img src="{{ b.img }}" srcset="{{ b.img | srcset }}" sizes="(min-width: 900px) 33vw, 100vw" width="{{ b.img | imgW }}" height="{{ b.img | imgH }}" loading="lazy" alt="" aria-hidden="true" style="width: 100%; height: 160px; object-fit: cover; display: block; background: #1E2427">
 <div style="position: absolute; top: 132px; left: 16px; width: 56px; height: 56px; border-radius: 9999px; background: #F36D21; color: #221D35; display: flex; align-items: center; justify-content: center; border: 4px solid #FFFFFF">
 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{ b.icon }}"></path></svg>
 </div>
@@ -152,7 +152,7 @@ permalink: /
 <div class="sec" style="max-width: 1240px; margin: 0 auto; padding-top: 40px; display: flex; flex-direction: column; gap: 40px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 32px; align-items: center">
 <a href="/oc6-huli-instruction-video/" aria-label="Watch the OC6 Huli Instruction Video" style="position: relative; display: block; border-radius: 18px; overflow: hidden; text-decoration: none">
-<img src="/assets/img/photos/huli-practice-hood-river-2024.webp" alt="" aria-hidden="true" style="width: 100%; height: 360px; object-fit: cover; display: block">
+{% set hv = "/assets/img/photos/huli-practice-hood-river-2024.webp" %}<img src="{{ hv }}" srcset="{{ hv | srcset }}" sizes="(min-width: 900px) 50vw, 100vw" width="{{ hv | imgW }}" height="{{ hv | imgH }}" loading="lazy" alt="" aria-hidden="true" style="width: 100%; height: 360px; object-fit: cover; display: block">
 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(30,36,39,0.35)"></div>
 <div class="pulse" style="position: absolute; top: 50%; left: 50%; width: 88px; height: 88px; margin: -44px 0 0 -44px; border-radius: 9999px; background: #F36D21; color: #221D35; display: flex; align-items: center; justify-content: center">
 <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg>
