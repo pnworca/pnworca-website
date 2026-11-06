@@ -22,13 +22,15 @@ a{color:#283485}a:hover{color:#221D35}
 .drift-r{animation:drift 30s linear infinite reverse}
 .bob{animation:bob 4.5s ease-in-out infinite}
 .marq{animation:marq 70s linear infinite}
-.pulse{animation:pulse 2.4s ease-in-out infinite}
+.pulse{position:relative;isolation:isolate;--ps:1.32}
+span.pulse{--ps:4.1}
+.pulse::after{content:"";position:absolute;inset:0;border-radius:inherit;background:#F36D21;opacity:.55;z-index:-1;pointer-events:none;animation:pulse 2.4s ease-in-out infinite}
 @keyframes kb{from{transform:scale(1.04) translate(0,0)}to{transform:scale(1.16) translate(-2%,-1.5%)}}
 @keyframes drift{from{transform:translateX(0)}to{transform:translateX(-1440px)}}
 @keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-7px) rotate(3deg)}}
 @keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(243,109,33,0.55)}50%{box-shadow:0 0 0 14px rgba(243,109,33,0)}}
-@media (prefers-reduced-motion: reduce){.kb,.drift,.drift-r,.bob,.marq,.pulse{animation:none}}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(var(--ps));opacity:0}}
+@media (prefers-reduced-motion: reduce){.kb,.drift,.drift-r,.bob,.marq,.pulse::after{animation:none}}
 @container pg (max-width: 1040px){
 .util{display:none}
 .navd{display:none}
@@ -88,7 +90,7 @@ a{color:#283485}a:hover{color:#221D35}
 /* accessibility: pause control, mobile hero scrim */
 .motion-toggle{background:transparent;border:1.5px solid #FFFFFF;color:#FFFFFF;padding:8px 16px;min-height:36px;border-radius:9999px;font:inherit;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 .motion-toggle[aria-pressed="true"]{background:#FFFFFF;color:#221D35}
-.motion-paused .kb,.motion-paused .drift,.motion-paused .drift-r,.motion-paused .bob,.motion-paused .marq,.motion-paused .pulse{animation-play-state:paused}
+.motion-paused .kb,.motion-paused .drift,.motion-paused .drift-r,.motion-paused .bob,.motion-paused .marq,.motion-paused .pulse::after{animation-play-state:paused}
 @container pg (max-width: 700px){
 .scrim{background:rgba(30,36,39,0.88) !important}
 .scrim-band{background:linear-gradient(180deg, rgba(30,36,39,0.6) 0%, rgba(30,36,39,0.96) 100%) !important}
