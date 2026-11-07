@@ -10,5 +10,7 @@
     "Idaho",
     "Utah"
   ],
-  "facebook": "https://www.facebook.com/pacificnorthwestoutrigger/"
+  "facebook": "https://www.facebook.com/pacificnorthwestoutrigger/",
+  "formsUrl": "https://script.google.com/macros/s/AKfycbxNem1b7SFhd_Q50q_dYdJ5fG7y8vBwLJyGYHHc73IfKVBcmca3xjFIeWoZOHi829PhEQ/exec",
+  "turnstileSiteKey": "0x4AAAAAAF23SdITaZvl6-nk"
 }
