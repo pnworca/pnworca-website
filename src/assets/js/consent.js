@@ -27,7 +27,7 @@
 
   CookieConsent.run({
     guiOptions: {
-      consentModal: { layout: 'box', position: 'bottom left' },
+      consentModal: { layout: 'bar inline', position: 'bottom' },
       preferencesModal: { layout: 'box' }
     },
     onConsent: applyConsent,
@@ -43,11 +43,10 @@
       translations: {
         en: {
           consentModal: {
-            title: 'Cookies on this site',
-            description: 'We use Google Analytics to see which pages people use, so we can improve the site. It sets cookies only if you accept. <a href="/privacy/">Privacy</a>',
+            label: 'Cookie consent',
+            description: 'We use Google Analytics cookies to see which pages people use. <a href="/privacy/">Privacy</a>',
             acceptAllBtn: 'Accept',
-            acceptNecessaryBtn: 'Reject',
-            showPreferencesBtn: 'Choose'
+            acceptNecessaryBtn: 'Reject'
           },
           preferencesModal: {
             title: 'Cookie settings',
