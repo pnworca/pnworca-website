@@ -131,3 +131,4 @@ span.pulse{--ps:4.1}
 .form-status{margin:0;font-weight:700;font-size:17px}
 .form-status[data-state="ok"]{color:#1B6B3A}
 .form-status[data-state="error"]{color:#A32020}
+#cc-main{--cc-font-family:'Source Sans 3','Source Sans Pro',Arial,sans-serif;--cc-primary-color:#221D35;--cc-link-color:#283485;--cc-btn-border-radius:9999px;--cc-btn-primary-bg:#F36D21;--cc-btn-primary-border-color:#F36D21;--cc-btn-primary-color:#221D35;--cc-btn-primary-hover-bg:#D85A12;--cc-btn-primary-hover-border-color:#D85A12;--cc-btn-primary-hover-color:#221D35}
