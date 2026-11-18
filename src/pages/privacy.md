@@ -15,7 +15,11 @@ This page explains what information the PNWORCA website collects and what we do 
 
 **Hosting.** The site is hosted by Cloudflare. Like any web host, Cloudflare processes standard request data, such as IP addresses, to deliver pages and protect the site.
 
-We do not use advertising, tracking cookies or third-party analytics, and we do not sell or share your information for marketing.
+**Analytics.** If you accept cookies in the banner, we use Google Analytics, loaded through Google Tag Manager, to count visits and see which pages are used. Google Analytics sets cookies whose names start with _ga. If you reject the banner or do not answer it, Google Analytics and Google Tag Manager do not load. You can change your choice at any time with the Cookie settings link at the bottom of every page. Google's handling of that data is covered by the [Google privacy policy](https://policies.google.com/privacy).
+
+**Cloudflare Web Analytics.** We also use Cloudflare Web Analytics, which counts page views without using cookies.
+
+We do not use advertising, and we do not sell or share your information for marketing.
 
 ## How long we keep it
 
