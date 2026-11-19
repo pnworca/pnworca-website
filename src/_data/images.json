@@ -441,6 +441,169 @@
       }
     ]
   },
+  "/assets/img/photos/race-around-the-island.webp": {
+    "w": 1800,
+    "h": 1080,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-around-the-island-480.webp",
+        "w": 480,
+        "h": 288
+      },
+      {
+        "src": "/assets/img/photos/race-around-the-island-800.webp",
+        "w": 800,
+        "h": 480
+      },
+      {
+        "src": "/assets/img/photos/race-around-the-island-1200.webp",
+        "w": 1200,
+        "h": 720
+      }
+    ]
+  },
+  "/assets/img/photos/race-chicken-long.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-chicken-long-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-chicken-long-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-chicken-long-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-da-grind.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-da-grind-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-da-grind-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-da-grind-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-gorge-downwind.webp": {
+    "w": 1433,
+    "h": 1003,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-gorge-downwind-480.webp",
+        "w": 480,
+        "h": 336
+      },
+      {
+        "src": "/assets/img/photos/race-gorge-downwind-800.webp",
+        "w": 800,
+        "h": 560
+      },
+      {
+        "src": "/assets/img/photos/race-gorge-downwind-1200.webp",
+        "w": 1200,
+        "h": 840
+      }
+    ]
+  },
+  "/assets/img/photos/race-gorge.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-gorge-480.webp",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "/assets/img/photos/race-gorge-800.webp",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "/assets/img/photos/race-gorge-1200.webp",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "/assets/img/photos/race-kalama.webp": {
+    "w": 1000,
+    "h": 667,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-kalama-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-kalama-800.webp",
+        "w": 800,
+        "h": 534
+      }
+    ]
+  },
+  "/assets/img/photos/race-makukane.webp": {
+    "w": 1800,
+    "h": 1299,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-makukane-480.webp",
+        "w": 480,
+        "h": 346
+      },
+      {
+        "src": "/assets/img/photos/race-makukane-800.webp",
+        "w": 800,
+        "h": 577
+      },
+      {
+        "src": "/assets/img/photos/race-makukane-1200.webp",
+        "w": 1200,
+        "h": 866
+      }
+    ]
+  },
+  "/assets/img/photos/race-manu-baker.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-manu-baker-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-manu-baker-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-manu-baker-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
   "/assets/img/photos/race-mj5a3753.webp": {
     "w": 1800,
     "h": 1200,
@@ -483,6 +646,153 @@
       }
     ]
   },
+  "/assets/img/photos/race-na-poe-green-lake.webp": {
+    "w": 1800,
+    "h": 1081,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-na-poe-green-lake-480.webp",
+        "w": 480,
+        "h": 288
+      },
+      {
+        "src": "/assets/img/photos/race-na-poe-green-lake-800.webp",
+        "w": 800,
+        "h": 480
+      },
+      {
+        "src": "/assets/img/photos/race-na-poe-green-lake-1200.webp",
+        "w": 1200,
+        "h": 721
+      }
+    ]
+  },
+  "/assets/img/photos/race-paddle-palooza.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-paddle-palooza-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-paddle-palooza-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-paddle-palooza-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-pnw-challenge.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-pnw-challenge-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-pnw-challenge-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-pnw-challenge-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-rooster-rock.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-rooster-rock-480.webp",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "/assets/img/photos/race-rooster-rock-800.webp",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "/assets/img/photos/race-rooster-rock-1200.webp",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "/assets/img/photos/race-rusty-iron.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-rusty-iron-480.webp",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "/assets/img/photos/race-rusty-iron-800.webp",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "/assets/img/photos/race-rusty-iron-1200.webp",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "/assets/img/photos/race-silver-lake.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-silver-lake-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-silver-lake-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-silver-lake-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-silverdale.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-silverdale-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-silverdale-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-silverdale-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
   "/assets/img/photos/race-will-dawson-643a7105.webp": {
     "w": 1800,
     "h": 1200,
@@ -499,6 +809,153 @@
       },
       {
         "src": "/assets/img/photos/race-will-dawson-643a7105-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-1.webp": {
+    "w": 1800,
+    "h": 1013,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-1-480.webp",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "/assets/img/photos/race-winter-1-800.webp",
+        "w": 800,
+        "h": 450
+      },
+      {
+        "src": "/assets/img/photos/race-winter-1-1200.webp",
+        "w": 1200,
+        "h": 675
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-2.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-2-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-winter-2-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-winter-2-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-3.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-3-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-winter-3-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-winter-3-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-4.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-4-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-winter-4-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-winter-4-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-5.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-5-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-winter-5-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-winter-5-1200.webp",
+        "w": 1200,
+        "h": 800
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-6.webp": {
+    "w": 1800,
+    "h": 1350,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-6-480.webp",
+        "w": 480,
+        "h": 360
+      },
+      {
+        "src": "/assets/img/photos/race-winter-6-800.webp",
+        "w": 800,
+        "h": 600
+      },
+      {
+        "src": "/assets/img/photos/race-winter-6-1200.webp",
+        "w": 1200,
+        "h": 900
+      }
+    ]
+  },
+  "/assets/img/photos/race-winter-7.webp": {
+    "w": 1800,
+    "h": 1200,
+    "variants": [
+      {
+        "src": "/assets/img/photos/race-winter-7-480.webp",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "/assets/img/photos/race-winter-7-800.webp",
+        "w": 800,
+        "h": 533
+      },
+      {
+        "src": "/assets/img/photos/race-winter-7-1200.webp",
         "w": 1200,
         "h": 800
       }

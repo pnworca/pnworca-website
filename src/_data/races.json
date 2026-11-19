@@ -66,6 +66,7 @@
   ],
   "results": "https://paddleguru.com/races/PNWORCAWinterSeriesRace1WasabiBridgeToBridge2026/results",
   "series": "Winter Series #1",
+  "photo": "/assets/img/photos/race-winter-1.webp",
   "source": "pnworca.org race page, 2026"
  },
  {
@@ -109,6 +110,7 @@
    ]
   ],
   "series": "Winter Series #2",
+  "photo": "/assets/img/photos/race-winter-2.webp",
   "source": "pnworca.org race page and Webscorer, 2026"
  },
  {
@@ -169,6 +171,7 @@
    ]
   ],
   "series": "Winter Series #3",
+  "photo": "/assets/img/photos/race-winter-3.webp",
   "source": "pnworca.org race page and host email (Kalama Race 2026), 2026"
  },
  {
@@ -226,6 +229,7 @@
   ],
   "series": "Winter Series #4",
   "results": "https://register.pacificmultisports.com/Events/Results/1368",
+  "photo": "/assets/img/photos/race-winter-4.webp",
   "source": "BBOP flyer, 2026"
  },
  {
@@ -263,6 +267,7 @@
    "Vanier Park,",
    "2 courses"
   ],
+  "photo": "/assets/img/photos/race-winter-5.webp",
   "source": "Webscorer registration page, 2026"
  },
  {
@@ -293,6 +298,7 @@
    "Willamette River,",
    "one course"
   ],
+  "photo": "/assets/img/photos/race-winter-6.webp",
   "source": "Kai PDX flyer, 2026"
  },
  {
@@ -328,6 +334,7 @@
    "Sand Point,",
    "2 courses"
   ],
+  "photo": "/assets/img/photos/race-winter-7.webp",
   "source": "SPOCC flyer, 2025 (no 2026 flyer found)"
  },
  {
@@ -366,6 +373,7 @@
    "Columbia River,",
    "2 courses"
   ],
+  "photo": "/assets/img/photos/race-rusty-iron.webp",
   "source": "pacificoutrigger.com Rusty Iron page, 2026"
  },
  {
@@ -402,6 +410,7 @@
    "Columbia River,",
    "2 courses"
   ],
+  "photo": "/assets/img/photos/race-around-the-island.webp",
   "source": "RATI registration packet, 2026"
  },
  {
@@ -420,6 +429,7 @@
    "region": "WA"
   },
   "summary": "Kīkaha O Ke Kai's sprint regatta at Spanaway Lake Park: 500, 1000 and 1500 meter OC6 races on a 250 meter course with turns, plus 500 meter straightaway V1 and OC1 events. Spec OC6 canoes only. Club points awards, a raffle tent, and plate lunches for sale.",
+  "photo": "/assets/img/photos/race-manu-baker.webp",
   "source": "Host email and race info, 2026 and 2025"
  },
  {
@@ -446,6 +456,7 @@
     "Spec OC6 races on a 250 m course with turns, and V1 and OC1 straightaway races over 500 m."
    ]
   ],
+  "photo": "/assets/img/photos/race-na-poe-green-lake.webp",
   "source": "Host email 2026, flyer 2025",
   "results": "https://drive.google.com/file/d/11SJIAVjr6-5ed0HVhvoaTO4W0yECQzii/view"
  },
@@ -465,6 +476,7 @@
    "region": "WA"
   },
   "summary": "Hui Heihei Waʻa's OC6 sprint regatta at Silverdale Waterfront Park. Every event runs on a 250-meter course with 7 or 8 lanes and includes a turn. Clubs pre-register their crews by email before race day, and awards go to the top three clubs in the AA (20 or more events) and A divisions. The beach is tidal and rocky, so bring foot protection and canoe cradles.",
+  "photo": "/assets/img/photos/race-silverdale.webp",
   "source": "Host race announcement, 2026 (2026 Silverdale Sprints Regatta Announcement.docx)",
   "schedule": [
    [
@@ -503,6 +515,7 @@
    "postal": "98208"
   },
   "summary": "Hui Waʻa O Puget Sound's sprint regatta at Thornton Sullivan Park on Everett's Silver Lake. 500, 1000 and 1500 meter OC6 races on a 250 meter course with turns, plus 500 meter straightaway V1 and OC1 events. Spec OC6 canoes only in 2026. Plate lunches for sale, and club points plaques.",
+  "photo": "/assets/img/photos/race-silver-lake.webp",
   "source": "Host email 2026, information page 2025"
  },
  {
@@ -538,6 +551,7 @@
    "Columbia River,",
    "2 courses"
   ],
+  "photo": "/assets/img/photos/race-rooster-rock.webp",
   "source": "Rooster Rock flyer and maunahale.org, 2026",
   "results": "https://drive.google.com/drive/folders/1v-a0lyZAUZ470efGZORBkl-KQff8qxLa"
  },
@@ -569,6 +583,7 @@
    "Columbia River Gorge,",
    "21 miles"
   ],
+  "photo": "/assets/img/photos/race-gorge.webp",
   "source": "threeoceans.co Gorge Race page"
  },
  {
@@ -588,6 +603,7 @@
   },
   "infoUrl": "https://gorgedownwindchamps.com",
   "summary": "A week-long downwind paddling festival in the Columbia River Gorge for OC, surfski and SUP, based at the Skamania County Fairgrounds in Stevenson, about an hour from Portland. Shuttles run daily from Home Valley Park. The main solo race is held Thursday, Friday or Saturday, on the day with the best wind, and the top five in each pro division share cash prizes.",
+  "photo": "/assets/img/photos/race-gorge-downwind.webp",
   "source": "gorgedownwindchamps.com (2027 event page)"
  },
  {
@@ -608,6 +624,7 @@
    "postal": "98115"
   },
   "summary": "Sand Point Outrigger and Kīkaha O Ke Kai's Lake Washington race from Magnuson Park in Seattle, with four courses to fit a crew's size and ability: a beach-change race off Sand Point, an iron race through the 520 and I-90 bridges with no changes, a water-change race around Mercer Island, and a beach relay with change points around the lake. Two safety boats cover the course, and every canoe must carry one PFD per paddler. Registration is on race day, and the entry fee includes the post-race meal.",
+  "photo": "/assets/img/photos/race-pnw-challenge.webp",
   "source": "Host race information sheet, 2026 (Pacific Northwest Challenge 2026 Information.pdf)",
   "cost": 50,
   "schedule": [
@@ -693,6 +710,7 @@
    "2 courses"
   ],
   "infoUrl": "https://www.seattleoutrigger.com/dagrind",
+  "photo": "/assets/img/photos/race-da-grind.webp",
   "source": "seattleoutrigger.com Da Grind page and host email, 2026"
  },
  {
@@ -765,7 +783,7 @@
     "The full course is 10.5 miles on Ruston Way. The short course is 2 laps, 5.3 miles. Each lap is 2.6 miles."
    ]
   ],
-  "photo": "/assets/img/photos/basics-mj5a2948.webp",
+  "photo": "/assets/img/photos/race-chicken-long.webp",
   "source": "pnworca.org race page, 2026"
  }
 ]

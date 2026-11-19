@@ -10,6 +10,7 @@
   "logo": "/assets/img/logos/seattle-outrigger.webp",
   "email": "info@seattleoutrigger.com",
   "website": "https://www.seattleoutrigger.com",
+  "photo": "/assets/img/photos/race-da-grind.webp",
   "social": {
    "twitter": "https://twitter.com/seaoutrigger",
    "facebook": "https://www.facebook.com/SeattleOutrigger/",
@@ -38,6 +39,7 @@
   "logo": "/assets/img/logos/sand-point.webp",
   "email": "info@sandpointpaddlingclub.com",
   "website": "http://www.sandpointpaddlingclub.com",
+  "photo": "/assets/img/photos/race-pnw-challenge.webp",
   "social": {
    "facebook": "https://www.facebook.com/SandPointOutriggerCanoeClub/",
    "instagram": "https://www.instagram.com/sandpointpaddlingclub/"
@@ -67,6 +69,7 @@
   "logo": "/assets/img/logos/wakinikona.webp",
   "email": "wakinikona@gmail.com",
   "website": "https://www.wakinikonaclub.com",
+  "photo": "/assets/img/photos/race-na-poe-green-lake.webp",
   "social": {
    "twitter": "https://twitter.com/Wakinikona",
    "facebook": "https://www.facebook.com/Wakinikona-Hawaiian-Club-126108430761649/timeline"
@@ -133,6 +136,7 @@
   "logo": "/assets/img/logos/hui-waa-o-puget-sound.webp",
   "email": "HWOPS.contact@gmail.com",
   "website": "https://huiwaaopugetsound.com/",
+  "photo": "/assets/img/photos/race-silver-lake.webp",
   "social": {
    "facebook": "https://www.facebook.com/groups/HWOPS/"
   },
@@ -158,6 +162,7 @@
   "logo": "/assets/img/logos/kikaha.webp",
   "email": "Kikaha.info@gmail.com",
   "website": "https://kikaha.com",
+  "photo": "/assets/img/photos/race-manu-baker.webp",
   "social": {
    "facebook": "https://www.facebook.com/kikaha/"
   },
@@ -187,6 +192,7 @@
   "logo": "/assets/img/logos/hui-heihei-waa.webp",
   "email": "info@hhwsilverdale.org",
   "website": "https://www.hhwsilverdale.org",
+  "photo": "/assets/img/photos/race-silverdale.webp",
   "social": {
    "facebook": "https://www.facebook.com/HuiHeiHeiWaa/"
   },
@@ -212,6 +218,7 @@
   "logo": "/assets/img/logos/kai-pana.webp",
   "email": "kaipanaoutrigger@gmail.com",
   "website": "https://kaipanaoutrigger.com",
+  "photo": "/assets/img/photos/race-makukane.webp",
   "social": {
    "facebook": "https://www.facebook.com/kaipanaoutrigger/",
    "instagram": "https://www.instagram.com/kaipanacanoeclub/"
@@ -239,6 +246,7 @@
   "logo": "/assets/img/logos/bellingham-bay.webp",
   "email": "bbopmembership@gmail.com",
   "website": "https://www.bbop.us",
+  "photo": "/assets/img/photos/race-winter-4.webp",
   "social": {
    "facebook": "https://www.facebook.com/BBOPinBellingham/",
    "instagram": "https://www.instagram.com/bellingham_bay_outrigger/"
@@ -374,6 +382,7 @@
   "logo": "/assets/img/logos/columbia-river.webp",
   "email": "croccpaddle@gmail.com",
   "website": "https://croccpaddle.com",
+  "photo": "/assets/img/photos/race-around-the-island.webp",
   "social": {
    "facebook": "https://www.facebook.com/ColumbiaRiverOutriggerCanoeClub/"
   },
@@ -415,7 +424,8 @@
    "We are a small club of gentle folk looking to grow our membership. We welcome all adults 18 and over, people from all walks of life and folks of varying paddling experience. We offer competitive and recreational opportunities. If you’ve never paddled before, it’s not a problem. We have life jackets and paddles on site, and we’ll show you the ropes.",
    "For fun fitness practice and potential for competition, this is your place!",
    "Mission statement: Pacific Outrigger Canoe Club strives to intertwine the Hawaiian culture that surrounds outrigger canoeing with current trends in competitive sport. While the primary focus is to train competitive racing teams, Pacific Outrigger also offers paddling for recreation and fitness."
-  ]
+  ],
+  "photo": "/assets/img/photos/race-rusty-iron.webp"
  },
  {
   "name": "Zamboanga Paddling Club",
@@ -428,6 +438,7 @@
   "logo": "/assets/img/logos/zamboanga.webp",
   "email": "zambopdx@gmail.com",
   "website": null,
+  "photo": "/assets/img/photos/race-kalama.webp",
   "social": {
    "twitter": "https://twitter.com/zamboangapdx",
    "facebook": "https://www.facebook.com/zamboangapdx/",
@@ -458,6 +469,7 @@
   "logo": "/assets/img/logos/kai-ikaika.webp",
   "email": "info@kaiikaika.com",
   "website": null,
+  "photo": "/assets/img/photos/race-winter-6.webp",
   "social": {
    "facebook": "https://www.facebook.com/KaiIkaika",
    "instagram": "https://www.instagram.com/kaiikaikapaddlingclub/"
@@ -495,7 +507,8 @@
    "Our paddlers come from all ages and stages of life. Our teams are comprised of all abilities and physical fitness levels. There is a team for everyone, from the novice paddler who is just learning the basics, to the most competitive athlete who races at international venues around the world.",
    "Wasabi teams range from recreational to competitive, including specialized teams like our High School team, Kraken. We also have our Wasabi Special Dragons, our Visually Impaired Paddlers (Team VIP), and Wasabi Team SOAR, our women’s cancer survivor and supporter team. At Nehalem Bay, we have our dragon boat team, the Tide Runners.",
    "We are an inclusive Club welcoming all paddlers. Regardless of your age, experience, or gender identity, we all have one thing in common, we find great joy in being on the water with one another."
-  ]
+  ],
+  "photo": "/assets/img/photos/race-winter-1.webp"
  },
  {
   "name": "Gorge Canoe Club",
@@ -614,6 +627,7 @@
   "logo": "/assets/img/logos/mountain-home.webp",
   "email": "paddler-inquiry@maunahale.org",
   "website": "https://www.maunahale.org",
+  "photo": "/assets/img/photos/race-rooster-rock.webp",
   "social": {
    "facebook": "https://www.facebook.com/MountainHomeOutrigger/"
   },
@@ -638,6 +652,7 @@
   "area": null,
   "logo": "/assets/img/logos/inland-nw-montana.webp",
   "website": "https://inlandnorthwestcanoeclub.org/",
+  "photo": "/assets/img/photos/race-paddle-palooza.webp",
   "social": {
    "facebook": "https://www.facebook.com/profile.php?id=61552137175743",
    "instagram": "https://www.instagram.com/montana_canoe_club"
