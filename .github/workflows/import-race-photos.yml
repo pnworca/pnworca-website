@@ -1,0 +1,137 @@
+name: Import race photos
+# One-time job: downloads the old site's photo for each race (and three club races not on the
+# calendar) from pnworca.org, checks SHA-256, converts to WebP with resized copies, sets "photo"
+# on races and host clubs, and removes this file in the same commit.
+on:
+  push:
+    branches: [race-photos]
+    paths: [.github/workflows/import-race-photos.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Download and verify
+        run: |
+          mkdir -p /tmp/rp
+          cat > /tmp/rp/manifest.txt <<'LIST'
+          race-winter-1 winter-series-race-1-hosted-by-wasabi 2019/01/MJ5A8074-e1551033556117.jpg 46b73f29479106601e76673e4bc5712fabff1d71cb552d9b65acb71259a3d3f6
+          race-winter-2 winter-series-race-2-hosted-by-jericho-paddling-club 2019/02/MJ5A7868-e1551033725537.jpg 4226ff4398dc5c3333f2f3d5d8ec7181dcd4b83be77fe2ad355dff97aa8e6cd0
+          race-winter-3 winter-series-race-3-hosted-by-mhcc 2019/01/MJ5A7892.jpg 3548985b8d1cefbdca758f24684d29cf306eedc395c1021c437bc3d394b59d08
+          race-winter-4 winter-series-race-4 2019/02/MJ5A7811-e1551033473976.jpg a282cc4bd0ff37b495f52068d177da2eec73de22bd8e60133016aadd6ce9d763
+          race-winter-5 winter-series-race-5 2019/02/MJ5A5529-e1551033457673.jpg 44edb3f28d453a53412a9ac3a51b765677182b45ce80e2588c13e78bd10bffa7
+          race-winter-6 winter-series-race-6-hosted-by-kai-ikaika 2019/01/11012153_852283994859561_7732815803895506797_o.jpg 3522cf8193374f3d7eb29b76fe8af55544073308d04e32fe03038415579db087
+          race-winter-7 winter-series-race-7 2019/01/MJ5A8030-e1551033581938.jpg ec03984b6457a0e7182cada7c096f3967749885d721ae60249d7525c51063d14
+          race-rusty-iron rusty-iron-hosted-by-pacific-outrigger-canoe-club 2019/01/MJ5A6925-with-Photologo-e1551033595367.jpg 037cd6ecf87374180e0d89a4ebd7836a36f12b0787b332ae40584b2f16e51a0d
+          race-around-the-island race-around-the-island-hosted-by-crocc 2019/01/cropped-donahue_3-1.jpg a70d9166ce8c3114ef04721af3d44cd8fbb9e1b7c88fd4870dedb86449a53e2e
+          race-manu-baker manu-k-baker-regatta-spanaway-lake-hosted-by-kikaha-o-ke-kai 2019/01/MJ5A6832-e1551033615788.jpg 5a39d0658c72cd6c021f8b638588b406cebc282ee9ce3ae91c81a05ef8be082b
+          race-na-poe-green-lake na-poe-o-ke-kai-springs-green-lake-sprints-hosted-by-wakinikona 2019/01/cropped-moody_10.jpg 21d932706b56d1d72133e2f5e51437513c86867994a401e9a3a8a85792ab62eb
+          race-silverdale silverdale-sprints 2019/01/MJ5A4595-e1551033668460.jpg 5ed7d98b44a382a2f20f9d06a5d221b1f1fa43a1e15598f802071d4cf335a461
+          race-silver-lake silverlake-sprints 2019/01/iStock-181063766-e1551033635395.jpg 8bdf5a45662bf44e063b3c8dc14187b909d4bcdcc7ee29cd61e8cc662d76711b
+          race-rooster-rock rooster-rock-race 2019/01/MJ5A3730.jpg 1362b4eb70b04199725015544c6744810974ef1a6ca05ada3668875a902b3bf0
+          race-gorge gorge-race 2019/01/MJ5A3094-e1551033697420.jpg dc7e6268f0887b635e657147a1a044f44320ec0a0c3b98eedb4c6bb1d5ba608b
+          race-gorge-downwind gorge-downwind-champs 2023/11/Gorge-Downwind-Champs.png 680fe89cecef9a63ed1c494fdc9c4fb2de49ec29c95047d5cff395da561f8ee3
+          race-pnw-challenge pacific-northwest-challenge-hosted-by-sail-sand-point 2019/01/MJ5A9538-e1551033519594.jpg aa68bc4ad95057808dca7a26c3eb8288225a91da1c60b0bd02f2f8e87e1b8996
+          race-da-grind da-grind 2019/01/MJ5A3610-e1551033651708.jpg 8c368108a16f469b7d74e2557a96ec1ee70ab6ef0ccefb83e976e2788c64b29d
+          race-chicken-long chicken-long-race-hosted-by-kikaha 2019/01/MJ5A7945-e1551033505689.jpg 3befa1da83e2e37a6175331cd43251756de4de77d85fd602db018f510240c1a0
+          race-makukane makukane-challenge 2019/03/KaiPanaRace.jpg 79800dfa0735cbd804e518f5c4b9c602c73721172f445ef52fd0ddd0ce2ac493
+          race-paddle-palooza paddle-palooza-hosted-by-montana-canoe-club 2024/04/Palooza-paddles-up-3-scaled.jpg fbd84b7b12471d67e4f9a4b17832d3d5575562ceb6a194d640fb2d3b8fbb835c
+          race-kalama kalama-cultural-festival-hosted-by-zamboanga 2019/02/MJ5A5709-Leah-Strayer-Photography-e1550512419889.jpg 891a80f9424fbe037fb554057497b11cfc544e24f8e6c581cb236fd5ad6b4d08
+          LIST
+          sed -i 's/^ *//' /tmp/rp/manifest.txt
+          while read -r name slug path sum; do
+            curl -fsSL --retry 3 -o "/tmp/rp/$name.orig" "https://pnworca.org/wp-content/uploads/$path"
+            echo "$sum  /tmp/rp/$name.orig" | sha256sum -c -
+          done < /tmp/rp/manifest.txt
+      - name: Convert, resize, set photo fields
+        run: |
+          cat > .convert-race-photos.mjs <<'EOF1'
+          // Converts the downloaded old-site race photos to WebP originals (max 1800 px wide).
+          import sharp from 'sharp';
+          import { readFileSync } from 'node:fs';
+          const [manifest, srcDir] = process.argv.slice(2);
+          for (const line of readFileSync(manifest, 'utf8').trim().split('\n')) {
+            const [name] = line.trim().split(/\s+/);
+            const info = await sharp(`${srcDir}/${name}.orig`).rotate()
+              .resize({ width: 1800, withoutEnlargement: true })
+              .webp({ quality: 80, effort: 6 })
+              .toFile(`src/assets/img/photos/${name}.webp`);
+            console.log(name, info.width + 'x' + info.height, Math.round(info.size / 1024) + 'KB');
+          }
+          EOF1
+          cat > .variants-race-photos.mjs <<'EOF2'
+          // Adds 480/800/1200 WebP copies for the new race photos and merges them into images.json,
+          // using the same settings as scripts/responsive-images.mjs (photos: quality 72, effort 6).
+          import sharp from 'sharp';
+          import { readFileSync, writeFileSync, statSync, unlinkSync } from 'node:fs';
+          const [manifest] = process.argv.slice(2);
+          const data = JSON.parse(readFileSync('src/_data/images.json', 'utf8'));
+          for (const line of readFileSync(manifest, 'utf8').trim().split('\n')) {
+            const [name] = line.trim().split(/\s+/);
+            const file = `src/assets/img/photos/${name}.webp`;
+            const { width: w, height: h } = await sharp(file).metadata();
+            const variants = [];
+            for (const width of [480, 800, 1200].filter((x) => x < w)) {
+              const out = `src/assets/img/photos/${name}-${width}.webp`;
+              const info = await sharp(file).resize({ width, withoutEnlargement: true }).webp({ quality: 72, effort: 6 }).toFile(out);
+              if (info.width === w && info.height === h && statSync(out).size >= statSync(file).size) { unlinkSync(out); continue; }
+              variants.push({ src: `/assets/img/photos/${name}-${width}.webp`, w: info.width, h: info.height });
+            }
+            variants.sort((a, b) => a.w - b.w);
+            data[`/assets/img/photos/${name}.webp`] = { w, h, variants };
+          }
+          const sorted = Object.fromEntries(Object.keys(data).sort().map((k) => [k, data[k]]));
+          writeFileSync('src/_data/images.json', JSON.stringify(sorted, null, 2) + '\n');
+          console.log('entries', Object.keys(sorted).length);
+          EOF2
+          cat > /tmp/rp/apply.py <<'EOF3'
+          # Sets "photo" on each race (old-site race photo) and on each host club (that club's race photo).
+          import json, sys
+          manifest = [l.split()[:3] for l in open(sys.argv[1]).read().strip().split('\n')]
+          race_photo = {slug: f"/assets/img/photos/{name}.webp" for name, slug, _ in manifest}
+          club_race = {
+            'wasabi-paddling-club': 'race-winter-1', 'mountain-home-outrigger-canoe-club': 'race-rooster-rock',
+            'bellingham-bay-outrigger-paddlers': 'race-winter-4', 'kai-ikaika-paddling-club': 'race-winter-6',
+            'sand-point-paddling-club': 'race-pnw-challenge', 'pacific-outrigger-canoe-club': 'race-rusty-iron',
+            'columbia-river-outrigger-canoe-club': 'race-around-the-island', 'kikaha-o-ke-kai': 'race-manu-baker',
+            'hui-waa-o-wakinikona': 'race-na-poe-green-lake', 'hui-heihei-waa': 'race-silverdale',
+            'hui-waa-o-puget-sound': 'race-silver-lake', 'seattle-outrigger-canoe-club': 'race-da-grind',
+            'kai-pana-outrigger-canoe-club': 'race-makukane', 'inland-northwest-montana-canoe-club': 'race-paddle-palooza',
+            'zamboanga-paddling-club': 'race-kalama'}
+
+          def put(obj, key, value, before):
+              out = {}
+              for k, v in obj.items():
+                  if k == key: continue
+                  if k == before and key not in out: out[key] = value
+                  out[k] = v
+              if key not in out: out[key] = value
+              return out
+
+          races = json.load(open('src/_data/races.json'))
+          races = [put(r, 'photo', race_photo[r['slug']], 'source') if r['slug'] in race_photo else r for r in races]
+          open('src/_data/races.json', 'w').write(json.dumps(races, indent=1, ensure_ascii=False) + '\n')
+          clubs = json.load(open('src/_data/clubs.json'))
+          assert set(club_race) <= {c['slug'] for c in clubs}
+          clubs = [put(c, 'photo', f"/assets/img/photos/{club_race[c['slug']]}.webp", 'social') if c['slug'] in club_race else c for c in clubs]
+          open('src/_data/clubs.json', 'w').write(json.dumps(clubs, indent=1, ensure_ascii=False))
+          print('races with photo:', sum(1 for r in races if r.get('photo')), '| clubs with photo:', sum(1 for c in clubs if c.get('photo')))
+          EOF3
+          node .convert-race-photos.mjs /tmp/rp/manifest.txt /tmp/rp
+          node .variants-race-photos.mjs /tmp/rp/manifest.txt
+          python3 /tmp/rp/apply.py /tmp/rp/manifest.txt
+          rm .convert-race-photos.mjs .variants-race-photos.mjs
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git rm -q .github/workflows/import-race-photos.yml
+          git add src/assets/img/photos src/_data/images.json src/_data/races.json src/_data/clubs.json
+          git commit -m "Race photos from the old site on race and host club pages" -m "22 photos downloaded from pnworca.org/wp-content/uploads, checked against SHA-256, converted to WebP (max 1800 px) with 480/800/1200 copies. Sets photo on 19 races and 15 host clubs. Removes the one-time workflow."
+          git push
